@@ -5,30 +5,121 @@
     <title>
         Thomas Renne CV
     </title>
+    <link rel="stylesheet" href="styles/desktop_style.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="scripts/language.js" type="text/javascript"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 
 <body>
-    <h2>External JavaScript</h2>
-    <form>
-        <label for="lang-switch">
-            <span lang="fr">Langue</span>
-            <span lang="en">Language</span>
-        </label>
-        <select id="lang-switch">
-            <option value="en">English</option>
-            <option value="fr" selected>Francais</option>
-        </select>
-    </form>
+    <div id="div-title">
+        <table>
+            <tr>
+                <td>
+                    <h1 id="title">Thomas Renne</h1>
+                </td>
+                <td>
+                    <form id="lang-div">
+                        <label for="lang-switch">
+                            <span lang="fr">Langue<span class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false">Fr</span></span>
+                            <span lang="en">Language</span>
+                        </label></br>
+                        <select id="lang-switch">
+                            <option value="en" style="background-image: url('https://api.iconify.design/twemoji:flag-for-flag-france.svg');">En</option>
+                            <option value="fr" selected><span class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false">Fr</span></option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="div-menu">
+        <table id="table-menu">
+            <tr>
+                <td>
+                    <p>
+                        <span lang="fr">Expériences</span>
+                        <span lang="en">Experiences</span>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <span lang="fr">Publications scientifiques</span>
+                        <span lang="en">Scientific publications</span>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <span lang="fr">Formation</span>
+                        <span lang="en">Formation</span>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <span lang="fr">Outils bioinformatiques</span>
+                        <span lang="en">Bioinformatics tools</span>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <span lang="fr">Autres info</span>
+                        <span lang="en">Other</span>
+                        <span class="iconify" data-icon="fluent:chevron-down-12-filled" data-inline="false"></span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="div-body">
+        <h2>
+            <span lang="en">Bioinformatics Experiences</span>
+            <span lang="fr">Expériences bioinformatiques</span>
+        </h2>
+        <div class="job", id="pappso-div">
+            <p class="job-position">
+                <span lang="en">Bioinformatics apprentice</span>
+                <span lang="fr">Apprenti en bioinformatique</span>
+            </p>
+            <p class="job-employer">
+                PAPPSO - GQE Le Moulon - Université Paris-Saclay/CNRS/INRAE/AgroParisTech
+            </p>
+            <table class="job-info">
+                <tr>
+                    <td>
+                        <div class="date-info">
+                        2019 to 2020 - 2 years
+                    </div>
+                    </td>
+                    <td>
+                        <div class="place-info">
+                        Gif-s/-Yvette, France
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <p class="job-title">
+                <span lang="en">Create GUI and add timsTOF Pro data handling into the proteomics software
+                    X!TandemPipeline</span>
+                <span lang="fr">Create GUI and add timsTOF Pro data handling into the proteomics software
+                    X!TandemPipeline</span>
+            </p>
+            <p class="job-description">
+                <span lang="en">
+                    <ul>
+                        <li>C++ OOP and Qt</li>
+                    </ul>
+                </span>
+            </p>
+        </div>
 
+    </div>
     <p>
         <span lang="fr">Test en francais</span>
         <span lang="en">Text in English</span>
     </p>
 
-    
+
 
 
 </body>
