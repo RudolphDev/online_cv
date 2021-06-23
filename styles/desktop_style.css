@@ -1,11 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-color: rgb(225, 226, 228)
+    background: linear-gradient(to bottom, rgb(225, 226, 228), rgb(128, 152, 179))
 }
 
 #div-title {    
     margin: 0px;
+    padding-right: 20px;
+    background-color: rgb(92, 86, 145);
 }
 
 #title {
@@ -14,17 +16,23 @@ body {
     padding-bottom: 5px;
 }
 
+#div-menu {
+    position:sticky;
+    top : 0;
+}
+
 #div-body {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 20px;
     background-color: white;
 }
 
 #lang-div {
-    width: 50%;
+    width: 100%;
     float: right;
     text-align: right;
+    font-weight: bold;
 }
 
 #title {
@@ -38,7 +46,7 @@ h1 {
 
 #div-title table {
     width: 100%;
-    background-color: rgb(92, 86, 145);
+
     color:aliceblue;
 }
 
@@ -59,9 +67,16 @@ h1 {
 }
 
 .job {
-    padding: 0px;
+    padding: 5px;
     background-color: white;
     border-radius: 20px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(92, 86, 145);
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.date-info{
+    padding-right: 20px;
 }
 
 .place-info:before {
