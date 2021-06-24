@@ -1,0 +1,48 @@
+#div-title {    
+    margin: 0px;
+    padding-right: 20px;
+    background-color: rgb(92, 86, 145);
+}
+
+#title {
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    float: left;
+}
+
+#div-menu {
+    position:sticky;
+    top : 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#div-title table {
+    width: 100%;
+
+    color:aliceblue;
+}
+
+#div-menu table {
+    width: 100%;
+    background-color: rgb(92, 86, 145);
+    color:aliceblue;
+    border-spacing: 0px;
+}
+
+#table-menu td{
+    width:20%;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 5px solid rgb(92, 86, 145);
+}
+
+#table-menu td:hover{
+    font-weight: bold;
+    background-color: rgb(76, 71, 121);
+    border-bottom: 5px solid aliceblue;
+}

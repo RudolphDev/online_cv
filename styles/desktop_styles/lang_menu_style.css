@@ -1,13 +1,34 @@
+#lang-div {
+  width: 100%;
+  float: right;
+  text-align: right;
+  font-weight: bold;
+}
+
+#lang-cell {
+  text-align: right;
+}
+
+#lang-flag {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
 #lang-select {
+    color: black;
     display: inline-block;
-    border: 1px solid;
+    
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   #lang-select {
-    height: 30px;
+    height: 0px;
     overflow: hidden;
   }
-  /*#image-dropdown:hover {} */
-  
+
   #lang-select .img_holder {
     cursor: pointer;
   }

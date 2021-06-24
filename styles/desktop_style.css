@@ -4,66 +4,11 @@ body {
     background: linear-gradient(to bottom, rgb(225, 226, 228), rgb(128, 152, 179))
 }
 
-#div-title {    
-    margin: 0px;
-    padding-right: 20px;
-    background-color: rgb(92, 86, 145);
-}
-
-#title {
-    padding-left: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-#div-menu {
-    position:sticky;
-    top : 0;
-}
-
 #div-body {
     margin-left: 250px;
     margin-right: 250px;
     padding: 20px;
     background-color: white;
-}
-
-#lang-div {
-    width: 100%;
-    float: right;
-    text-align: right;
-    font-weight: bold;
-}
-
-#title {
-    width: 50%;
-    float: left;
-}
-
-h1 {
-    font-size: 3em;
-}
-
-#div-title table {
-    width: 100%;
-
-    color:aliceblue;
-}
-
-#div-menu table {
-    width: 100%;
-    background-color: rgb(92, 86, 145);
-    color:aliceblue;
-}
-
-#table-menu td{
-    width:20%;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-#table-menu td:hover{
-    font-weight: bold;
 }
 
 .job {

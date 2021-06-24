@@ -7,14 +7,13 @@
     </title>
     <link rel="stylesheet" href="styles/desktop_style.css">
     <link rel="stylesheet" href="styles/desktop_styles/lang_menu_style.css">
+    <link rel="stylesheet" href="styles/desktop_styles/title_style.css">
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     
     <script src="scripts/language.js" type="text/javascript"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
-
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 
 <body>
@@ -24,16 +23,16 @@
                 <td>
                     <h1 id="title">Thomas Renne</h1>
                 </td>
-                <td>
-                    <label for="lang-div">
-                        <span lang="fr">Langue :</span>
-                        <span lang="en">Language:</span>
+                <td id="lang-cell">
+                    <label id="lang-flag" for="lang-div">
+                        <span lang="fr" class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="30" onmouseover="showww();"></span>
+                        <span lang="en" class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="30" onmouseover="showww();"></span>
                     </label></br>
                     <div id="lang-select" onmouseleave="hideee();">
-                        <div class="img_holder" onclick="myfuunc(this, 'fr');" onmouseover="showww();" val="fr">
+                        <div class="img_holder" onclick="myfuunc('fr');" onmouseover="showww();" val="fr">
                             <img class="flagimgs second" src="https://api.iconify.design/twemoji:flag-for-flag-france.svg" /> <span class="iTEXT">French</span>
                         </div>
-                        <div class="img_holder" onclick="myfuunc(this, 'en');" onmouseover="showww();" val="en">
+                        <div class="img_holder" onclick="myfuunc('en');" onmouseover="showww();" val="en">
                             <img class="flagimgs first" src="https://api.iconify.design/twemoji:flag-for-flag-united-kingdom.svg"/> <span class="iTEXT">English</span>
                         </div>
                     </div>
@@ -153,7 +152,7 @@
             <p class="job-title">
                 <span lang="en">Create GUI and add timsTOF Pro data handling into the proteomics software
                     X!TandemPipeline</span>
-                <span lang="fr">Développement de GUI et prise en charge du timsTOF Pro au sein du logiciel d'analyse protéomique X!TandemPipeline</span>
+                <span lang="fr">Quantification de l'impact des CNV du chromosome X humain sur l'intelligence générale</span>
             </p>
             <div class="job-description">
                 <span lang="en">
@@ -163,9 +162,9 @@
                 </span>
                 <span lang="fr">
                     <ul>
-                        <li>Développement POO en C++ et Qt</li>
-                        <li>Intégration de la quantification dans XTandemPipeline (MassChroQ et MCQR)</li>
-                        <li>Ajout de la prise en charge des données brutes du timsTOF Pro</li>
+                        <li>Développement et optimisation de scripts R</li>
+                        <li>Analyse de l'impact des CNV avec des modèles de régression linéaire</li>
+                        <li>Interprétation des variations biologiques entre les sexes</li>
                     </ul>
                 </span>
             </div>
@@ -197,7 +196,7 @@
             <p class="job-title">
                 <span lang="en">Create GUI and add timsTOF Pro data handling into the proteomics software
                     X!TandemPipeline</span>
-                <span lang="fr">Développement de GUI et prise en charge du timsTOF Pro au sein du logiciel d'analyse protéomique X!TandemPipeline</span>
+                <span lang="fr">Etude d'homogénéité des groupes orthologues au sein de Uniprot</span>
             </p>
             <div class="job-description">
                 <span lang="en">
@@ -207,9 +206,8 @@
                 </span>
                 <span lang="fr">
                     <ul>
-                        <li>Développement POO en C++ et Qt</li>
-                        <li>Intégration de la quantification dans XTandemPipeline (MassChroQ et MCQR)</li>
-                        <li>Ajout de la prise en charge des données brutes du timsTOF Pro</li>
+                        <li>Analyse de la cohérence des noms de gènes en Python et SQL </li>
+                        <li>Text-mining et analyse des noms de protéines avec Spark et Scala</li>
                     </ul>
                 </span>
             </div>
@@ -241,7 +239,7 @@
             <p class="job-title">
                 <span lang="en">Create GUI and add timsTOF Pro data handling into the proteomics software
                     X!TandemPipeline</span>
-                <span lang="fr">Développement de GUI et prise en charge du timsTOF Pro au sein du logiciel d'analyse protéomique X!TandemPipeline</span>
+                <span lang="fr">Analyse automatique de publications et saisie de données</span>
             </p>
             <div class="job-description">
                 <span lang="en">
@@ -251,9 +249,9 @@
                 </span>
                 <span lang="fr">
                     <ul>
-                        <li>Développement POO en C++ et Qt</li>
-                        <li>Intégration de la quantification dans XTandemPipeline (MassChroQ et MCQR)</li>
-                        <li>Ajout de la prise en charge des données brutes du timsTOF Pro</li>
+                        <li>Text-mining d’articles scientifiques avec Python</li>
+                        <li>Analyse de publications d’outils bioinformatiques pour les ajouter sur le site d’omictools</li>
+                        <li>Amélioration d’algorithme d’authentification d’article bioinformatique</li>
                     </ul>
                 </span>
             </div>
