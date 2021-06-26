@@ -1,8 +1,8 @@
-import {parseBibFile, normalizeFieldValue} from "../node_modules/bibtex";
+import {bibtex} from "../node_modules";
 
 
 $(function () {
     // 
-    const bibfile =parseBibFile("../data/publis.bibtex");
+    const bibfile =bibtex.parseBibFile("../data/publis.bibtex");
     console.log(bibfile);
 });
