@@ -1,4 +1,4 @@
-import {parseBibFile, normalizeFieldValue} from "bibtex";
+import {parseBibFile, normalizeFieldValue} from "../node_modules/bibtex";
 
 
 $(function () {
