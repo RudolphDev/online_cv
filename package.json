@@ -1,0 +1,22 @@
+{
+  "name": "online_cv",
+  "version": "1.0.0",
+  "description": "Personnal resume online",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RudolphDev/online_cv.git"
+  },
+  "author": "Thomas Renne",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/RudolphDev/online_cv/issues"
+  },
+  "homepage": "https://github.com/RudolphDev/online_cv#readme",
+  "dependencies": {
+    "bibtex": "^0.9.0"
+  }
+}
