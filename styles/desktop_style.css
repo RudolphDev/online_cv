@@ -11,16 +11,61 @@ body {
     background-color: white;
 }
 
+#experience-title::before {
+    content: url('https://api.iconify.design/emojione:desktop-computer.svg?width=48');
+    vertical-align: -0.4em;
+}
+
+#formation-title::before {
+    content: url('https://api.iconify.design/fxemoji:graduationcap.svg?width=48');
+    vertical-align: -0.4em;
+}
+
+#publication-title::before {
+    content: url('https://api.iconify.design/emojione-v1:newspaper.svg?width=48');
+    vertical-align: -0.4em;
+}
+
+h2 {
+    scroll-margin-top: 100px;
+    font-size:xx-large;
+    font-weight:bold;
+    color: rgb(21, 20, 29);
+}
+
 .job {
     padding: 5px;
+    padding-left: 20px;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 10px;
-    border: 3px solid rgb(92, 86, 145);
+    border: 1px solid rgb(162, 154, 230);
     box-shadow: 5px 5px 5px lightgray;
 }
 
+.job-title {
+    font-size:larger;
+}
+
+.job-position {
+    font-size:larger;
+    font-weight: bold;
+    color: rgb(139, 137, 160);
+}
+
+.job a {
+    text-decoration: none;
+    color: rgb(76, 71, 121);
+}
+.job a:hover {
+    font-weight: bold;
+}
+
 .date-info{
+    padding-right: 20px;
+}
+
+.place-info {
     padding-right: 20px;
 }
 
@@ -32,3 +77,8 @@ body {
     content: url('https://api.iconify.design/flat-color-icons:calendar.svg?height=24');
     vertical-align: -0.25em;
 }
+.supervisor:before{
+    content: url('https://api.iconify.design/fluent:person-mail-20-filled.svg?height=24');
+    vertical-align: -0.25em;
+}
+

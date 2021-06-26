@@ -13,7 +13,9 @@
 }
 
 #div-menu {
+    position: -webkit-sticky;
     position:sticky;
+    z-index: 1;
     top : 0;
 }
 
@@ -27,18 +29,24 @@ h1 {
     color:aliceblue;
 }
 
-#div-menu table {
+#div-menu table{
     width: 100%;
     background-color: rgb(92, 86, 145);
-    color:aliceblue;
     border-spacing: 0px;
+    z-index: 999;
 }
 
 #table-menu td{
     width:20%;
     text-align: center;
-    font-size: 1.5em;
+    height: 80px;
     border-bottom: 5px solid rgb(92, 86, 145);
+}
+
+#table-menu a{
+    color:aliceblue;
+    font-size: 1.5em;
+    text-decoration: none;
 }
 
 #table-menu td:hover{
