@@ -1,6 +1,6 @@
 $(function (){
     var xhr= new XMLHttpRequest();
-    xhr.open('GET', '../data/publis.html', true);
+    xhr.open('GET', './data/publis.html', true);
     console.log("Test");
     xhr.onreadystatechange= function() {
         console.log("Test");
