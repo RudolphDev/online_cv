@@ -13,6 +13,7 @@
     
     <script src="scripts/language.js" type="text/javascript"></script>
     <script src="scripts/publications.js" type="text/javascript"></script>
+
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 </head>
@@ -280,6 +281,9 @@
                 <span lang="fr">Publications scientifiques</span>
             </h2>
                 <div id="includedContent"></div>
+                <?php include "./data/publis.html" ?>
+                <!-- <iframe src="./data/publis.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe> -->
+
 
         </div>
         <div id="formation-div">
