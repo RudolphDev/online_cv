@@ -16,6 +16,7 @@
 
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+    <bibtex src="https://raw.githubusercontent.com/RudolphDev/online_cv/main/data/publis.bib"></bibtex>
 </head>
 
 <body>
@@ -280,8 +281,9 @@
                 <span lang="en">Scientific publications</span>
                 <span lang="fr">Publications scientifiques</span>
             </h2>
-                <div id="includedContent"></div>
-                <?php include "./data/publis.html" ?>
+                <div id="bibtex_display"></div>
+                <!-- <div id="includedContent"></div> -->
+                <!-- <?php include "./data/publis.html" ?> -->
                 <!-- <iframe src="./data/publis.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe> -->
 
 
