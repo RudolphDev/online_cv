@@ -18,7 +18,6 @@ function hideee() {
     document.getElementById("lang-flag").style.display = "block"
   }
 
-
 function myfuunc(lang) {
     hideee();
     console.log(lang);
