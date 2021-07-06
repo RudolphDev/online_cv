@@ -1,7 +1,8 @@
 #div-title {    
     margin: 0px;
-    padding-right: 20px;
-    background-color: rgb(92, 86, 145);
+    background-image: url('../../data/images/dna.jpg');
+    height: 600px;
+    position: relative;
 }
 
 #title {
@@ -13,10 +14,13 @@
 }
 
 #div-menu {
-    position: -webkit-sticky;
-    position:sticky;
+    margin: 30px;
+    width:calc(100% - 60px);
+    background-color: aliceblue;
+    border-radius: 200px;
+    position:absolute;
     z-index: 1;
-    top : 0;
+    bottom : 0;
 }
 
 h1 {
@@ -25,13 +29,11 @@ h1 {
 
 #div-title table {
     width: 100%;
-
     color:aliceblue;
 }
 
 #div-menu table{
     width: 100%;
-    background-color: rgb(92, 86, 145);
     border-spacing: 0px;
     z-index: 999;
 }
@@ -40,17 +42,16 @@ h1 {
     width:20%;
     text-align: center;
     height: 80px;
-    border-bottom: 5px solid rgb(92, 86, 145);
+    padding-top: 20px;
+    border-right: 4px solid rgb(167, 169, 177);
 }
 
 #table-menu a{
-    color:aliceblue;
     font-size: 1.5em;
     text-decoration: none;
 }
 
 #table-menu td:hover{
     font-weight: bold;
-    background-color: rgb(76, 71, 121);
-    border-bottom: 5px solid aliceblue;
+
 }

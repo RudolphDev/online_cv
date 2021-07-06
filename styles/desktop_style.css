@@ -1,7 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background: linear-gradient(to bottom, rgb(225, 226, 228), rgb(128, 152, 179))
+    background: linear-gradient(to bottom, rgb(225, 226, 228), rgb(128, 152, 179));
+    background-attachment: fixed;
 }
 
 #div-body {
@@ -33,7 +34,7 @@ h2 {
     color: rgb(21, 20, 29);
 }
 
-.job {
+.job, .publi-div {
     padding: 5px;
     padding-left: 20px;
     background-color: white;
@@ -43,14 +44,14 @@ h2 {
     box-shadow: 5px 5px 5px lightgray;
 }
 
-.job-title {
+.job-position {
     font-size:larger;
 }
 
-.job-position {
+.job-title, .publi-title {
     font-size:larger;
     font-weight: bold;
-    color: rgb(139, 137, 160);
+    color: rgb(74, 72, 90);
 }
 
 .job a {
