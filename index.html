@@ -5,9 +5,11 @@
     <title>
         Thomas Renne CV
     </title>
+    <link rel="icon" type="image/svg+xml"  href="./data/images/logo_renne.svg">
     <link rel="stylesheet" href="styles/desktop_style.css">
     <link rel="stylesheet" href="styles/desktop_styles/lang_menu_style.css">
     <link rel="stylesheet" href="styles/desktop_styles/title_style.css">
+    <link rel="stylesheet" href="styles/desktop_styles/resume_style.css">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
@@ -19,29 +21,11 @@
 </head>
 
 <body>
-    <div id="div-title">
-        <table>
-            <tr>
-                <td>
-                    <h1 id="title">Thomas Renne</h1>
-                </td>
-                <td id="lang-cell">
-                    <label id="lang-flag" for="lang-div">
-                        <span lang="fr" class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="30" onmouseover="showww();"></span>
-                        <span lang="en" class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="30" onmouseover="showww();"></span>
-                    </label></br>
-                    <div id="lang-select" onmouseleave="hideee();">
-                        <div class="img_holder" onclick="myfuunc('fr');" onmouseover="showww();" val="fr">
-                            <img class="flagimgs second" src="https://api.iconify.design/twemoji:flag-for-flag-france.svg" /> <span class="iTEXT">French</span>
-                        </div>
-                        <div class="img_holder" onclick="myfuunc('en');" onmouseover="showww();" val="en">
-                            <img class="flagimgs first" src="https://api.iconify.design/twemoji:flag-for-flag-united-kingdom.svg"/> <span class="iTEXT">English</span>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <div id="div-menu">
+    <div id="div-menu">
+        <div id="title-div">
+            <img src="data/images/logo_renne.svg" id="logo">
+            <h1 id="title">Thomas Renne</h1>
+        </div>
             <table id="table-menu">
                 <tr>
                     <td>
@@ -57,10 +41,7 @@
                         </a>
                     </td>
                     <td>
-                        <a href="#experience-title">
-                            <span lang="fr">Formation</span>
-                            <span lang="en">Formation</span>
-                        </a>
+                        <a href="#experience-title">Communication</a>
                     </td>
                     <td>
                         <a href="#experience-title">
@@ -77,7 +58,23 @@
                     </td>
                 </tr>
             </table>
-        </div>
+            <div id="lang-cell">
+                <label id="lang-flag" for="lang-div">
+                    <span lang="fr" class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="30" onmouseover="showww();"></span>
+                    <span lang="en" class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="30" onmouseover="showww();"></span>
+                </label></br>
+                <div id="lang-select" onmouseleave="hideee();">
+                    <div class="img_holder" onclick="myfuunc('fr');" onmouseover="showww();">
+                        <img class="flagimgs second" src="https://api.iconify.design/twemoji:flag-for-flag-france.svg" /> <span class="iTEXT">French</span>
+                    </div>
+                    <div class="img_holder" onclick="myfuunc('en');" onmouseover="showww();">
+                        <img class="flagimgs first" src="https://api.iconify.design/twemoji:flag-for-flag-united-kingdom.svg"/> <span class="iTEXT">English</span>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div id="div-resume">
+
     </div>
     <div id="div-body">
         <div id="jobs-div">

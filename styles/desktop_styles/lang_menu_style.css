@@ -1,17 +1,18 @@
 #lang-div {
-  width: 100%;
-  float: right;
+  /* float: right; */
   text-align: right;
   font-weight: bold;
 }
 
 #lang-cell {
   text-align: right;
+  margin-right: 20px;
+  top: 50%;
 }
 
 #lang-flag {
   padding-left: 5px;
-  padding-top: 5px;
+  padding-top: 25px;
 }
 
 #lang-select {
