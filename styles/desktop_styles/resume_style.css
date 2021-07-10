@@ -1,6 +1,47 @@
-#div-resume {    
+#div-front {    
     margin: 0px;
     background-image: url('../../data/images/dna.jpg');
-    height: 600px;
-    position: relative;
+    height: 850px;
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+#photo {
+    width: 300px;
+    height:auto;
+    border-radius: 50px;
+}
+
+#resume-table {
+    width: 100%;
+}
+
+#right-frontpage {
+    padding-left: 100px;
+    text-align:justify;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#link-div {
+    padding-bottom: 50px;
+}
+
+#link-div a {
+    color: aliceblue;
+}
+
+#link-div a::before{
+    margin-right: 20px;
+    vertical-align: -0.4em;
+}
+
+#github::before {
+    content: url('https://api.iconify.design/bi:github.svg?width=42&color=aliceblue');   
+}
+
+#div-resume {
+    font-size: 20px;
+    border:1px solid aliceblue;
 }
