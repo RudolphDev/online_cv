@@ -13,9 +13,9 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <script src="scripts/publi_json_to_html.js" type="text/javascript" async></script>
-
-    <script src="scripts/language.js" type="text/javascript" async></script>
+    <script src="scripts/publi_json_to_html.js" type="text/javascript"></script>
+    <script src="scripts/back_to_top.js", type="text/javascript"></script>
+    <script src="scripts/language.js" type="text/javascript"></script>
 
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
@@ -80,7 +80,22 @@
                     <img src="data/images/photo_perso.jpg" id="photo">
                 </td>
                 <td id="right-frontpage">
-                    <div id="link-div"><a id="github" href="https://github.com/RudolphDev">GitHub</a> </div>
+                    <table id="link-table">
+                        <tr>
+                            <td>
+                                <a id="github" href="https://github.com/RudolphDev">GitHub</a>        
+                            </td>
+                            <td>
+                                <a id="orcid" href="https://github.com/RudolphDev">ORCID</a>
+                            </td>
+                            <td>
+                                <a id="linkedin" href="https://github.com/RudolphDev">LinkedIn</a>
+                            </td>
+                            <td>
+                                <a id="email" href="mailto:thomas.renne@outlook.fr">Email</a>
+                            </td>
+                        </tr>
+                    </table>
                     <div id="div-resume">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper est non accumsan sollicitudin. Nunc id turpis nunc. Sed venenatis rhoncus luctus. Ut venenatis arcu eget lacinia sollicitudin. Sed accumsan libero et sodales laoreet. Nullam semper est orci, eu ultrices ligula pharetra in. Vestibulum elementum id libero eu maximus. Proin iaculis vehicula dolor sit amet luctus. Nam lorem nisi, rutrum quis vestibulum sed, facilisis et erat.
                     </div>
@@ -300,7 +315,7 @@
         </div>
 
     </div>
-
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
 
 </html>

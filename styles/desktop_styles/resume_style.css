@@ -1,7 +1,7 @@
 #div-front {    
     margin: 0px;
     background-image: url('../../data/images/dna.jpg');
-    height: 850px;
+    height: 700px;
     padding-top: 100px;
     padding-left: 10%;
     padding-right: 10%
@@ -24,15 +24,30 @@
     font-weight: bold;
 }
 
-#link-div {
-    padding-bottom: 50px;
+#link-table, #div-resume {
+    padding: 20px;
+    background-color : rgba(6, 8, 24, 0.568);
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px 1px 10px aliceblue;
+    margin-bottom: 50px;
 }
 
-#link-div a {
+#link-table a {
     color: aliceblue;
+    text-decoration: none;   
+    font-size: 1.5em; 
 }
 
-#link-div a::before{
+#link-table a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(51, 168, 214);
+    text-decoration-thickness: 5px;
+}
+
+
+#link-table a::before{
     margin-right: 20px;
     vertical-align: -0.4em;
 }
@@ -41,7 +56,19 @@
     content: url('https://api.iconify.design/bi:github.svg?width=42&color=aliceblue');   
 }
 
+#orcid::before{
+    content: url('https://api.iconify.design/simple-icons:orcid.svg?width=42&color=aliceblue');
+}
+
+#linkedin::before {
+    content: url('https://api.iconify.design/cib:linkedin.svg?width=42&color=aliceblue');
+}
+
+#email::before {
+    content: url('https://api.iconify.design/fluent:mail-add-20-filled.svg?width=42&color=aliceblue');
+}
+
 #div-resume {
     font-size: 20px;
-    border:1px solid aliceblue;
+    text-align:justify;
 }
