@@ -1,0 +1,20 @@
+.publi-div {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(162, 154, 230);
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.publi-title {
+    font-size:1.4em;
+    font-weight: bold;
+    color: rgb(74, 72, 90);
+    padding-bottom: 10px;
+    text-decoration: none;  
+}
+
+.publi-author {
+    text-align: justify;
+}

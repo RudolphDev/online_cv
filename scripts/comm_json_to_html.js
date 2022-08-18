@@ -1,8 +1,8 @@
 $(function() {
-    $.getJSON('https://raw.githubusercontent.com/RudolphDev/online_cv/main/data/publis.json', function(data) {
+    $.getJSON('https://raw.githubusercontent.com/RudolphDev/online_cv/main/data/communications.json', function(data) {
         $.each(data, function(i, f) {
            var publidiv = "<div class=\"publi-div\">" + 
-           "<a href=\"https://www.doi.org/" + f.DOI + "\"><span class=\"publi-title\">" + f.title + "</span></a><br> " + 
+           "<span class=\"publi-title\">" + f.title + "</span><br> " + 
            "<p class=\"publi-author\">";
            $.each(f.author, function(i, author) {
               if (author.family == "Renne" && author.given == "Thomas") {
@@ -17,10 +17,10 @@ $(function() {
                 }
               }
             });
-            publidiv = publidiv + "</p><span class=\"publi-meta\"><b>" + f["container-title"] + ", " + f.issued["date-parts"][0][0] + "</span>"
-            publidiv = publidiv + "<span style=\"float:right;\">" +   f["note"] + "</span></b>" +
+            publidiv = publidiv + "</p><span class=\"publi-meta\"><b>" + f.congress + ", " + f.issued["date-parts"][0][0] + "</span>"
+            publidiv = publidiv + "<span style=\"float:right;\">" +   f.city + "</span></b>" +
             "</div>";
-            $(publidiv).appendTo("#publication-entries");
+            $(publidiv).appendTo("#communication-entries");
           });
       });
   });
