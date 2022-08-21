@@ -1,10 +1,13 @@
 .publi-div {
-    padding: 20px;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 10px;
     border: 1px solid rgb(162, 154, 230);
     box-shadow: 5px 5px 5px lightgray;
+}
+
+.publi_cont_div {
+    padding: 20px 20px 10px 20px;
 }
 
 .publi-title {
@@ -17,4 +20,31 @@
 
 .publi-author {
     text-align: justify;
+}
+
+
+.abstract_publi {
+    text-align: justify;
+}
+
+.container {
+    text-align:justify;
+    display: flex; /* displays flex-items (children) inline */
+    justify-content: space-between; 
+}
+
+.more_div {
+    padding: 5px;
+    text-align:center;
+    background-color: rgb(107, 101, 161);
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+.more_btn, .less_btn {
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    background-color: transparent;
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
 }
