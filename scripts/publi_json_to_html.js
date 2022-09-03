@@ -37,8 +37,8 @@ function addAuthors(div, authors, id) {
 
 function addMoreBtn(div, id) {
   div = div + "<div class=\"more_div\">";
-  div = div + "<button class=\"more_btn\" id=\"" + id + "_more_btn\" onclick=\"hideShowMore('Show', '" + id + "')\"><iconify-icon icon=\"fa:plus-square\"width=\"24\"></iconify-icon></button>";
-  div = div + "<button class=\"less_btn\" style=\"display:none;\" id=\"" + id + "_less_btn\" onclick=\"hideShowMore('Hide', '" + id + "')\"><iconify-icon icon=\"fa:minus-square\"width=\"24\"></iconify-icon></button></div>";
+  div = div + "<button class=\"more_btn\" id=\"" + id + "_more_btn\" onclick=\"hideShowMore('Show', '" + id + "')\"><iconify-icon icon=\"fa:plus-square\"width=\"18\"></iconify-icon></button>";
+  div = div + "<button class=\"less_btn\" style=\"display:none;\" id=\"" + id + "_less_btn\" onclick=\"hideShowMore('Hide', '" + id + "')\"><iconify-icon icon=\"fa:minus-square\"width=\"18\"></iconify-icon></button></div>";
   div = div + "</div>";
   return div
 }

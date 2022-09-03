@@ -26,8 +26,8 @@ body {
   }
 
 #div-body {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 20px;
     background-color: white;
 }
@@ -47,7 +47,7 @@ body {
     vertical-align: -0.4em;
 }
 #communication-title::before {
-    content: url('../../data/images/3319594_board_chart_graph_presentation_icon.png');
+    content: url('../../data/images/communication.png');
     vertical-align: -0.4em;
     height: 2px;
     width: 2px;

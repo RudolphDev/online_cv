@@ -1,16 +1,16 @@
 #div-front {    
-    margin: 0px;
-    background-image: url('../../data/images/dna.jpg');
-    height: 700px;
-    padding-top: 100px;
-    padding-left: 10%;
-    padding-right: 10%
+    margin: 20px 20px 0px 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 40px;
+    border:3px solid rgb(89, 84, 128);
+    box-shadow: 50px 50px 50px gray;
 }
 
 #photo {
     width: 300px;
     height:auto;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
 #resume-table {
@@ -71,4 +71,5 @@
 #div-resume {
     font-size: 20px;
     text-align:justify;
+    padding-right: 20px;
 }

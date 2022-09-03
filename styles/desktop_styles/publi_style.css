@@ -40,11 +40,15 @@
     border-radius: 0px 0px 20px 20px;
 }
 
-
 .more_btn, .less_btn {
     border: none; /* Remove borders */
     color: white; /* White text */
     background-color: transparent;
-    font-size: 16px; /* Set a font size */
+    font-size: 1px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
+}
+
+.comm_icon {
+    text-align: right;
+    width: 300px;
 }
