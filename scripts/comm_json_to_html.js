@@ -33,7 +33,7 @@ $(function() {
             if (f.type == "Poster") {
               publidiv = publidiv + "</td><td class=\"comm_icon\"><img src=\"data/images/Poster.svg\" style=\"width:40px\" alt=\"Poster\">"  
             }else{
-              publidiv = publidiv + "</td><td class=\"comm_icon\"><img src=\"data/images/presentation.png\" style=\"width:40px\" alt=\"Poster\">"  
+              publidiv = publidiv + "</td><td class=\"comm_icon\"><img src=\"data/images/presentation.svg\" style=\"width:48px\" alt=\"Poster\">"  
             }
             publidiv = publidiv + "</td></tr></table>"
             publidiv = addAbstract(publidiv, f.abstract, f.id);

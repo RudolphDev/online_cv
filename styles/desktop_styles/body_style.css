@@ -30,6 +30,7 @@ body {
     margin-right: 15%;
     padding: 20px;
     background-color: white;
+    padding-bottom: 40px;
 }
 
 #experience-title::before {
@@ -60,7 +61,7 @@ h2 {
     color: rgb(21, 20, 29);
 }
 
-.job {
+.job, .diploma {
     padding: 5px;
     padding-left: 20px;
     background-color: white;
@@ -74,8 +75,8 @@ h2 {
     font-size:larger;
 }
 
-.job-title {
-    font-size:larger;
+.job-title, .diploma-title {
+    font-size:1.4em;
     font-weight: bold;
     color: rgb(74, 72, 90);
 }
