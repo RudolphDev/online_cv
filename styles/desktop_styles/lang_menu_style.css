@@ -1,42 +1,74 @@
 #lang-div {
   /* float: right; */
-  text-align: right;
+  text-align: center;
   font-weight: bold;
 }
 
 #lang-cell {
-  text-align: right;
-  margin-right: 20px;
-  top: 50%;
+  text-align: left;
 }
 
 #lang-flag {
-  padding-left: 5px;
-  padding-top: 25px;
+  display:block;
 }
 
 #lang-select {
-    color: black;
-    display: inline-block;
-    
-    border-radius: 5px;
-    background-color: white;
-    position: relative;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+  color: black;
+  display: -webkit-flex;
+  position:absolute;
+  right: 0px;
+  z-index: 9999;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#lang-select {
+  height: 0px;
+  overflow: hidden;
+}
+
+#lang-select .img_holder {
+  cursor: pointer;
+}
+
+#lang-select .flagimgs {
+  height: 30px;
+}
+
+#fr_text::before{
+  content: url('https://api.iconify.design/twemoji:flag-for-flag-france.svg?width=28');
+  vertical-align: -0.4em;
+}
+
+#eng_text::before{
+  content: url('https://api.iconify.design/twemoji:flag-for-flag-united-kingdom.svg?width=28');
+  vertical-align: -0.4em;
+}
+
+.iTEXT::before {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1000px) {
   #lang-select {
-    height: 0px;
-    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    color: white;
+    background-color: #222;
+    position: absolute;
+    
+    /* top: 0;
+    margin-top: 70px;
+    left: 0;
+    flex-direction: column;
+    width: 100%; */
+    justify-content: center;
+    align-items: center;
   }
 
-  #lang-select .img_holder {
-    cursor: pointer;
+  .img_holder {
+    border-bottom: 2px solid #444;
   }
-  #lang-select img.flagimgs {
-    height: 30px;
-  }
-  #lang-select span.iTEXT {
-    position: relative;
-    top: -8px;
-  }
+
+}

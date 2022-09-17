@@ -8,8 +8,9 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="scripts/back_to_top.js", type="text/javascript"></script>
         <script src="scripts/language.js" type="text/javascript"></script>
-
-
+        
+        <!-- <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script> -->
+        <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
         
     </head>
@@ -18,45 +19,43 @@
             <img src="data/images/logo_renne.svg" id="logo">
             <h1 id="title">Thomas Renne</h1>
         </div>
-        <table id="table-menu">
-            <tr>
-                <td>
-                    <a href="index.html">
-                        <span lang="fr">Publications scientifiques</span>
-                        <span lang="en">Scientific publications</span>
-                    </a>
-                </td>
-                <td>
-                    <a href="index.html#communication-title">Communication</a>
-                </td>
-                <td>
-                    <a href="background.html">
-                        <span lang="fr">Expériences</span>
-                        <span lang="en">Experiences</span>
-                    </a>
-                </td>
-                <td>
-                    <a href="bioinfo.html">
-                        <span lang="fr">Outils bioinformatiques</span>
-                        <span lang="en">Bioinformatics tools</span>
-                    </a>
-                </td>
-            </tr>
-        </table>
-        <div id="lang-cell">
-            <label id="lang-flag" for="lang-div">
-                <span lang="fr" class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="30" onmouseover="showww();"></span>
-                <span lang="en" class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="30" onmouseover="showww();"></span>
-            </label></br>
-            <div id="lang-select" onmouseleave="hideee();">
-                <div class="img_holder" onclick="myfuunc('fr');" onmouseover="showww();">
-                    <img class="flagimgs second" src="https://api.iconify.design/twemoji:flag-for-flag-france.svg" /> <span class="iTEXT">French</span>
-                </div>
-                <div class="img_holder" onclick="myfuunc('en');" onmouseover="showww();">
-                    <img class="flagimgs first" src="https://api.iconify.design/twemoji:flag-for-flag-united-kingdom.svg"/> <span class="iTEXT">English</span>
-                </div>
-            </div>
-        </div>    
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li class="menu-text">
+                <a href="background.html">
+                    <span lang="fr">Expériences</span>
+                    <span lang="en">Experiences</span>
+                </a>
+            </li class="menu-text">
+            <li class="menu-text">
+                <a href="index.html#communication-title">Communication</a>
+            </li>
+            <li class="menu-text">
+                <a href="bioinfo.html">
+                    <span lang="fr">Outils bioinformatiques</span>
+                    <span lang="en">Bioinformatics tools</span>
+                </a>
+            </li>
+            <li class="menu-lang">
+                <div id="lang-cell">
+                    <label id="lang-flag" for="lang-div">
+                        <span lang="fr" class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="30" onmouseover="showww();"></span>
+                        <span lang="en" class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="30" onmouseover="showww();"></span>
+                    </label></br>
+                    <div id="lang-select" onmouseleave="hideee();">
+                        <div class="img_holder" onclick="myfuunc('fr');" onmouseover="showww();">
+                           <span class="iTEXT" id="fr_text">Francais</span>
+                        </div>
+                        <div class="img_holder" onclick="myfuunc('en');" onmouseover="showww();">
+                            <span class="iTEXT" id="eng_text">English</span>
+                        </div>
+                    </div>
+                </div>  
+            </li>
+          </ul>
     </body>
 </html>
 

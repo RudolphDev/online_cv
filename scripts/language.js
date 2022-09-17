@@ -7,13 +7,15 @@ $(function () {
 // Handle language menu
 function showww() {
     document.getElementById("lang-select").style.height = "auto";
+    document.getElementById("lang-select").style.display = "block";
     document.getElementById("lang-select").style.overflow = "y-scroll";
     document.getElementById("lang-select").style.border = "1px solid rgb(126, 135, 143);"
-    document.getElementById("lang-flag").style.display = "none"
+    document.getElementById("lang-select").style.padding = "5px";
 }
 
 function hideee() {
     document.getElementById("lang-select").style.height = "0px";
+    document.getElementById("lang-select").style.display = "none";
     document.getElementById("lang-select").style.overflow = "hidden";
     document.getElementById("lang-flag").style.display = "block"
   }

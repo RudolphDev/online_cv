@@ -62,8 +62,10 @@ h2 {
 }
 
 .job, .diploma {
-    padding: 5px;
+    
     padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 10px;
@@ -76,6 +78,7 @@ h2 {
 }
 
 .job-title, .diploma-title {
+    margin-top: 15px;
     font-size:1.4em;
     font-weight: bold;
     color: rgb(74, 72, 90);
@@ -89,11 +92,7 @@ h2 {
     font-weight: bold;
 }
 
-.date-info{
-    padding-right: 20px;
-}
-
-.place-info {
+.date-info, .place-info, .rank-info{
     padding-right: 20px;
 }
 
@@ -108,4 +107,32 @@ h2 {
 .supervisor:before{
     content: url('https://api.iconify.design/fluent:person-mail-20-filled.svg?height=24');
     vertical-align: -0.25em;
+}
+
+.rank-info:before{
+    content: url('../../data/images/certificate-medal-svgrepo-com.svg');
+    width: 24px;
+    display: inline-block;
+    vertical-align: -0.25em;
+}
+
+.institute_img {
+    display:block;
+    text-align: right;
+    padding-top: 20px;
+}
+.institute_img_footer {
+    display:none;
+}
+
+@media (max-width: 1000px) {
+    #div-body {margin:0px; background-color: white;}
+    
+    .institute_img {
+        display:none;
+    }
+    .institute_img_footer {
+        display:block;
+        text-align: center;
+    }
 }
