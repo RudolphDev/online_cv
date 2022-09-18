@@ -1,6 +1,6 @@
 #div-front {    
     margin: 20px 20px 0px 20px;
-    background-color: rgb(223, 228, 235);
+    background-color: rgb(234, 238, 243);
     padding: 30px;
     border-radius: 40px;
     border:3px solid rgb(89, 84, 128);
@@ -8,7 +8,7 @@
 }
 
 #photo {
-    width: 300px;
+    width: 250px;
     height:auto;
     border-radius: 40px;
 }
@@ -18,31 +18,27 @@
 }
 
 #right-frontpage {
-    padding-left: 100px;
     text-align:justify;
-    color: aliceblue;
     font-weight: bold;
 }
 
 #link-table, #div-resume {
     padding: 20px;
-    background-color : rgba(6, 8, 24, 0.568);
     border-radius: 20px;
     width: 100%;
     text-align: center;
-    box-shadow: 4px 1px 10px aliceblue;
     margin-bottom: 50px;
 }
 
 #link-table a {
-    color: aliceblue;
+    color: black;
     text-decoration: none;   
     font-size: 1.5em; 
 }
 
 #link-table a:hover {
     text-decoration: underline;
-    text-decoration-color: rgb(51, 168, 214);
+    text-decoration-color: rgb(0, 0, 0);
     text-decoration-thickness: 5px;
 }
 
@@ -53,23 +49,27 @@
 }
 
 #github::before {
-    content: url('https://api.iconify.design/bi:github.svg?width=42&color=aliceblue');   
+    content: url('https://api.iconify.design/bi:github.svg?width=42&color=block');   
 }
 
 #orcid::before{
-    content: url('https://api.iconify.design/simple-icons:orcid.svg?width=42&color=aliceblue');
+    content: url('https://api.iconify.design/simple-icons:orcid.svg?width=42&color=black');
 }
 
 #linkedin::before {
-    content: url('https://api.iconify.design/cib:linkedin.svg?width=42&color=aliceblue');
+    content: url('https://api.iconify.design/cib:linkedin.svg?width=42&color=black');
 }
 
 #email::before {
-    content: url('https://api.iconify.design/fluent:mail-add-20-filled.svg?width=42&color=aliceblue');
+    content: url('https://api.iconify.design/fluent:mail-add-20-filled.svg?width=42&color=black');
 }
 
 #div-resume {
-    font-size: 20px;
-    text-align:justify;
-    padding-right: 20px;
+
+}
+
+#institut_logo {
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
 }

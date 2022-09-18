@@ -117,10 +117,22 @@ h2 {
 }
 
 .institute_img {
-    display:block;
+    display:inline-block;
+    width: 100%;
     text-align: right;
-    padding-top: 20px;
+    margin-top: 20px;
 }
+
+.institute_img > img {
+    display: inline-block; 
+    text-align: right;
+    padding: 5px 0px;
+}
+
+.institute_img_footer > img {
+    padding: 0px 10px;
+}
+
 .institute_img_footer {
     display:none;
 }
@@ -133,6 +145,14 @@ h2 {
     }
     .institute_img_footer {
         display:block;
+        text-align: center;
+    }
+    .job, .diploma {
+        text-align: center;
+    }
+    .job-info, .Diploma-info {
+        margin-left:auto;
+        margin-right:auto;
         text-align: center;
     }
 }
