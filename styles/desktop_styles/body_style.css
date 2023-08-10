@@ -48,10 +48,8 @@ body {
     vertical-align: -0.4em;
 }
 #communication-title::before {
-    content: url('../../data/images/communication.png');
+    content: url('../../data/images/communication.svg');
     vertical-align: -0.4em;
-    height: 2px;
-    width: 2px;
 }
 
 h2 {
