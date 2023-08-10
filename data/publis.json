@@ -1,16 +1,18 @@
 [
 	{
-		"id": "http://zotero.org/users/local/pYdi0S5A/items/6UIE2SVV",
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/985MCB75",
 		"type": "article-journal",
-		"abstract": "Genomic copy number variants (CNVs) are routinely identified and reported back to patients with neuropsychiatric disorders, but their quantitative effects on essential traits such as cognitive ability are poorly documented. We have recently shown that the effect size of deletions on cognitive ability can be statistically predicted using measures of intolerance to haploinsufficiency. However, the effect sizes of duplications remain unknown. It is also unknown if the effect of multigenic CNVs are driven by a few genes intolerant to haploinsufficiency or distributed across tolerant genes as well. Here, we identified all CNVs > 50 kilobases in 24,092 individuals from unselected and autism cohorts with assessments of general intelligence. Statistical models used measures of intolerance to haploinsufficiency of genes included in CNVs to predict their effect size on intelligence. Intolerant genes decrease general intelligence by 0.8 and 2.6 points of intelligence quotient when duplicated or deleted, respectively. Effect sizes showed no heterogeneity across cohorts. Validation analyses demonstrated that models could predict CNV effect sizes with 78% accuracy. Data on the inheritance of 27,766 CNVs showed that deletions and duplications with the same effect size on intelligence occur de novo at the same frequency. We estimated that around 10,000 intolerant and tolerant genes negatively affect intelligence when deleted, and less than 2% have large effect sizes. Genes encompassed in CNVs were not enriched in any GOterms but gene regulation and brain expression were GOterms overrepresented in the intolerant subgroup. Such pervasive effects on cognition may be related to emergent properties of the genome not restricted to a limited number of biological pathways.",
 		"container-title": "Molecular Psychiatry",
 		"DOI": "10.1038/s41380-020-00985-z",
-		"ISSN": "1476-5578",
+		"ISSN": "1359-4184, 1476-5578",
+		"issue": "6",
 		"journalAbbreviation": "Mol Psychiatry",
-		"language": "eng",
-		"note": "PMID: 33414497",
-		"source": "PubMed",
+		"language": "en",
+		"page": "2663-2676",
+		"source": "DOI.org (Crossref)",
 		"title": "Genome-wide analysis of gene dosage in 24,092 individuals estimates that 10,000 genes modulate cognitive ability",
+		"URL": "https://www.nature.com/articles/s41380-020-00985-z",
+		"volume": "26",
 		"author": [
 			{
 				"family": "Huguet",
@@ -29,8 +31,7 @@
 				"given": "Petra"
 			},
 			{
-				"family": "Main",
-				"given": "Antoine"
+				"literal": "Antoine Main"
 			},
 			{
 				"family": "Monin",
@@ -169,12 +170,6402 @@
 				"given": "Sébastien"
 			}
 		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/FENED45W",
+		"type": "article-journal",
+		"abstract": "OBJECTIVE: Deleterious copy number variants (CNVs) are identified in up to 20% of individuals with autism. However, levels of autism risk conferred by most rare CNVs remain unknown. The authors recently developed statistical models to estimate the effect size on IQ of all CNVs, including undocumented ones. In this study, the authors extended this model to autism susceptibility.\nMETHODS: The authors identified CNVs in two autism populations (Simons Simplex Collection and MSSNG) and two unselected populations (IMAGEN and Saguenay Youth Study). Statistical models were used to test nine quantitative variables associated with genes encompassed in CNVs to explain their effects on IQ, autism susceptibility, and behavioral domains.\nRESULTS: The \"probability of being loss-of-function intolerant\" (pLI) best explains the effect of CNVs on IQ and autism risk. Deleting 1 point of pLI decreases IQ by 2.6 points in autism and unselected populations. The effect of duplications on IQ is threefold smaller. Autism susceptibility increases when deleting or duplicating any point of pLI. This is true for individuals with high or low IQ and after removing de novo and known recurrent neuropsychiatric CNVs. When CNV effects on IQ are accounted for, autism susceptibility remains mostly unchanged for duplications but decreases for deletions. Model estimates for autism risk overlap with previously published observations. Deletions and duplications differentially affect social communication, behavior, and phonological memory, whereas both equally affect motor skills.\nCONCLUSIONS: Autism risk conferred by duplications is less influenced by IQ compared with deletions. The model applied in this study, trained on CNVs encompassing >4,500 genes, suggests highly polygenic properties of gene dosage with respect to autism risk and IQ loss. These models will help to interpret CNVs identified in the clinic.",
+		"container-title": "The American Journal of Psychiatry",
+		"DOI": "10.1176/appi.ajp.2020.19080834",
+		"ISSN": "1535-7228",
+		"issue": "1",
+		"journalAbbreviation": "Am J Psychiatry",
+		"language": "eng",
+		"note": "PMID: 32911998",
+		"page": "87-98",
+		"source": "PubMed",
+		"title": "Effect Sizes of Deletions and Duplications on Autism Risk Across the Genome",
+		"volume": "178",
+		"author": [
+			{
+				"family": "Douard",
+				"given": "Elise"
+			},
+			{
+				"family": "Zeribi",
+				"given": "Abderrahim"
+			},
+			{
+				"family": "Schramm",
+				"given": "Catherine"
+			},
+			{
+				"family": "Tamer",
+				"given": "Petra"
+			},
+			{
+				"family": "Loum",
+				"given": "Mor Absa"
+			},
+			{
+				"family": "Nowak",
+				"given": "Sabrina"
+			},
+			{
+				"family": "Saci",
+				"given": "Zohra"
+			},
+			{
+				"family": "Lord",
+				"given": "Marie-Pier"
+			},
+			{
+				"family": "Rodríguez-Herreros",
+				"given": "Borja"
+			},
+			{
+				"family": "Jean-Louis",
+				"given": "Martineau"
+			},
+			{
+				"family": "Moreau",
+				"given": "Clara"
+			},
+			{
+				"family": "Loth",
+				"given": "Eva"
+			},
+			{
+				"family": "Schumann",
+				"given": "Gunter"
+			},
+			{
+				"family": "Pausova",
+				"given": "Zdenka"
+			},
+			{
+				"family": "Elsabbagh",
+				"given": "Mayada"
+			},
+			{
+				"family": "Almasy",
+				"given": "Laura"
+			},
+			{
+				"family": "Glahn",
+				"given": "David C."
+			},
+			{
+				"family": "Bourgeron",
+				"given": "Thomas"
+			},
+			{
+				"family": "Labbe",
+				"given": "Aurélie"
+			},
+			{
+				"family": "Paus",
+				"given": "Tomas"
+			},
+			{
+				"family": "Mottron",
+				"given": "Laurent"
+			},
+			{
+				"family": "Greenwood",
+				"given": "Celia M. T."
+			},
+			{
+				"family": "Huguet",
+				"given": "Guillaume"
+			},
+			{
+				"family": "Jacquemont",
+				"given": "Sébastien"
+			}
+		],
 		"issued": {
 			"date-parts": [
 				[
 					"2021",
 					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/T8K6QNCG",
+		"type": "article-journal",
+		"abstract": "Autism spectrum disorder (ASD) is a behaviorally defined\nneurodevelopmental disorder associated with the presence of social-communication\ndeficits and restricted and repetitive behaviors. In the latest\nconceptualization of ASD, these two behavioral dimensions represent the core\ndefining features of ASD, whereas associated dimensions, such as intellectual\nand language ability, provide a means for describing the ASD heterogeneity. In\naddition, the characterization of ASD subgroups, defined by the presence of\nknown medical, genetic, or other psychiatric disorders, furthers our\nunderstanding of ASD heterogeneity. This paper reviews the history of autism,\ndescribes its core defining features, and provides an overview of the clinically\nand etiologically relevant subgroups that add to the complexity of this\ncondition.",
+		"container-title": "Current developmental disorders reports",
+		"DOI": "10.1007/s40474-013-0003-1",
+		"ISSN": "2196-2987",
+		"issue": "1",
+		"journalAbbreviation": "Curr Dev Disord Rep",
+		"note": "PMID: 25072016\nPMCID: PMC4111262",
+		"page": "20-28",
+		"source": "PubMed Central",
+		"title": "Autism Spectrum Disorder: Defining Dimensions and Subgroups",
+		"title-short": "Autism Spectrum Disorder",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4111262/",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Ousley",
+				"given": "Opal"
+			},
+			{
+				"family": "Cermak",
+				"given": "Tracy"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					3,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/IZLDY9R5",
+		"type": "article-journal",
+		"abstract": "Genetic variants that inactivate protein-coding genes are a powerful source of information about the phenotypic consequences of gene disruption: genes critical for an organism’s function will be depleted for such variants in natural populations, while non-essential genes will tolerate their accumulation. However, predicted loss-of-function (pLoF) variants are enriched for annotation errors, and tend to be found at extremely low frequencies, so their analysis requires careful variant annotation and very large sample sizes1. Here, we describe the aggregation of 125,748 exomes and 15,708 genomes from human sequencing studies into the Genome Aggregation Database (gnomAD). We identify 443,769 high-confidence pLoF variants in this cohort after filtering for sequencing and annotation artifacts. Using an improved human mutation rate model, we classify human protein-coding genes along a spectrum representing tolerance to inactivation, validate this classification using data from model organisms and engineered human cells, and show that it can be used to improve gene discovery power for both common and rare diseases.",
+		"language": "en",
+		"page": "43",
+		"source": "Zotero",
+		"title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+		"author": [
+			{
+				"family": "Karczewski",
+				"given": "Konrad J"
+			},
+			{
+				"family": "Francioli",
+				"given": "Laurent C"
+			},
+			{
+				"family": "Tiao",
+				"given": "Grace"
+			},
+			{
+				"family": "Cummings",
+				"given": "Beryl B"
+			},
+			{
+				"family": "Wang",
+				"given": "Qingbo"
+			},
+			{
+				"family": "Collins",
+				"given": "Ryan L"
+			},
+			{
+				"family": "Laricchia",
+				"given": "Kristen M"
+			},
+			{
+				"family": "Ganna",
+				"given": "Andrea"
+			},
+			{
+				"family": "Birnbaum",
+				"given": "P"
+			},
+			{
+				"family": "Gauthier",
+				"given": "Laura D"
+			},
+			{
+				"family": "Brand",
+				"given": "Harrison"
+			},
+			{
+				"family": "Solomonson",
+				"given": "Matthew"
+			},
+			{
+				"family": "Rhodes",
+				"given": "Daniel"
+			},
+			{
+				"family": "Singer-Berk",
+				"given": "Moriel"
+			},
+			{
+				"family": "England",
+				"given": "Eleina M"
+			},
+			{
+				"family": "Seaby",
+				"given": "Eleanor G"
+			},
+			{
+				"family": "Kosmicki",
+				"given": "A"
+			},
+			{
+				"family": "Walters",
+				"given": "Raymond K"
+			},
+			{
+				"family": "Tashman",
+				"given": "Katherine"
+			},
+			{
+				"family": "Farjoun",
+				"given": "Yossi"
+			},
+			{
+				"family": "Banks",
+				"given": "Eric"
+			},
+			{
+				"family": "Poterba",
+				"given": "Timothy"
+			},
+			{
+				"family": "Wang",
+				"given": "Arcturus"
+			},
+			{
+				"family": "Samocha",
+				"given": "Kaitlin E"
+			},
+			{
+				"family": "Pierce-Hoffman",
+				"given": "Emma"
+			},
+			{
+				"family": "Zappala",
+				"given": "Zachary"
+			},
+			{
+				"family": "Minikel",
+				"given": "Eric Vallabh"
+			},
+			{
+				"family": "Weisburd",
+				"given": "Ben"
+			},
+			{
+				"family": "Lek",
+				"given": "Monkol"
+			},
+			{
+				"family": "Vittal",
+				"given": "Christopher"
+			},
+			{
+				"family": "Armean",
+				"given": "Irina M"
+			},
+			{
+				"family": "Bergelson",
+				"given": "Louis"
+			},
+			{
+				"family": "Cibulskis",
+				"given": "Kristian"
+			},
+			{
+				"family": "Connolly",
+				"given": "M"
+			},
+			{
+				"family": "Covarrubias",
+				"given": "Miguel"
+			},
+			{
+				"family": "Donnelly",
+				"given": "Stacey"
+			},
+			{
+				"family": "Ferriera",
+				"given": "Steven"
+			},
+			{
+				"family": "Gabriel",
+				"given": "Stacey"
+			},
+			{
+				"family": "Gupta",
+				"given": "Namrata"
+			},
+			{
+				"family": "Jeandet",
+				"given": "Thibault"
+			},
+			{
+				"family": "Kaplan",
+				"given": "Diane"
+			},
+			{
+				"family": "Llanwarne",
+				"given": "Christopher"
+			},
+			{
+				"family": "Novod",
+				"given": "Sam"
+			},
+			{
+				"family": "Petrillo",
+				"given": "Nikelle"
+			},
+			{
+				"family": "Roazen",
+				"given": "David"
+			},
+			{
+				"family": "Ruano-Rubio",
+				"given": "Valentin"
+			},
+			{
+				"family": "Schleicher",
+				"given": "Molly"
+			},
+			{
+				"family": "Soto",
+				"given": "Jose"
+			},
+			{
+				"family": "Tibbetts",
+				"given": "Kathleen"
+			},
+			{
+				"family": "Tolonen",
+				"given": "Charlotte"
+			},
+			{
+				"family": "Talkowski",
+				"given": "Michael E"
+			},
+			{
+				"family": "Neale",
+				"given": "Benjamin M"
+			},
+			{
+				"family": "Daly",
+				"given": "Mark J"
+			},
+			{
+				"family": "MacArthur",
+				"given": "Daniel G"
+			}
+		]
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/EHTYQJMW",
+		"type": "article-journal",
+		"abstract": "We describe the most common internal and external sources and types of contamination encountered in viral metagenomic studies and discuss their negative impact on sequencing results, particularly for low-biomass samples and clinical applications. We also propose some basic recommendations for reducing the background noise in viral shotgun metagenomic (SM) studies, which would limit the bias introduced by various classes of contaminants. Regardless of the specific viral SM protocol, contamination cannot be totally avoided; in particular, the issue of reagent contamination should always be addressed with high priority. There is an urgent need for the development and validation of standards for viral metagenomic studies especially if viral SM protocols will be more widely applied in diagnostics.",
+		"container-title": "Frontiers in Microbiology",
+		"DOI": "10.3389/fmicb.2021.745076",
+		"ISSN": "1664-302X",
+		"journalAbbreviation": "Front Microbiol",
+		"note": "PMID: 34745046\nPMCID: PMC8564396",
+		"page": "745076",
+		"source": "PubMed Central",
+		"title": "Contamination Issue in Viral Metagenomics: Problems, Solutions, and Clinical Perspectives",
+		"title-short": "Contamination Issue in Viral Metagenomics",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8564396/",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Jurasz",
+				"given": "Henryk"
+			},
+			{
+				"family": "Pawłowski",
+				"given": "Tomasz"
+			},
+			{
+				"family": "Perlejewski",
+				"given": "Karol"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/FNE9QU4G",
+		"type": "article-journal",
+		"abstract": "Metagenomic sequencing is becoming widespread in biomedical and environmental research, and the pace is increasing even more thanks to nanopore sequencing. With a rising number of samples and data per sample, the challenge of efficiently comparing results within a specimen and between specimens arises. Reagents, laboratory, and host related contaminants complicate such analysis. Contamination is particularly critical in low microbial biomass body sites and environments, where it can comprise most of a sample if not all. Recentrifuge implements a robust method for the removal of negative-control and crossover taxa from the rest of samples. With Recentrifuge, researchers can analyze results from taxonomic classifiers using interactive charts with emphasis on the confidence level of the classifications. In addition to contamination-subtracted samples, Recentrifuge provides shared and exclusive taxa per sample, thus enabling robust contamination removal and comparative analysis in environmental and clinical metagenomics. Regarding the first area, Recentrifuge’s novel approach has already demonstrated its benefits showing that microbiomes of Arctic and Antarctic solar panels display similar taxonomic profiles. In the clinical field, to confirm Recentrifuge’s ability to analyze complex metagenomes, we challenged it with data coming from a metagenomic investigation of RNA in plasma that suffered from critical contamination to the point of preventing any positive conclusion. Recentrifuge provided results that yielded new biological insight into the problem, supporting the growing evidence of a blood microbiota even in healthy individuals, mostly translocated from the gut, the oral cavity, and the genitourinary tract. We also developed a synthetic dataset carefully designed to rate the robust contamination removal algorithm, which demonstrated a significant improvement in specificity while retaining a high sensitivity even in the presence of cross-contaminants. Recentrifuge’s official website is www.recentrifuge.org. The data and source code are anonymously and freely available on GitHub and PyPI. The computing code is licensed under the AGPLv3. The Recentrifuge Wiki is the most extensive and continually-updated source of documentation for Recentrifuge, covering installation, use cases, testing, and other useful topics., Whether in a clinical or environmental sample, metagenomics can reveal what microorganisms exist and what they do. It is indeed a powerful tool for the study of microbial communities which requires equally powerful methods of analysis. Current challenges in the analysis of metagenomic data include the comparative study of samples, the degree of uncertainty in the results, and the removal of contamination. The scarcer the microbes are in an environment, the more essential it is to have solutions to these issues. Examples of sites with few microbes are not only habitats with low levels of nutrients, but also many body tissues and fluids. Recentrifuge’s novel approach combines statistical, mathematical and computational methods to tackle those challenges with efficiency and robustness: it seamlessly removes diverse contamination, provides a confidence level for every result, and unveils the generalities and specificities in the metagenomic samples.",
+		"container-title": "PLoS Computational Biology",
+		"DOI": "10.1371/journal.pcbi.1006967",
+		"ISSN": "1553-734X",
+		"issue": "4",
+		"journalAbbreviation": "PLoS Comput Biol",
+		"note": "PMID: 30958827\nPMCID: PMC6472834",
+		"page": "e1006967",
+		"source": "PubMed Central",
+		"title": "Recentrifuge: Robust comparative analysis and contamination removal for metagenomics",
+		"title-short": "Recentrifuge",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6472834/",
+		"volume": "15",
+		"author": [
+			{
+				"family": "Martí",
+				"given": "Jose Manuel"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					4,
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/9ZP7Z6WE",
+		"type": "webpage",
+		"abstract": "Are you planning a new microbiome study? If so, you are probably considering whether to conduct 16S rRNA gene sequencing or shotgun metagenomic sequencing.",
+		"language": "en",
+		"title": "16S rRNA Gene Sequencing vs. Shotgun Metagenomic Sequencing",
+		"URL": "https://blog.microbiomeinsights.com/16s-rrna-sequencing-vs-shotgun-metagenomic-sequencing",
+		"author": [
+			{
+				"family": "PhD",
+				"given": "Ruairi Robertson"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					23
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/X73DL7A7",
+		"type": "article-journal",
+		"abstract": "Our understanding of the link between the human microbiome and disease, including obesity, inflammatory bowel disease, arthritis and autism, is rapidly expanding. Improvements in the throughput and accuracy of DNA sequencing of the genomes of microbial communities associated with human samples, complemented by analysis of transcriptomes, proteomes, metabolomes and immunomes, and mechanistic experiments in model systems, have vastly improved our ability to understand the structure and function of the microbiome in both diseased and healthy states. However, many challenges remain. In this Review, we focus on studies in humans to describe these challenges, and propose strategies that leverage existing knowledge to move rapidly from correlation to causation, and ultimately to translation.",
+		"container-title": "Nature medicine",
+		"DOI": "10.1038/nm.4517",
+		"ISSN": "1078-8956",
+		"issue": "4",
+		"journalAbbreviation": "Nat Med",
+		"note": "PMID: 29634682\nPMCID: PMC7043356",
+		"page": "392-400",
+		"source": "PubMed Central",
+		"title": "Current understanding of the human microbiome",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7043356/",
+		"volume": "24",
+		"author": [
+			{
+				"family": "Gilbert",
+				"given": "Jack"
+			},
+			{
+				"family": "Blaser",
+				"given": "Martin J."
+			},
+			{
+				"family": "Caporaso",
+				"given": "J. Gregory"
+			},
+			{
+				"family": "Jansson",
+				"given": "Janet"
+			},
+			{
+				"family": "Lynch",
+				"given": "Susan V."
+			},
+			{
+				"family": "Knight",
+				"given": "Rob"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					4,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/3YMRIH2R",
+		"type": "article-journal",
+		"abstract": "Human beings have co-evolved with the microorganisms in our environment for millions of years, and have developed into a symbiosis in a mutually beneficial/defensive way. Human beings have significant multifaceted relationships with the diverse microbial community. Apart from the important protective role of microbial community exposure in development of early immunity, millions of inimitable bacterial genes of the diverse microbial community are the indispensable source of essential nutrients like essential amino acids and essential fatty acids for human body. The essential nutrition from microbiome is harvested through xenophagy. As an immune effector, xenophagy will capture any microorganisms that touch the epithelial cells of our gastrointestinal tract, degrade them and turn them into nutrients for the use of our body.",
+		"container-title": "Indian Journal of Microbiology",
+		"DOI": "10.1007/s12088-020-00863-w",
+		"ISSN": "0046-8991",
+		"issue": "2",
+		"journalAbbreviation": "Indian J Microbiol",
+		"language": "eng",
+		"note": "PMID: 32255860\nPMCID: PMC7105528",
+		"page": "259-261",
+		"source": "PubMed",
+		"title": "Commentary: Reconciling Hygiene and Cleanliness: A New Perspective from Human Microbiome",
+		"title-short": "Commentary",
+		"volume": "60",
+		"author": [
+			{
+				"family": "Yu",
+				"given": "Boxuan"
+			},
+			{
+				"family": "Yu",
+				"given": "Bowei"
+			},
+			{
+				"family": "Yu",
+				"given": "Ligen"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/ITD2WCJN",
+		"type": "article-journal",
+		"abstract": "Growing evidence indicates the community of microorganisms throughout the gastrointestinal tract, (i.e., gut microbiota), is associated with anxiety and depressive disorders. We present the first systematic review of the gut microbiota in anxiety disorders, along with an update in depression. Consideration of shared underlying features is essential due to the high rates of comorbidity. Systematic searches, following PRISMA guidelines, identified 26 studies (two case-control comparisons of the gut microbiota in generalised anxiety disorder, 18 in depression, one incorporating both anxiety/depression, and five including symptom-only measures). Alpha and beta diversity findings were inconsistent; however, differences in bacterial taxa indicated disorders may be characterised by a higher abundance of proinflammatory species (e.g., Enterobacteriaceae and Desulfovibrio), and lower short-chain fatty acid producing-bacteria (e.g., Faecalibacterium). Several taxa, and their mechanisms of action, may relate to anxiety and depression pathophysiology via communication of peripheral inflammation to the brain. Although the gut microbiota remains a promising target for prevention and therapy, future research should assess confounders, particularly diet and psychotropic medications, and should examine microorganism function.",
+		"container-title": "Clinical Psychology Review",
+		"DOI": "10.1016/j.cpr.2020.101943",
+		"ISSN": "1873-7811",
+		"journalAbbreviation": "Clin Psychol Rev",
+		"language": "eng",
+		"note": "PMID: 33271426",
+		"page": "101943",
+		"source": "PubMed",
+		"title": "The gut microbiota in anxiety and depression - A systematic review",
+		"volume": "83",
+		"author": [
+			{
+				"family": "Simpson",
+				"given": "Carra A."
+			},
+			{
+				"family": "Diaz-Arteche",
+				"given": "Carmela"
+			},
+			{
+				"family": "Eliby",
+				"given": "Djamila"
+			},
+			{
+				"family": "Schwartz",
+				"given": "Orli S."
+			},
+			{
+				"family": "Simmons",
+				"given": "Julian G."
+			},
+			{
+				"family": "Cowan",
+				"given": "Caitlin S. M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/RMKRCYCA",
+		"type": "article-journal",
+		"abstract": "A substantial body of literature has provided evidence for the role of gut microbiota in metabolic diseases including type 2 diabetes. However, reports vary regarding the association of particular taxonomic groups with disease. In this systematic review, we focused on the potential role of different bacterial taxa affecting diabetes. We have summarized evidence from 42 human studies reporting microbial associations with disease, and have identified supporting preclinical studies or clinical trials using treatments with probiotics. Among the commonly reported findings, the genera of Bifidobacterium, Bacteroides, Faecalibacterium, Akkermansia and Roseburia were negatively associated with T2D, while the genera of Ruminococcus, Fusobacterium, and Blautia were positively associated with T2D. We also discussed potential molecular mechanisms of microbiota effects in the onset and progression of T2D.",
+		"container-title": "EBioMedicine",
+		"DOI": "10.1016/j.ebiom.2019.11.051",
+		"ISSN": "2352-3964",
+		"journalAbbreviation": "EBioMedicine",
+		"language": "eng",
+		"note": "PMID: 31901868\nPMCID: PMC6948163",
+		"page": "102590",
+		"source": "PubMed",
+		"title": "Role of gut microbiota in type 2 diabetes pathophysiology",
+		"volume": "51",
+		"author": [
+			{
+				"family": "Gurung",
+				"given": "Manoj"
+			},
+			{
+				"family": "Li",
+				"given": "Zhipeng"
+			},
+			{
+				"family": "You",
+				"given": "Hannah"
+			},
+			{
+				"family": "Rodrigues",
+				"given": "Richard"
+			},
+			{
+				"family": "Jump",
+				"given": "Donald B."
+			},
+			{
+				"family": "Morgun",
+				"given": "Andrey"
+			},
+			{
+				"family": "Shulzhenko",
+				"given": "Natalia"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/LY2PBQY3",
+		"type": "article-journal",
+		"abstract": "Nowadays, obesity is one of the most prevalent human health problems. Research from the last 30 years has clarified the role of the imbalance between energy intake and expenditure, unhealthy lifestyle, and genetic variability in the development of obesity. More recently, the composition and metabolic functions of gut microbiota have been proposed as being able to affect obesity development. Here, we will report the current knowledge on the definition, composition, and functions of intestinal microbiota. We have performed an extensive review of the literature, searching for the following keywords: metabolism, gut microbiota, dysbiosis, obesity. There is evidence for the association between gut bacteria and obesity both in infancy and in adults. There are several genetic, metabolic, and inflammatory pathophysiological mechanisms involved in the interplay between gut microbes and obesity. Microbial changes in the human gut can be considered a factor involved in obesity development in humans. The modulation of the bacterial strains in the digestive tract can help to reshape the metabolic profile in the human obese host as suggested by several data from animal and human studies. Thus, a deep revision of the evidence pertaining to the use probiotics, prebiotics, and antibiotics in obese patients is conceivable.",
+		"container-title": "Nutrients",
+		"DOI": "10.3390/nu11112690",
+		"ISSN": "2072-6643",
+		"issue": "11",
+		"journalAbbreviation": "Nutrients",
+		"language": "eng",
+		"note": "PMID: 31703257\nPMCID: PMC6893459",
+		"page": "E2690",
+		"source": "PubMed",
+		"title": "Gut Microbiota and Obesity: A Role for Probiotics",
+		"title-short": "Gut Microbiota and Obesity",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Abenavoli",
+				"given": "Ludovico"
+			},
+			{
+				"family": "Scarpellini",
+				"given": "Emidio"
+			},
+			{
+				"family": "Colica",
+				"given": "Carmela"
+			},
+			{
+				"family": "Boccuto",
+				"given": "Luigi"
+			},
+			{
+				"family": "Salehi",
+				"given": "Bahare"
+			},
+			{
+				"family": "Sharifi-Rad",
+				"given": "Javad"
+			},
+			{
+				"family": "Aiello",
+				"given": "Vincenzo"
+			},
+			{
+				"family": "Romano",
+				"given": "Barbara"
+			},
+			{
+				"family": "De Lorenzo",
+				"given": "Antonino"
+			},
+			{
+				"family": "Izzo",
+				"given": "Angelo A."
+			},
+			{
+				"family": "Capasso",
+				"given": "Raffaele"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					11,
 					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/RA5PHL5X",
+		"type": "article-journal",
+		"abstract": "A host's microbiota may increase, diminish, or have no effect at all on cancer susceptibility. Assigning causal roles in cancer to specific microbes and microbiotas, unraveling host-microbiota interactions with environmental factors in carcinogenesis, and exploiting such knowledge for cancer diagnosis and treatment are areas of intensive interest. This Review considers how microbes and the microbiota may amplify or mitigate carcinogenesis, responsiveness to cancer therapeutics, and cancer-associated complications.",
+		"container-title": "Science (New York, N.Y.)",
+		"DOI": "10.1126/science.aaa4972",
+		"ISSN": "1095-9203",
+		"issue": "6230",
+		"journalAbbreviation": "Science",
+		"language": "eng",
+		"note": "PMID: 25838377\nPMCID: PMC5535753",
+		"page": "80-86",
+		"source": "PubMed",
+		"title": "Cancer and the microbiota",
+		"volume": "348",
+		"author": [
+			{
+				"family": "Garrett",
+				"given": "Wendy S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					4,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/C57UFB7X",
+		"type": "article-journal",
+		"abstract": "Studies of the human microbiome have revealed that even healthy individuals differ remarkably in the microbes that occupy habitats such as the gut, skin, and vagina. Much of this diversity remains unexplained, although diet, environment, host genetics, and early microbial exposure have all been implicated. Accordingly, to characterize the ecology of human-associated microbial communities, the Human Microbiome Project has analyzed the largest cohort and set of distinct, clinically relevant body habitats to date. We found the diversity and abundance of each habitat’s signature microbes to vary widely even among healthy subjects, with strong niche specialization both within and among individuals. The project encountered an estimated 81–99% of the genera, enzyme families, and community configurations occupied by the healthy Western microbiome. Metagenomic carriage of metabolic pathways was stable among individuals despite variation in community structure, and ethnic/racial background proved to be one of the strongest associations of both pathways and microbes with clinical metadata. These results thus delineate the range of structural and functional configurations normal in the microbial communities of a healthy population, enabling future characterization of the epidemiology, ecology, and translational applications of the human microbiome.",
+		"container-title": "Nature",
+		"DOI": "10.1038/nature11234",
+		"ISSN": "0028-0836",
+		"issue": "7402",
+		"journalAbbreviation": "Nature",
+		"note": "PMID: 22699609\nPMCID: PMC3564958",
+		"page": "207-214",
+		"source": "PubMed Central",
+		"title": "Structure, Function and Diversity of the Healthy Human Microbiome",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3564958/",
+		"volume": "486",
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					6,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/TMKFPM5Z",
+		"type": "article-journal",
+		"container-title": "Journal of Bacteriology",
+		"DOI": "10.1128/JB.180.18.4765-4774.1998",
+		"ISSN": "0021-9193",
+		"issue": "18",
+		"journalAbbreviation": "J Bacteriol",
+		"language": "eng",
+		"note": "PMID: 9733676\nPMCID: PMC107498",
+		"page": "4765-4774",
+		"source": "PubMed",
+		"title": "Impact of culture-independent studies on the emerging phylogenetic view of bacterial diversity",
+		"volume": "180",
+		"author": [
+			{
+				"family": "Hugenholtz",
+				"given": "P."
+			},
+			{
+				"family": "Goebel",
+				"given": "B. M."
+			},
+			{
+				"family": "Pace",
+				"given": "N. R."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/65VK8PSI",
+		"type": "article-journal",
+		"abstract": "Although the applicability of small subunit ribosomal RNA (16S rRNA) sequences for bacterial classification is now well accepted, the general use of these molecules has been hindered by the technical difficulty of obtaining their sequences. A protocol is described for rapidly generating large blocks of 16S rRNA sequence data without isolation of the 16S rRNA or cloning of its gene. The 16S rRNA in bulk cellular RNA preparations is selectively targeted for dideoxynucleotide-terminated sequencing by using reverse transcriptase and synthetic oligodeoxynucleotide primers complementary to universally conserved 16S rRNA sequences. Three particularly useful priming sites, which provide access to the three major 16S rRNA structural domains, routinely yield 800-1000 nucleotides of 16S rRNA sequence. The method is evaluated with respect to accuracy, sensitivity to modified nucleotides in the template RNA, and phylogenetic usefulness, by examination of several 16S rRNAs whose gene sequences are known. The relative simplicity of this approach should facilitate a rapid expansion of the 16S rRNA sequence collection available for phylogenetic analyses.",
+		"container-title": "Proceedings of the National Academy of Sciences of the United States of America",
+		"ISSN": "0027-8424",
+		"issue": "20",
+		"journalAbbreviation": "Proc Natl Acad Sci U S A",
+		"note": "PMID: 2413450\nPMCID: PMC391288",
+		"page": "6955-6959",
+		"source": "PubMed Central",
+		"title": "Rapid determination of 16S ribosomal RNA sequences for phylogenetic analyses.",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC391288/",
+		"volume": "82",
+		"author": [
+			{
+				"family": "Lane",
+				"given": "D J"
+			},
+			{
+				"family": "Pace",
+				"given": "B"
+			},
+			{
+				"family": "Olsen",
+				"given": "G J"
+			},
+			{
+				"family": "Stahl",
+				"given": "D A"
+			},
+			{
+				"family": "Sogin",
+				"given": "M L"
+			},
+			{
+				"family": "Pace",
+				"given": "N R"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/NSM9JBKV",
+		"type": "article-journal",
+		"abstract": "The human microbiome has emerged as a major player in regulating human health and disease. Translation studies of the microbiome have the potential to indicate clinical applications such as fecal transplants and probiotics. However, one major issue is accurate identification of microbes constituting the microbiota. Studies of the microbiome have frequently utilized sequencing of the conserved 16S ribosomal RNA (rRNA) gene. We present a comparative study of an alternative approach using shotgun whole genome sequencing (WGS). In the present study, we analyzed the human fecal microbiome compiling a total of 194.1×106 reads from a single sample using multiple sequencing methods and platforms. Specifically, after establishing the reproducibility of our methods with extensive multiplexing, we compared: 1) The 16S rRNA amplicon versus the WGS method, 2) the Illumina HiSeq versus MiSeq platforms, 3) the analysis of reads versus de novo assembled contigs, and 4) the effect of shorter versus longer reads. Our study demonstrates that shotgun whole genome sequencing has multiple advantages compared with the 16S amplicon method including enhanced detection of bacterial species, increased detection of diversity and increased prediction of genes. In addition, increased length, either due to longer reads or the assembly of contigs, improved the accuracy of species detection.",
+		"container-title": "Biochemical and biophysical research communications",
+		"DOI": "10.1016/j.bbrc.2015.12.083",
+		"ISSN": "0006-291X",
+		"issue": "4",
+		"journalAbbreviation": "Biochem Biophys Res Commun",
+		"note": "PMID: 26718401\nPMCID: PMC4830092",
+		"page": "967-977",
+		"source": "PubMed Central",
+		"title": "Analysis of the microbiome: Advantages of whole genome shotgun versus 16S amplicon sequencing",
+		"title-short": "Analysis of the microbiome",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4830092/",
+		"volume": "469",
+		"author": [
+			{
+				"family": "Ranjan",
+				"given": "Ravi"
+			},
+			{
+				"family": "Rani",
+				"given": "Asha"
+			},
+			{
+				"family": "Metwally",
+				"given": "Ahmed"
+			},
+			{
+				"family": "McGee",
+				"given": "Halvor S."
+			},
+			{
+				"family": "Perkins",
+				"given": "David L."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					1,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/SWE99BCU",
+		"type": "article-journal",
+		"abstract": "This study explored the short-term planktonic microbial community structure and resilience in Lake Lanier (GA, USA) while simultaneously evaluating the technical aspects of identifying taxa via 16S rRNA gene amplicon and metagenomic sequence data. 16S rRNA gene amplicons generated from four temporally discrete samples were sequenced with 454 GS-FLX-Ti yielding ∼40,000 rRNA gene sequences from each sample and representing ∼300 observed OTUs. Replicates obtained from the same biological sample clustered together but several biases were observed, linked to either the PCR or sequencing-preparation steps. In comparisons with companion whole-community shotgun metagenome datasets, the estimated number of OTUs at each timepoint was concordant, but 1.5 times and ∼10 times as many phyla and genera, respectively, were identified in the metagenomes. Our analyses showed that the 16S rRNA gene captures broad shifts in community diversity over time, but with limited resolution and lower sensitivity compared to metagenomic data. We also identified OTUs that showed marked shifts in abundance over four close timepoints separated by perturbations and tracked these taxa in the metagenome vs. 16S rRNA amplicon data. A strong summer storm had less of an effect on community composition than did seasonal mixing, which revealed a distinct succession of organisms. This study provides insights into freshwater microbial communities and advances the approaches for assessing community diversity and dynamics in situ.",
+		"container-title": "PLoS ONE",
+		"DOI": "10.1371/journal.pone.0093827",
+		"ISSN": "1932-6203",
+		"issue": "4",
+		"journalAbbreviation": "PLoS One",
+		"note": "PMID: 24714158\nPMCID: PMC3979728",
+		"page": "e93827",
+		"source": "PubMed Central",
+		"title": "Strengths and Limitations of 16S rRNA Gene Amplicon Sequencing in Revealing Temporal Microbial Community Dynamics",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3979728/",
+		"volume": "9",
+		"author": [
+			{
+				"family": "Poretsky",
+				"given": "Rachel"
+			},
+			{
+				"family": "Rodriguez-R",
+				"given": "Luis M."
+			},
+			{
+				"family": "Luo",
+				"given": "Chengwei"
+			},
+			{
+				"family": "Tsementzi",
+				"given": "Despina"
+			},
+			{
+				"family": "Konstantinidis",
+				"given": "Konstantinos T."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					4,
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/WA7JAFUE",
+		"type": "article-journal",
+		"abstract": "The human microbiome substantially affects many aspects of human physiology, including metabolism, drug interactions and numerous diseases. This realization, coupled with ever-improving nucleotide sequencing technology, has precipitated the collection of diverse data sets that profile the microbiome. In the past 2 years, studies have begun to include sufficient numbers of subjects to provide the power to associate these microbiome features with clinical states using advanced algorithms, increasing the use of microbiome studies both individually and collectively. Here we discuss tools and strategies for microbiome studies, from primer selection to bioinformatics analysis.",
+		"container-title": "Nature reviews. Genetics",
+		"DOI": "10.1038/nrg3129",
+		"ISSN": "1471-0056",
+		"issue": "1",
+		"journalAbbreviation": "Nat Rev Genet",
+		"note": "PMID: 22179717\nPMCID: PMC5119550",
+		"page": "47-58",
+		"source": "PubMed Central",
+		"title": "Experimental and analytical tools for studying the human microbiome",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5119550/",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Kuczynski",
+				"given": "Justin"
+			},
+			{
+				"family": "Lauber",
+				"given": "Christian L."
+			},
+			{
+				"family": "Walters",
+				"given": "William A."
+			},
+			{
+				"family": "Parfrey",
+				"given": "Laura Wegener"
+			},
+			{
+				"family": "Clemente",
+				"given": "José C."
+			},
+			{
+				"family": "Gevers",
+				"given": "Dirk"
+			},
+			{
+				"family": "Knight",
+				"given": "Rob"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2011",
+					12,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/JS8TJBMA",
+		"type": "article-journal",
+		"abstract": "To understand the impact of gut microbes on human health and well-being it is crucial to assess their genetic potential. Here we describe the Illumina-based metagenomic sequencing, assembly and characterization of 3.3 million nonredundant microbial genes, derived from 576.7 Gb sequence, from faecal samples of 124 European individuals. The gene set, ~150 times larger than the human gene complement, contains an overwhelming majority of the prevalent microbial genes of the cohort and likely includes a large proportion of the prevalent human intestinal microbial genes. The genes are largely shared among individuals of the cohort. Over 99% of the genes are bacterial, suggesting that the entire cohort harbours between 1000 and 1150 prevalent bacterial species and each individual at least 160 such species, which are also largely shared. We define and describe the minimal gut metagenome and the minimal gut bacterial genome in terms of functions encoded by the gene set.",
+		"container-title": "Nature",
+		"DOI": "10.1038/nature08821",
+		"ISSN": "0028-0836",
+		"issue": "7285",
+		"journalAbbreviation": "Nature",
+		"note": "PMID: 20203603\nPMCID: PMC3779803",
+		"page": "59-65",
+		"source": "PubMed Central",
+		"title": "A human gut microbial gene catalog established by metagenomic sequencing",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3779803/",
+		"volume": "464",
+		"author": [
+			{
+				"family": "Qin",
+				"given": "Junjie"
+			},
+			{
+				"family": "Li",
+				"given": "Ruiqiang"
+			},
+			{
+				"family": "Raes",
+				"given": "Jeroen"
+			},
+			{
+				"family": "Arumugam",
+				"given": "Manimozhiyan"
+			},
+			{
+				"family": "Burgdorf",
+				"given": "Kristoffer Solvsten"
+			},
+			{
+				"family": "Manichanh",
+				"given": "Chaysavanh"
+			},
+			{
+				"family": "Nielsen",
+				"given": "Trine"
+			},
+			{
+				"family": "Pons",
+				"given": "Nicolas"
+			},
+			{
+				"family": "Levenez",
+				"given": "Florence"
+			},
+			{
+				"family": "Yamada",
+				"given": "Takuji"
+			},
+			{
+				"family": "Mende",
+				"given": "Daniel R."
+			},
+			{
+				"family": "Li",
+				"given": "Junhua"
+			},
+			{
+				"family": "Xu",
+				"given": "Junming"
+			},
+			{
+				"family": "Li",
+				"given": "Shaochuan"
+			},
+			{
+				"family": "Li",
+				"given": "Dongfang"
+			},
+			{
+				"family": "Cao",
+				"given": "Jianjun"
+			},
+			{
+				"family": "Wang",
+				"given": "Bo"
+			},
+			{
+				"family": "Liang",
+				"given": "Huiqing"
+			},
+			{
+				"family": "Zheng",
+				"given": "Huisong"
+			},
+			{
+				"family": "Xie",
+				"given": "Yinlong"
+			},
+			{
+				"family": "Tap",
+				"given": "Julien"
+			},
+			{
+				"family": "Lepage",
+				"given": "Patricia"
+			},
+			{
+				"family": "Bertalan",
+				"given": "Marcelo"
+			},
+			{
+				"family": "Batto",
+				"given": "Jean-Michel"
+			},
+			{
+				"family": "Hansen",
+				"given": "Torben"
+			},
+			{
+				"family": "Le Paslier",
+				"given": "Denis"
+			},
+			{
+				"family": "Linneberg",
+				"given": "Allan"
+			},
+			{
+				"family": "Nielsen",
+				"given": "H. Bjørn"
+			},
+			{
+				"family": "Pelletier",
+				"given": "Eric"
+			},
+			{
+				"family": "Renault",
+				"given": "Pierre"
+			},
+			{
+				"family": "Sicheritz-Ponten",
+				"given": "Thomas"
+			},
+			{
+				"family": "Turner",
+				"given": "Keith"
+			},
+			{
+				"family": "Zhu",
+				"given": "Hongmei"
+			},
+			{
+				"family": "Yu",
+				"given": "Chang"
+			},
+			{
+				"family": "Li",
+				"given": "Shengting"
+			},
+			{
+				"family": "Jian",
+				"given": "Min"
+			},
+			{
+				"family": "Zhou",
+				"given": "Yan"
+			},
+			{
+				"family": "Li",
+				"given": "Yingrui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiuqing"
+			},
+			{
+				"family": "Li",
+				"given": "Songgang"
+			},
+			{
+				"family": "Qin",
+				"given": "Nan"
+			},
+			{
+				"family": "Yang",
+				"given": "Huanming"
+			},
+			{
+				"family": "Wang",
+				"given": "Jian"
+			},
+			{
+				"family": "Brunak",
+				"given": "Søren"
+			},
+			{
+				"family": "Doré",
+				"given": "Joel"
+			},
+			{
+				"family": "Guarner",
+				"given": "Francisco"
+			},
+			{
+				"family": "Kristiansen",
+				"given": "Karsten"
+			},
+			{
+				"family": "Pedersen",
+				"given": "Oluf"
+			},
+			{
+				"family": "Parkhill",
+				"given": "Julian"
+			},
+			{
+				"family": "Weissenbach",
+				"given": "Jean"
+			},
+			{
+				"family": "Bork",
+				"given": "Peer"
+			},
+			{
+				"family": "Ehrlich",
+				"given": "S. Dusko"
+			},
+			{
+				"family": "Wang",
+				"given": "Jun"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					3,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/C5XPM3PA",
+		"type": "article-journal",
+		"abstract": "Sequencing technologies have placed a wide range of genomic analyses within the capabilities of many laboratories. However, sequencing costs often set limits to the amount of sequences that can be generated and, consequently, the biological outcomes that can be achieved from an experimental design. In this Review, we discuss the issue of sequencing depth in the design of next-generation sequencing experiments. We review current guidelines and precedents on the issue of coverage, as well as their underlying considerations, for four major study designs, which include de novo genome sequencing, genome resequencing, transcriptome sequencing and genomic location analyses (for example, chromatin immunoprecipitation followed by sequencing (ChIP-seq) and chromosome conformation capture (3C)).",
+		"container-title": "Nature Reviews. Genetics",
+		"DOI": "10.1038/nrg3642",
+		"ISSN": "1471-0064",
+		"issue": "2",
+		"journalAbbreviation": "Nat Rev Genet",
+		"language": "eng",
+		"note": "PMID: 24434847",
+		"page": "121-132",
+		"source": "PubMed",
+		"title": "Sequencing depth and coverage: key considerations in genomic analyses",
+		"title-short": "Sequencing depth and coverage",
+		"volume": "15",
+		"author": [
+			{
+				"family": "Sims",
+				"given": "David"
+			},
+			{
+				"family": "Sudbery",
+				"given": "Ian"
+			},
+			{
+				"family": "Ilott",
+				"given": "Nicholas E."
+			},
+			{
+				"family": "Heger",
+				"given": "Andreas"
+			},
+			{
+				"family": "Ponting",
+				"given": "Chris P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/ESRLBL7G",
+		"type": "article-journal",
+		"abstract": "The human microbiome substantially affects many aspects of human physiology, including metabolism, drug interactions and numerous diseases. This realization, coupled with ever-improving nucleotide sequencing technology, has precipitated the collection of diverse data sets that profile the microbiome. In the past 2 years, studies have begun to include sufficient numbers of subjects to provide the power to associate these microbiome features with clinical states using advanced algorithms, increasing the use of microbiome studies both individually and collectively. Here we discuss tools and strategies for microbiome studies, from primer selection to bioinformatics analysis.",
+		"container-title": "Nature reviews. Genetics",
+		"DOI": "10.1038/nrg3129",
+		"ISSN": "1471-0056",
+		"issue": "1",
+		"journalAbbreviation": "Nat Rev Genet",
+		"note": "PMID: 22179717\nPMCID: PMC5119550",
+		"page": "47-58",
+		"source": "PubMed Central",
+		"title": "Experimental and analytical tools for studying the human microbiome",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5119550/",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Kuczynski",
+				"given": "Justin"
+			},
+			{
+				"family": "Lauber",
+				"given": "Christian L."
+			},
+			{
+				"family": "Walters",
+				"given": "William A."
+			},
+			{
+				"family": "Parfrey",
+				"given": "Laura Wegener"
+			},
+			{
+				"family": "Clemente",
+				"given": "José C."
+			},
+			{
+				"family": "Gevers",
+				"given": "Dirk"
+			},
+			{
+				"family": "Knight",
+				"given": "Rob"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2011",
+					12,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/TXSY4L8H",
+		"type": "article-journal",
+		"abstract": "Microbiome research has grown rapidly over the past decade, with a proliferation of new methods that seek to make sense of large, complex data sets. Here, we survey two of the primary types of methods for analyzing microbiome data: read classification and metagenomic assembly, and we review some of the challenges facing these methods. All of the methods rely on public genome databases, and we also discuss the content of these databases and how their quality has a direct impact on our ability to interpret a microbiome sample.",
+		"container-title": "Briefings in Bioinformatics",
+		"DOI": "10.1093/bib/bbx120",
+		"ISSN": "1467-5463",
+		"issue": "4",
+		"journalAbbreviation": "Brief Bioinform",
+		"note": "PMID: 29028872\nPMCID: PMC6781581",
+		"page": "1125-1136",
+		"source": "PubMed Central",
+		"title": "A review of methods and databases for metagenomic classification and assembly",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6781581/",
+		"volume": "20",
+		"author": [
+			{
+				"family": "Breitwieser",
+				"given": "Florian P"
+			},
+			{
+				"family": "Lu",
+				"given": "Jennifer"
+			},
+			{
+				"family": "Salzberg",
+				"given": "Steven L"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					9,
+					23
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/9R6ZJFAS",
+		"type": "article-journal",
+		"abstract": "Advances in DNA sequencing technology have vastly improved the ability of researchers to explore the microbial inhabitants of the human body. Unfortunately, while these studies have uncovered the importance of these microbial communities to our health, they often do not result in similar findings. One possible reason for the disagreement in these results is due to the multitude of systemic biases that are introduced during sequence-based microbiome studies. These biases begin with sample collection and continue to be introduced throughout the entire experiment leading to an observed community that is significantly altered from the true underlying microbial composition. In this review, we will highlight the various steps in typical sequence-based human microbiome studies where significant bias can be introduced, and we will review the current efforts within the field that aim to reduce the impact of these biases., \nVideo abstract",
+		"container-title": "Microbiome",
+		"DOI": "10.1186/s40168-021-01059-0",
+		"ISSN": "2049-2618",
+		"journalAbbreviation": "Microbiome",
+		"note": "PMID: 34006335\nPMCID: PMC8132403",
+		"page": "113",
+		"source": "PubMed Central",
+		"title": "Identifying biases and their potential solutions in human microbiome studies",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8132403/",
+		"volume": "9",
+		"author": [
+			{
+				"family": "Nearing",
+				"given": "Jacob T."
+			},
+			{
+				"family": "Comeau",
+				"given": "André M."
+			},
+			{
+				"family": "Langille",
+				"given": "Morgan G. I."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/HRP4Q76P",
+		"type": "article-journal",
+		"abstract": "The relative scarcity of microbes in low-microbial-biomass environments makes accurate determination of community composition challenging. Identifying and controlling for contaminant bacterial DNA are critical steps in understanding microbial communities from these low-biomass environments. Our study introduces the use of a mock community dilution series as a positive control and evaluates four computational strategies that can identify contaminants in 16S rRNA gene sequencing experiments in order to remove them from downstream analyses. The appropriate computational approach for removing contaminant sequences from an experiment depends on prior knowledge about the microbial environment under investigation and can be evaluated with a dilution series of a mock microbial community., Microbial communities are commonly studied using culture-independent methods, such as 16S rRNA gene sequencing. However, one challenge in accurately characterizing microbial communities is exogenous bacterial DNA contamination, particularly in low-microbial-biomass niches. Computational approaches to identify contaminant sequences have been proposed, but their performance has not been independently evaluated. To identify the impact of decreasing microbial biomass on polymicrobial 16S rRNA gene sequencing experiments, we created a mock microbial community dilution series. We evaluated four computational approaches to identify and remove contaminants, as follows: (i) filtering sequences present in a negative control, (ii) filtering sequences based on relative abundance, (iii) identifying sequences that have an inverse correlation with DNA concentration implemented in Decontam, and (iv) predicting the sequence proportion arising from defined contaminant sources implemented in SourceTracker. As expected, the proportion of contaminant bacterial DNA increased with decreasing starting microbial biomass, with 80.1% of the most diluted sample arising from contaminant sequences. Inclusion of contaminant sequences led to overinflated diversity estimates and distorted microbiome composition. All methods for contaminant identification successfully identified some contaminant sequences, which varied depending on the method parameters used and contaminant prevalence. Notably, removing sequences present in a negative control erroneously removed >20% of expected sequences. SourceTracker successfully removed over 98% of contaminants when the experimental environments were well defined. However, SourceTracker misclassified expected sequences and performed poorly when the experimental environment was unknown, failing to remove >97% of contaminants. In contrast, the Decontam frequency method did not remove expected sequences and successfully removed 70 to 90% of the contaminants., IMPORTANCE The relative scarcity of microbes in low-microbial-biomass environments makes accurate determination of community composition challenging. Identifying and controlling for contaminant bacterial DNA are critical steps in understanding microbial communities from these low-biomass environments. Our study introduces the use of a mock community dilution series as a positive control and evaluates four computational strategies that can identify contaminants in 16S rRNA gene sequencing experiments in order to remove them from downstream analyses. The appropriate computational approach for removing contaminant sequences from an experiment depends on prior knowledge about the microbial environment under investigation and can be evaluated with a dilution series of a mock microbial community.",
+		"container-title": "mSystems",
+		"DOI": "10.1128/mSystems.00290-19",
+		"ISSN": "2379-5077",
+		"issue": "4",
+		"journalAbbreviation": "mSystems",
+		"note": "PMID: 31164452\nPMCID: PMC6550369",
+		"page": "e00290-19",
+		"source": "PubMed Central",
+		"title": "Controlling for Contaminants in Low-Biomass 16S rRNA Gene Sequencing Experiments",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6550369/",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Karstens",
+				"given": "Lisa"
+			},
+			{
+				"family": "Asquith",
+				"given": "Mark"
+			},
+			{
+				"family": "Davin",
+				"given": "Sean"
+			},
+			{
+				"family": "Fair",
+				"given": "Damien"
+			},
+			{
+				"family": "Gregory",
+				"given": "W. Thomas"
+			},
+			{
+				"family": "Wolfe",
+				"given": "Alan J."
+			},
+			{
+				"family": "Braun",
+				"given": "Jonathan"
+			},
+			{
+				"family": "McWeeney",
+				"given": "Shannon"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					6,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/XNG57H9Y",
+		"type": "article-journal",
+		"abstract": "A recent report warns that DNA extraction kits and other laboratory reagents are considerable sources of contamination in microbiome experiments. The issue of contamination is particularly problematic for samples of low biomass., See related research, http://www.biomedcentral.com/1741-7007/12/87",
+		"container-title": "Genome Biology",
+		"DOI": "10.1186/s13059-014-0564-2",
+		"ISSN": "1465-6906",
+		"issue": "12",
+		"journalAbbreviation": "Genome Biol",
+		"note": "PMID: 25608874\nPMCID: PMC4311479",
+		"page": "564",
+		"source": "PubMed Central",
+		"title": "Tracking down the sources of experimental contamination in microbiome studies",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311479/",
+		"volume": "15",
+		"author": [
+			{
+				"family": "Weiss",
+				"given": "Sophie"
+			},
+			{
+				"family": "Amir",
+				"given": "Amnon"
+			},
+			{
+				"family": "Hyde",
+				"given": "Embriette R"
+			},
+			{
+				"family": "Metcalf",
+				"given": "Jessica L"
+			},
+			{
+				"family": "Song",
+				"given": "Se Jin"
+			},
+			{
+				"family": "Knight",
+				"given": "Rob"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/678AA6BY",
+		"type": "article-journal",
+		"abstract": "BACKGROUND: The accuracy of microbial community surveys based on marker-gene and metagenomic sequencing (MGS) suffers from the presence of contaminants-DNA sequences not truly present in the sample. Contaminants come from various sources, including reagents. Appropriate laboratory practices can reduce contamination, but do not eliminate it. Here we introduce decontam ( https://github.com/benjjneb/decontam ), an open-source R package that implements a statistical classification procedure that identifies contaminants in MGS data based on two widely reproduced patterns: contaminants appear at higher frequencies in low-concentration samples and are often found in negative controls.\nRESULTS: Decontam classified amplicon sequence variants (ASVs) in a human oral dataset consistently with prior microscopic observations of the microbial taxa inhabiting that environment and previous reports of contaminant taxa. In metagenomics and marker-gene measurements of a dilution series, decontam substantially reduced technical variation arising from different sequencing protocols. The application of decontam to two recently published datasets corroborated and extended their conclusions that little evidence existed for an indigenous placenta microbiome and that some low-frequency taxa seemingly associated with preterm birth were contaminants.\nCONCLUSIONS: Decontam improves the quality of metagenomic and marker-gene sequencing by identifying and removing contaminant DNA sequences. Decontam integrates easily with existing MGS workflows and allows researchers to generate more accurate profiles of microbial communities at little to no additional cost.",
+		"container-title": "Microbiome",
+		"DOI": "10.1186/s40168-018-0605-2",
+		"ISSN": "2049-2618",
+		"issue": "1",
+		"journalAbbreviation": "Microbiome",
+		"language": "eng",
+		"note": "PMID: 30558668\nPMCID: PMC6298009",
+		"page": "226",
+		"source": "PubMed",
+		"title": "Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data",
+		"volume": "6",
+		"author": [
+			{
+				"family": "Davis",
+				"given": "Nicole M."
+			},
+			{
+				"family": "Proctor",
+				"given": "Diana M."
+			},
+			{
+				"family": "Holmes",
+				"given": "Susan P."
+			},
+			{
+				"family": "Relman",
+				"given": "David A."
+			},
+			{
+				"family": "Callahan",
+				"given": "Benjamin J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					12,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/Y9VHTYX6",
+		"type": "article-journal",
+		"abstract": "Dispersal of microbes between humans and the built environment can occur through direct contact with surfaces or through airborne release; the latter mechanism remains poorly understood. Humans emit upwards of 10(6) biological particles per hour, and have long been known to transmit pathogens to other individuals and to indoor surfaces. However it has not previously been demonstrated that humans emit a detectible microbial cloud into surrounding indoor air, nor whether such clouds are sufficiently differentiated to allow the identification of individual occupants. We used high-throughput sequencing of 16S rRNA genes to characterize the airborne bacterial contribution of a single person sitting in a sanitized custom experimental climate chamber. We compared that to air sampled in an adjacent, identical, unoccupied chamber, as well as to supply and exhaust air sources. Additionally, we assessed microbial communities in settled particles surrounding each occupant, to investigate the potential long-term fate of airborne microbial emissions. Most occupants could be clearly detected by their airborne bacterial emissions, as well as their contribution to settled particles, within 1.5-4 h. Bacterial clouds from the occupants were statistically distinct, allowing the identification of some individual occupants. Our results confirm that an occupied space is microbially distinct from an unoccupied one, and demonstrate for the first time that individuals release their own personalized microbial cloud.",
+		"container-title": "PeerJ",
+		"DOI": "10.7717/peerj.1258",
+		"ISSN": "2167-8359",
+		"journalAbbreviation": "PeerJ",
+		"language": "eng",
+		"note": "PMID: 26417541\nPMCID: PMC4582947",
+		"page": "e1258",
+		"source": "PubMed",
+		"title": "Humans differ in their personal microbial cloud",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Meadow",
+				"given": "James F."
+			},
+			{
+				"family": "Altrichter",
+				"given": "Adam E."
+			},
+			{
+				"family": "Bateman",
+				"given": "Ashley C."
+			},
+			{
+				"family": "Stenson",
+				"given": "Jason"
+			},
+			{
+				"family": "Brown",
+				"given": "G. Z."
+			},
+			{
+				"family": "Green",
+				"given": "Jessica L."
+			},
+			{
+				"family": "Bohannan",
+				"given": "Brendan J. M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/AZMPG9TP",
+		"type": "article-journal",
+		"abstract": "With the rapid growth and development of sequencing technologies, genomes have become the new go-to for exploring solutions to some of the world's biggest challenges such as searching for alternative energy sources and exploration of genomic dark matter. However, progress in sequencing has been accompanied by its share of errors that can occur during template or library preparation, sequencing, imaging or data analysis. In this study we screened over 18,000 publicly available microbial isolate genome sequences in the Integrated Microbial Genomes database and identified more than 1000 genomes that are contaminated with PhiX, a control frequently used during Illumina sequencing runs. Approximately 10% of these genomes have been published in literature and 129 contaminated genomes were sequenced under the Human Microbiome Project. Raw sequence reads are prone to contamination from various sources and are usually eliminated during downstream quality control steps. Detection of PhiX contaminated genomes indicates a lapse in either the application or effectiveness of proper quality control measures. The presence of PhiX contamination in several publicly available isolate genomes can result in additional errors when such data are used in comparative genomics analyses. Such contamination of public databases have far-reaching consequences in the form of erroneous data interpretation and analyses, and necessitates better measures to proofread raw sequences before releasing them to the broader scientific community.",
+		"container-title": "Standards in Genomic Sciences",
+		"DOI": "10.1186/1944-3277-10-18",
+		"ISSN": "1944-3277",
+		"journalAbbreviation": "Stand Genomic Sci",
+		"language": "eng",
+		"note": "PMID: 26203331\nPMCID: PMC4511556",
+		"page": "18",
+		"source": "PubMed",
+		"title": "Large-scale contamination of microbial isolate genomes by Illumina PhiX control",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Mukherjee",
+				"given": "Supratim"
+			},
+			{
+				"family": "Huntemann",
+				"given": "Marcel"
+			},
+			{
+				"family": "Ivanova",
+				"given": "Natalia"
+			},
+			{
+				"family": "Kyrpides",
+				"given": "Nikos C."
+			},
+			{
+				"family": "Pati",
+				"given": "Amrita"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/AJYGLWN9",
+		"type": "article-journal",
+		"abstract": "Systematic characterization of the cancer microbiome provides the opportunity to develop techniques that exploit non-human, microorganism-derived molecules in the diagnosis of a major human disease. Following recent demonstrations that some types of cancer show substantial microbial contributions1-10, we re-examined whole-genome and whole-transcriptome sequencing studies in The Cancer Genome Atlas11 (TCGA) of 33 types of cancer from treatment-naive patients (a total of 18,116 samples) for microbial reads, and found unique microbial signatures in tissue and blood within and between most major types of cancer. These TCGA blood signatures remained predictive when applied to patients with stage Ia-IIc cancer and cancers lacking any genomic alterations currently measured on two commercial-grade cell-free tumour DNA platforms, despite the use of very stringent decontamination analyses that discarded up to 92.3% of total sequence data. In addition, we could discriminate among samples from healthy, cancer-free individuals (n = 69) and those from patients with multiple types of cancer (prostate, lung, and melanoma; 100 samples in total) solely using plasma-derived, cell-free microbial nucleic acids. This potential microbiome-based oncology diagnostic tool warrants further exploration.",
+		"container-title": "Nature",
+		"DOI": "10.1038/s41586-020-2095-1",
+		"ISSN": "1476-4687",
+		"issue": "7800",
+		"journalAbbreviation": "Nature",
+		"language": "eng",
+		"note": "PMID: 32214244\nPMCID: PMC7500457",
+		"page": "567-574",
+		"source": "PubMed",
+		"title": "Microbiome analyses of blood and tissues suggest cancer diagnostic approach",
+		"volume": "579",
+		"author": [
+			{
+				"family": "Poore",
+				"given": "Gregory D."
+			},
+			{
+				"family": "Kopylova",
+				"given": "Evguenia"
+			},
+			{
+				"family": "Zhu",
+				"given": "Qiyun"
+			},
+			{
+				"family": "Carpenter",
+				"given": "Carolina"
+			},
+			{
+				"family": "Fraraccio",
+				"given": "Serena"
+			},
+			{
+				"family": "Wandro",
+				"given": "Stephen"
+			},
+			{
+				"family": "Kosciolek",
+				"given": "Tomasz"
+			},
+			{
+				"family": "Janssen",
+				"given": "Stefan"
+			},
+			{
+				"family": "Metcalf",
+				"given": "Jessica"
+			},
+			{
+				"family": "Song",
+				"given": "Se Jin"
+			},
+			{
+				"family": "Kanbar",
+				"given": "Jad"
+			},
+			{
+				"family": "Miller-Montgomery",
+				"given": "Sandrine"
+			},
+			{
+				"family": "Heaton",
+				"given": "Robert"
+			},
+			{
+				"family": "Mckay",
+				"given": "Rana"
+			},
+			{
+				"family": "Patel",
+				"given": "Sandip Pravin"
+			},
+			{
+				"family": "Swafford",
+				"given": "Austin D."
+			},
+			{
+				"family": "Knight",
+				"given": "Rob"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/CVEXKNL5",
+		"type": "article-journal",
+		"abstract": "BACKGROUND: The study of microbial communities has been revolutionised in recent years by the widespread adoption of culture independent analytical techniques such as 16S rRNA gene sequencing and metagenomics. One potential confounder of these sequence-based approaches is the presence of contamination in DNA extraction kits and other laboratory reagents.\nRESULTS: In this study we demonstrate that contaminating DNA is ubiquitous in commonly used DNA extraction kits and other laboratory reagents, varies greatly in composition between different kits and kit batches, and that this contamination critically impacts results obtained from samples containing a low microbial biomass. Contamination impacts both PCR-based 16S rRNA gene surveys and shotgun metagenomics. We provide an extensive list of potential contaminating genera, and guidelines on how to mitigate the effects of contamination.\nCONCLUSIONS: These results suggest that caution should be advised when applying sequence-based techniques to the study of microbiota present in low biomass environments. Concurrent sequencing of negative control samples is strongly advised.",
+		"container-title": "BMC biology",
+		"DOI": "10.1186/s12915-014-0087-z",
+		"ISSN": "1741-7007",
+		"journalAbbreviation": "BMC Biol",
+		"language": "eng",
+		"note": "PMID: 25387460\nPMCID: PMC4228153",
+		"page": "87",
+		"source": "PubMed",
+		"title": "Reagent and laboratory contamination can critically impact sequence-based microbiome analyses",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Salter",
+				"given": "Susannah J."
+			},
+			{
+				"family": "Cox",
+				"given": "Michael J."
+			},
+			{
+				"family": "Turek",
+				"given": "Elena M."
+			},
+			{
+				"family": "Calus",
+				"given": "Szymon T."
+			},
+			{
+				"family": "Cookson",
+				"given": "William O."
+			},
+			{
+				"family": "Moffatt",
+				"given": "Miriam F."
+			},
+			{
+				"family": "Turner",
+				"given": "Paul"
+			},
+			{
+				"family": "Parkhill",
+				"given": "Julian"
+			},
+			{
+				"family": "Loman",
+				"given": "Nicholas J."
+			},
+			{
+				"family": "Walker",
+				"given": "Alan W."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					11,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/4VNNHQQ6",
+		"type": "article-journal",
+		"abstract": "Centrifuge is a novel microbial classification engine that enables rapid, accurate, and sensitive labeling of reads and quantification of species on desktop computers. The system uses an indexing scheme based on the Burrows-Wheeler transform (BWT) and the Ferragina-Manzini (FM) index, optimized specifically for the metagenomic classification problem. Centrifuge requires a relatively small index (4.2 GB for 4078 bacterial and 200 archaeal genomes) and classifies sequences at very high speed, allowing it to process the millions of reads from a typical high-throughput DNA sequencing run within a few minutes. Together, these advances enable timely and accurate analysis of large metagenomics data sets on conventional desktop computers. Because of its space-optimized indexing schemes, Centrifuge also makes it possible to index the entire NCBI nonredundant nucleotide sequence database (a total of 109 billion bases) with an index size of 69 GB, in contrast to k-mer-based indexing schemes, which require far more extensive space.",
+		"container-title": "Genome Research",
+		"DOI": "10.1101/gr.210641.116",
+		"ISSN": "1549-5469",
+		"issue": "12",
+		"journalAbbreviation": "Genome Res",
+		"language": "eng",
+		"note": "PMID: 27852649\nPMCID: PMC5131823",
+		"page": "1721-1729",
+		"source": "PubMed",
+		"title": "Centrifuge: rapid and sensitive classification of metagenomic sequences",
+		"title-short": "Centrifuge",
+		"volume": "26",
+		"author": [
+			{
+				"family": "Kim",
+				"given": "Daehwan"
+			},
+			{
+				"family": "Song",
+				"given": "Li"
+			},
+			{
+				"family": "Breitwieser",
+				"given": "Florian P."
+			},
+			{
+				"family": "Salzberg",
+				"given": "Steven L."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/ELKHFQ2N",
+		"type": "article-journal",
+		"abstract": "Identifying causative disease agents in human patients from shotgun metagenomic sequencing (SMS) presents a powerful tool to apply when other targeted diagnostics fail. Numerous technical challenges remain, however, before SMS can move beyond the role of research tool. Accurately separating the known and unknown organism content remains difficult, particularly when SMS is applied as a last resort. The true amount of human DNA that remains in a sample after screening against the human reference genome and filtering nonbiological components left from library preparation has previously been underreported. In this study, we create the most comprehensive collection of microbial and reference-free human genetic variation available in a database optimized for efficient metagenomic search by extracting sequences from GenBank and the 1000 Genomes Project. The results reveal new human sequences found in individual Human Microbiome Project (HMP) samples. Individual samples contain up to 95% human sequence, and 4% of the individual HMP samples contain 10% or more human reads. Left unidentified, human reads can complicate and slow down further analysis and lead to inaccurately labeled microbial taxa and ultimately lead to privacy concerns as more human genome data is collected.",
+		"container-title": "Genome Research",
+		"DOI": "10.1101/gr.184879.114",
+		"ISSN": "1549-5469",
+		"issue": "7",
+		"journalAbbreviation": "Genome Res",
+		"language": "eng",
+		"note": "PMID: 25926546\nPMCID: PMC4484388",
+		"page": "1056-1067",
+		"source": "PubMed",
+		"title": "Using populations of human and microbial genomes for organism detection in metagenomes",
+		"volume": "25",
+		"author": [
+			{
+				"family": "Ames",
+				"given": "Sasha K."
+			},
+			{
+				"family": "Gardner",
+				"given": "Shea N."
+			},
+			{
+				"family": "Marti",
+				"given": "Jose Manuel"
+			},
+			{
+				"family": "Slezak",
+				"given": "Tom R."
+			},
+			{
+				"family": "Gokhale",
+				"given": "Maya B."
+			},
+			{
+				"family": "Allen",
+				"given": "Jonathan E."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/5KZASULJ",
+		"type": "article-journal",
+		"abstract": "Metagenomics is the study of the genomic content of a sample of organisms obtained from a common habitat using targeted or random sequencing. Goals include understanding the extent and role of microbial diversity. The taxonomical content of such a sample is usually estimated by comparison against sequence databases of known sequences. Most published studies use the analysis of paired-end reads, complete sequences of environmental fosmid and BAC clones, or environmental assemblies. Emerging sequencing-by-synthesis technologies with very high throughput are paving the way to low-cost random \"shotgun\" approaches. This paper introduces MEGAN, a new computer program that allows laptop analysis of large metagenomic data sets. In a preprocessing step, the set of DNA sequences is compared against databases of known sequences using BLAST or another comparison tool. MEGAN is then used to compute and explore the taxonomical content of the data set, employing the NCBI taxonomy to summarize and order the results. A simple lowest common ancestor algorithm assigns reads to taxa such that the taxonomical level of the assigned taxon reflects the level of conservation of the sequence. The software allows large data sets to be dissected without the need for assembly or the targeting of specific phylogenetic markers. It provides graphical and statistical output for comparing different data sets. The approach is applied to several data sets, including the Sargasso Sea data set, a recently published metagenomic data set sampled from a mammoth bone, and several complete microbial genomes. Also, simulations that evaluate the performance of the approach for different read lengths are presented.",
+		"container-title": "Genome Research",
+		"DOI": "10.1101/gr.5969107",
+		"ISSN": "1088-9051",
+		"issue": "3",
+		"journalAbbreviation": "Genome Res",
+		"language": "eng",
+		"note": "PMID: 17255551\nPMCID: PMC1800929",
+		"page": "377-386",
+		"source": "PubMed",
+		"title": "MEGAN analysis of metagenomic data",
+		"volume": "17",
+		"author": [
+			{
+				"family": "Huson",
+				"given": "Daniel H."
+			},
+			{
+				"family": "Auch",
+				"given": "Alexander F."
+			},
+			{
+				"family": "Qi",
+				"given": "Ji"
+			},
+			{
+				"family": "Schuster",
+				"given": "Stephan C."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/8INTNUEQ",
+		"type": "article-journal",
+		"abstract": "MOTIVATION: Metagenomes are often characterized by high levels of unknown sequences. Reads derived from known microorganisms can easily be identified and analyzed using fast homology search algorithms and a suitable reference database, but the unknown sequences are often ignored in further analyses, biasing conclusions. Nevertheless, it is possible to use more data in a comparative metagenomic analysis by creating a cross-assembly of all reads, i.e. a single assembly of reads from different samples. Comparative metagenomics studies the interrelationships between metagenomes from different samples. Using an assembly algorithm is a fast and intuitive way to link (partially) homologous reads without requiring a database of reference sequences.\nRESULTS: Here, we introduce crAss, a novel bioinformatic tool that enables fast simple analysis of cross-assembly files, yielding distances between all metagenomic sample pairs and an insightful image displaying the similarities.",
+		"container-title": "Bioinformatics (Oxford, England)",
+		"DOI": "10.1093/bioinformatics/bts613",
+		"ISSN": "1367-4811",
+		"issue": "24",
+		"journalAbbreviation": "Bioinformatics",
+		"language": "eng",
+		"note": "PMID: 23074261\nPMCID: PMC3519457",
+		"page": "3225-3231",
+		"source": "PubMed",
+		"title": "Reference-independent comparative metagenomics using cross-assembly: crAss",
+		"title-short": "Reference-independent comparative metagenomics using cross-assembly",
+		"volume": "28",
+		"author": [
+			{
+				"family": "Dutilh",
+				"given": "Bas E."
+			},
+			{
+				"family": "Schmieder",
+				"given": "Robert"
+			},
+			{
+				"family": "Nulton",
+				"given": "Jim"
+			},
+			{
+				"family": "Felts",
+				"given": "Ben"
+			},
+			{
+				"family": "Salamon",
+				"given": "Peter"
+			},
+			{
+				"family": "Edwards",
+				"given": "Robert A."
+			},
+			{
+				"family": "Mokili",
+				"given": "John L."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					12,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/CVIKT845",
+		"type": "article-journal",
+		"abstract": "Analyzing the functional potential of newly sequenced genomes and metagenomes has become a common task in biomedical and biological research. With the advent of high-throughput sequencing technologies comparative metagenomics opens the way to elucidate the genetically determined similarities and differences of complex microbial communities. We developed the web server 'CoMet' (http://comet.gobics.de), which provides an easy-to-use comparative metagenomics platform that is well-suitable for the analysis of large collections of metagenomic short read data. CoMet combines the ORF finding and subsequent assignment of protein sequences to Pfam domain families with a comparative statistical analysis. Besides comprehensive tabular data files, the CoMet server also provides visually interpretable output in terms of hierarchical clustering and multi-dimensional scaling plots and thus allows a quick overview of a given set of metagenomic samples.",
+		"container-title": "Nucleic Acids Research",
+		"DOI": "10.1093/nar/gkr388",
+		"ISSN": "1362-4962",
+		"issue": "Web Server issue",
+		"journalAbbreviation": "Nucleic Acids Res",
+		"language": "eng",
+		"note": "PMID: 21622656\nPMCID: PMC3125781",
+		"page": "W518-523",
+		"source": "PubMed",
+		"title": "CoMet--a web server for comparative functional profiling of metagenomes",
+		"volume": "39",
+		"author": [
+			{
+				"family": "Lingner",
+				"given": "Thomas"
+			},
+			{
+				"family": "Asshauer",
+				"given": "Kathrin Petra"
+			},
+			{
+				"family": "Schreiber",
+				"given": "Fabian"
+			},
+			{
+				"family": "Meinicke",
+				"given": "Peter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/7NKB7KP6",
+		"type": "article-journal",
+		"abstract": "A key goal in comparative metagenomics is to identify microbial group(s) which are responsible for conferring specific characteristics to a given environment. These characteristics are the result of the inter-microbial interactions between the resident microbial groups. We present a new GUI-based comparative metagenomic analysis application called Community-Analyzer which implements a correlation-based graph layout algorithm that not only facilitates a quick visualization of the differences in the analyzed microbial communities (in terms of their taxonomic composition), but also provides insights into the inherent inter-microbial interactions occurring therein. Notably, this layout algorithm also enables grouping of the metagenomes based on the probable inter-microbial interaction patterns rather than simply comparing abundance values of various taxonomic groups. In addition, the tool implements several interactive GUI-based functionalities that enable users to perform standard comparative analyses across microbiomes. For academic and non-profit users, the Community-Analyzer is currently available for download from: http://metagenomics.atc.tcs.com/Community_Analyzer/.",
+		"container-title": "Genomics",
+		"DOI": "10.1016/j.ygeno.2013.08.004",
+		"ISSN": "1089-8646",
+		"issue": "4",
+		"journalAbbreviation": "Genomics",
+		"language": "eng",
+		"note": "PMID: 23978768",
+		"page": "409-418",
+		"source": "PubMed",
+		"title": "Community-analyzer: a platform for visualizing and comparing microbial community structure across microbiomes",
+		"title-short": "Community-analyzer",
+		"volume": "102",
+		"author": [
+			{
+				"family": "Kuntal",
+				"given": "Bhusan K."
+			},
+			{
+				"family": "Ghosh",
+				"given": "Tarini Shankar"
+			},
+			{
+				"family": "Mande",
+				"given": "Sharmila S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/L8GUJ4F5",
+		"type": "article-journal",
+		"abstract": "Background Large scale metagenomic projects aim to extract biodiversity knowledge between different environmental conditions. Current methods for comparing microbial communities face important limitations. Those based on taxonomical or functional assignation rely on a small subset of the sequences that can be associated to known organisms. On the other hand, de novo methods, that compare the whole sets of sequences, either do not scale up on ambitious metagenomic projects or do not provide precise and exhaustive results. Methods These limitations motivated the development of a new de novo metagenomic comparative method, called Simka. This method computes a large collection of standard ecological distances by replacing species counts by k-mer counts. Simka scales-up today’s metagenomic projects thanks to a new parallel k-mer counting strategy on multiple datasets. Results Experiments on public Human Microbiome Project datasets demonstrate that Simka captures the essential underlying biological structure. Simka was able to compute in a few hours both qualitative and quantitative ecological distances on hundreds of metagenomic samples (690 samples, 32 billions of reads). We also demonstrate that analyzing metagenomes at the k-mer level is highly correlated with extremely precise de novo comparison techniques which rely on all-versus-all sequences alignment strategy or which are based on taxonomic profiling.",
+		"container-title": "PeerJ Computer Science",
+		"DOI": "10.7717/peerj-cs.94",
+		"ISSN": "2376-5992",
+		"journalAbbreviation": "PeerJ Comput. Sci.",
+		"language": "en",
+		"note": "publisher: PeerJ Inc.",
+		"page": "e94",
+		"source": "peerj.com",
+		"title": "Multiple comparative metagenomics using multiset k-mer counting",
+		"URL": "https://peerj.com/articles/cs-94",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Benoit",
+				"given": "Gaëtan"
+			},
+			{
+				"family": "Peterlongo",
+				"given": "Pierre"
+			},
+			{
+				"family": "Mariadassou",
+				"given": "Mahendra"
+			},
+			{
+				"family": "Drezen",
+				"given": "Erwan"
+			},
+			{
+				"family": "Schbath",
+				"given": "Sophie"
+			},
+			{
+				"family": "Lavenier",
+				"given": "Dominique"
+			},
+			{
+				"family": "Lemaitre",
+				"given": "Claire"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					11,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/W3AISVK3",
+		"type": "article-journal",
+		"abstract": "Ackelsberg et al. point out a lack of evidence in the dataset of Afshinekoo et al. for the presence of plague and anthrax on the New York City subway.",
+		"container-title": "Cell Systems",
+		"DOI": "10.1016/j.cels.2015.07.008",
+		"ISSN": "2405-4712",
+		"issue": "1",
+		"journalAbbreviation": "Cell Syst",
+		"language": "eng",
+		"note": "PMID: 27135683",
+		"page": "4-5",
+		"source": "PubMed",
+		"title": "Lack of Evidence for Plague or Anthrax on the New York City Subway",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Ackelsberg",
+				"given": "Joel"
+			},
+			{
+				"family": "Rakeman",
+				"given": "Jennifer"
+			},
+			{
+				"family": "Hughes",
+				"given": "Scott"
+			},
+			{
+				"family": "Petersen",
+				"given": "Jeannine"
+			},
+			{
+				"family": "Mead",
+				"given": "Paul"
+			},
+			{
+				"family": "Schriefer",
+				"given": "Martin"
+			},
+			{
+				"family": "Kingry",
+				"given": "Luke"
+			},
+			{
+				"family": "Hoffmaster",
+				"given": "Alex"
+			},
+			{
+				"family": "Gee",
+				"given": "Jay E."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					7,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/ZNHTMN4Y",
+		"type": "article-journal",
+		"abstract": "Public transit systems are ideal for studying the urban microbiome and interindividual community transfer. In this study, we used 16S amplicon and shotgun metagenomic sequencing to profile microbial communities on multiple transit surfaces across train lines and stations in the Boston metropolitan transit system. The greatest determinant of microbial community structure was the transit surface type. In contrast, little variation was observed between geographically distinct train lines and stations serving different demographics. All surfaces were dominated by human skin and oral commensals such as Propionibacterium, Corynebacterium, Staphylococcus, and Streptococcus. The detected taxa not associated with humans included generalists from alphaproteobacteria, which were especially abundant on outdoor touchscreens. Shotgun metagenomics further identified viral and eukaryotic microbes, including Propionibacterium phage and Malassezia globosa. Functional profiling showed that Propionibacterium acnes pathways such as propionate production and porphyrin synthesis were enriched on train holding surfaces (holds), while electron transport chain components for aerobic respiration were enriched on touchscreens and seats. Lastly, the transit environment was not found to be a reservoir of antimicrobial resistance and virulence genes. Our results suggest that microbial communities on transit surfaces are maintained from a metapopulation of human skin commensals and environmental generalists, with enrichments corresponding to local interactions with the human body and environmental exposures. IMPORTANCE Mass transit environments, specifically, urban subways, are distinct microbial environments with high occupant densities, diversities, and turnovers, and they are thus especially relevant to public health. Despite this, only three culture-independent subway studies have been performed, all since 2013 and all with widely differing designs and conclusions. In this study, we profiled the Boston subway system, which provides 238 million trips per year overseen by the Massachusetts Bay Transportation Authority (MBTA). This yielded the first high-precision microbial survey of a variety of surfaces, ridership environments, and microbiological functions (including tests for potential pathogenicity) in a mass transit environment. Characterizing microbial profiles for multiple transit systems will become increasingly important for biosurveillance of antibiotic resistance genes or pathogens, which can be early indicators for outbreak or sanitation events. Understanding how human contact, materials, and the environment affect microbial profiles may eventually allow us to rationally design public spaces to sustain our health in the presence of microbial reservoirs. Author Video: An author video summary of this article is available.",
+		"container-title": "mSystems",
+		"DOI": "10.1128/mSystems.00018-16",
+		"ISSN": "2379-5077",
+		"issue": "3",
+		"journalAbbreviation": "mSystems",
+		"language": "eng",
+		"note": "PMID: 27822528\nPMCID: PMC5069760",
+		"page": "e00018-16",
+		"source": "PubMed",
+		"title": "Urban Transit System Microbial Communities Differ by Surface Type and Interaction with Humans and the Environment",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Hsu",
+				"given": "Tiffany"
+			},
+			{
+				"family": "Joice",
+				"given": "Regina"
+			},
+			{
+				"family": "Vallarino",
+				"given": "Jose"
+			},
+			{
+				"family": "Abu-Ali",
+				"given": "Galeb"
+			},
+			{
+				"family": "Hartmann",
+				"given": "Erica M."
+			},
+			{
+				"family": "Shafquat",
+				"given": "Afrah"
+			},
+			{
+				"family": "DuLong",
+				"given": "Casey"
+			},
+			{
+				"family": "Baranowski",
+				"given": "Catherine"
+			},
+			{
+				"family": "Gevers",
+				"given": "Dirk"
+			},
+			{
+				"family": "Green",
+				"given": "Jessica L."
+			},
+			{
+				"family": "Morgan",
+				"given": "Xochitl C."
+			},
+			{
+				"family": "Spengler",
+				"given": "John D."
+			},
+			{
+				"family": "Huttenhower",
+				"given": "Curtis"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/JGKGEVVV",
+		"type": "article-journal",
+		"abstract": "The growing number of metagenomic studies in medicine and environmental sciences is creating increasing demands on the computational infrastructure designed to analyze these very large datasets. Often, the construction of ultra-fast and precise taxonomic classifiers can compromise on their sensitivity (i.e. the number of reads correctly classified). Here we introduce CLARK-S, a new software tool that can classify short reads with high precision, high sensitivity and high speed.\nAVAILABILITY AND IMPLEMENTATION: CLARK-S is freely available at http://clark.cs.ucr.edu/ CONTACT: stelo@cs.ucr.eduSupplementary information: Supplementary data are available at Bioinformatics online.",
+		"container-title": "Bioinformatics (Oxford, England)",
+		"DOI": "10.1093/bioinformatics/btw542",
+		"ISSN": "1367-4811",
+		"issue": "24",
+		"journalAbbreviation": "Bioinformatics",
+		"language": "eng",
+		"note": "PMID: 27540266",
+		"page": "3823-3825",
+		"source": "PubMed",
+		"title": "Higher classification sensitivity of short metagenomic reads with CLARK-S",
+		"volume": "32",
+		"author": [
+			{
+				"family": "Ounit",
+				"given": "Rachid"
+			},
+			{
+				"family": "Lonardi",
+				"given": "Stefano"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					12,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/5ZZGFW26",
+		"type": "article-journal",
+		"abstract": "Kraken is an ultrafast and highly accurate program for assigning taxonomic labels to metagenomic DNA sequences. Previous programs designed for this task have been relatively slow and computationally expensive, forcing researchers to use faster abundance estimation programs, which only classify small subsets of metagenomic data. Using exact alignment of k-mers, Kraken achieves classification accuracy comparable to the fastest BLAST program. In its fastest mode, Kraken classifies 100 base pair reads at a rate of over 4.1 million reads per minute, 909 times faster than Megablast and 11 times faster than the abundance estimation program MetaPhlAn. Kraken is available at http://ccb.jhu.edu/software/kraken/.",
+		"container-title": "Genome Biology",
+		"DOI": "10.1186/gb-2014-15-3-r46",
+		"ISSN": "1474-760X",
+		"issue": "3",
+		"journalAbbreviation": "Genome Biol",
+		"language": "eng",
+		"note": "PMID: 24580807\nPMCID: PMC4053813",
+		"page": "R46",
+		"source": "PubMed",
+		"title": "Kraken: ultrafast metagenomic sequence classification using exact alignments",
+		"title-short": "Kraken",
+		"volume": "15",
+		"author": [
+			{
+				"family": "Wood",
+				"given": "Derrick E."
+			},
+			{
+				"family": "Salzberg",
+				"given": "Steven L."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					3,
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/WSFBPREA",
+		"type": "article-journal",
+		"abstract": "In robust estimation one frequently needs an initial or auxiliary estimate of scale. For this one usually takes the median absolute deviation MAD n = 1.4826 med, |xi − med j x j |, because it has a simple explicit formula, needs little computation time, and is very robust as witnessed by its bounded influence function and its 50% breakdown point. But there is still room for improvement in two areas: the fact that MAD n is aimed at symmetric distributions and its low (37%) Gaussian efficiency. In this article we set out to construct explicit and 50% breakdown scale estimators that are more efficient. We consider the estimator Sn = 1.1926 med, med j | xi − xj | and the estimator Qn given by the .25 quantile of the distances |xi − x j |; i < j. Note that Sn and Qn do not need any location estimate. Both Sn and Qn can be computed using O(n log n) time and O(n) storage. The Gaussian efficiency of Sn is 58%, whereas Qn attains 82%. We study Sn and Qn by means of their influence functions, their bias curves (for implosion as well as explosion), and their finite-sample performance. Their behavior is also compared at non-Gaussian models, including the negative exponential model where Sn has a lower gross-error sensitivity than the MAD.",
+		"container-title": "Journal of the American Statistical Association",
+		"DOI": "10.1080/01621459.1993.10476408",
+		"ISSN": "0162-1459",
+		"issue": "424",
+		"note": "publisher: Taylor & Francis\n_eprint: https://www.tandfonline.com/doi/pdf/10.1080/01621459.1993.10476408",
+		"page": "1273-1283",
+		"source": "Taylor and Francis+NEJM",
+		"title": "Alternatives to the Median Absolute Deviation",
+		"URL": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1993.10476408",
+		"volume": "88",
+		"author": [
+			{
+				"family": "Rousseeuw",
+				"given": "Peter J."
+			},
+			{
+				"family": "Croux",
+				"given": "Christophe"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1993",
+					12,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/N9DIBGX5",
+		"type": "article-journal",
+		"abstract": "The NCBI Taxonomy database (http://www.ncbi.nlm.nih.gov/taxonomy) is the standard nomenclature and classification repository for the International Nucleotide Sequence Database Collaboration (INSDC), comprising the GenBank, ENA (EMBL) and DDBJ databases. It includes organism names and taxonomic lineages for each of the sequences represented in the INSDC's nucleotide and protein sequence databases. The taxonomy database is manually curated by a small group of scientists at the NCBI who use the current taxonomic literature to maintain a phylogenetic taxonomy for the source organisms represented in the sequence databases. The taxonomy database is a central organizing hub for many of the resources at the NCBI, and provides a means for clustering elements within other domains of NCBI web site, for internal linking between domains of the Entrez system and for linking out to taxon-specific external resources on the web. Our primary purpose is to index the domain of sequences as conveniently as possible for our user community.",
+		"container-title": "Nucleic Acids Research",
+		"DOI": "10.1093/nar/gkr1178",
+		"ISSN": "1362-4962",
+		"issue": "Database issue",
+		"journalAbbreviation": "Nucleic Acids Res",
+		"language": "eng",
+		"note": "PMID: 22139910\nPMCID: PMC3245000",
+		"page": "D136-143",
+		"source": "PubMed",
+		"title": "The NCBI Taxonomy database",
+		"volume": "40",
+		"author": [
+			{
+				"family": "Federhen",
+				"given": "Scott"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/73XHHN3Q",
+		"type": "article-journal",
+		"abstract": "BACKGROUND: A critical output of metagenomic studies is the estimation of abundances of taxonomical or functional groups. The inherent uncertainty in assignments to these groups makes it important to consider both their hierarchical contexts and their prediction confidence. The current tools for visualizing metagenomic data, however, omit or distort quantitative hierarchical relationships and lack the facility for displaying secondary variables.\nRESULTS: Here we present Krona, a new visualization tool that allows intuitive exploration of relative abundances and confidences within the complex hierarchies of metagenomic classifications. Krona combines a variant of radial, space-filling displays with parametric coloring and interactive polar-coordinate zooming. The HTML5 and JavaScript implementation enables fully interactive charts that can be explored with any modern Web browser, without the need for installed software or plug-ins. This Web-based architecture also allows each chart to be an independent document, making them easy to share via e-mail or post to a standard Web server. To illustrate Krona's utility, we describe its application to various metagenomic data sets and its compatibility with popular metagenomic analysis tools.\nCONCLUSIONS: Krona is both a powerful metagenomic visualization tool and a demonstration of the potential of HTML5 for highly accessible bioinformatic visualizations. Its rich and interactive displays facilitate more informed interpretations of metagenomic analyses, while its implementation as a browser-based application makes it extremely portable and easily adopted into existing analysis packages. Both the Krona rendering code and conversion tools are freely available under a BSD open-source license, and available from: http://krona.sourceforge.net.",
+		"container-title": "BMC bioinformatics",
+		"DOI": "10.1186/1471-2105-12-385",
+		"ISSN": "1471-2105",
+		"journalAbbreviation": "BMC Bioinformatics",
+		"language": "eng",
+		"note": "PMID: 21961884\nPMCID: PMC3190407",
+		"page": "385",
+		"source": "PubMed",
+		"title": "Interactive metagenomic visualization in a Web browser",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Ondov",
+				"given": "Brian D."
+			},
+			{
+				"family": "Bergman",
+				"given": "Nicholas H."
+			},
+			{
+				"family": "Phillippy",
+				"given": "Adam M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011",
+					9,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/T7JBSUUJ",
+		"type": "article-journal",
+		"abstract": "In metagenome analysis, computational methods for assembly, taxonomic profiling and binning are key components facilitating downstream biological data interpretation. However, a lack of consensus about benchmarking datasets and evaluation metrics complicates proper performance assessment. The Critical Assessment of Metagenome Interpretation (CAMI) challenge has engaged the global developer community to benchmark their programs on datasets of unprecedented complexity and realism. Benchmark metagenomes were generated from ~700 newly sequenced microorganisms and ~600 novel viruses and plasmids, including genomes with varying degrees of relatedness to each other and to publicly available ones and representing common experimental setups. Across all datasets, assembly and genome binning programs performed well for species represented by individual genomes, while performance was substantially affected by the presence of related strains. Taxonomic profiling and binning programs were proficient at high taxonomic ranks, with a notable performance decrease below the family level. Parameter settings substantially impacted performances, underscoring the importance of program reproducibility. While highlighting current challenges in computational metagenomics, the CAMI results provide a roadmap for software selection to answer specific research questions.",
+		"container-title": "Nature methods",
+		"DOI": "10.1038/nmeth.4458",
+		"ISSN": "1548-7091",
+		"issue": "11",
+		"journalAbbreviation": "Nat Methods",
+		"note": "PMID: 28967888\nPMCID: PMC5903868",
+		"page": "1063-1071",
+		"source": "PubMed Central",
+		"title": "Critical Assessment of Metagenome Interpretation – a benchmark of computational metagenomics software",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5903868/",
+		"volume": "14",
+		"author": [
+			{
+				"family": "Sczyrba",
+				"given": "Alexander"
+			},
+			{
+				"family": "Hofmann",
+				"given": "Peter"
+			},
+			{
+				"family": "Belmann",
+				"given": "Peter"
+			},
+			{
+				"family": "Koslicki",
+				"given": "David"
+			},
+			{
+				"family": "Janssen",
+				"given": "Stefan"
+			},
+			{
+				"family": "Dröge",
+				"given": "Johannes"
+			},
+			{
+				"family": "Gregor",
+				"given": "Ivan"
+			},
+			{
+				"family": "Majda",
+				"given": "Stephan"
+			},
+			{
+				"family": "Fiedler",
+				"given": "Jessika"
+			},
+			{
+				"family": "Dahms",
+				"given": "Eik"
+			},
+			{
+				"family": "Bremges",
+				"given": "Andreas"
+			},
+			{
+				"family": "Fritz",
+				"given": "Adrian"
+			},
+			{
+				"family": "Garrido-Oter",
+				"given": "Ruben"
+			},
+			{
+				"family": "Jørgensen",
+				"given": "Tue Sparholt"
+			},
+			{
+				"family": "Shapiro",
+				"given": "Nicole"
+			},
+			{
+				"family": "Blood",
+				"given": "Philip D."
+			},
+			{
+				"family": "Gurevich",
+				"given": "Alexey"
+			},
+			{
+				"family": "Bai",
+				"given": "Yang"
+			},
+			{
+				"family": "Turaev",
+				"given": "Dmitrij"
+			},
+			{
+				"family": "DeMaere",
+				"given": "Matthew Z."
+			},
+			{
+				"family": "Chikhi",
+				"given": "Rayan"
+			},
+			{
+				"family": "Nagarajan",
+				"given": "Niranjan"
+			},
+			{
+				"family": "Quince",
+				"given": "Christopher"
+			},
+			{
+				"family": "Meyer",
+				"given": "Fernando"
+			},
+			{
+				"family": "Balvočiūtė",
+				"given": "Monika"
+			},
+			{
+				"family": "Hansen",
+				"given": "Lars Hestbjerg"
+			},
+			{
+				"family": "Sørensen",
+				"given": "Søren J."
+			},
+			{
+				"family": "Chia",
+				"given": "Burton K. H."
+			},
+			{
+				"family": "Denis",
+				"given": "Bertrand"
+			},
+			{
+				"family": "Froula",
+				"given": "Jeff L."
+			},
+			{
+				"family": "Wang",
+				"given": "Zhong"
+			},
+			{
+				"family": "Egan",
+				"given": "Robert"
+			},
+			{
+				"family": "Kang",
+				"given": "Dongwan Don"
+			},
+			{
+				"family": "Cook",
+				"given": "Jeffrey J."
+			},
+			{
+				"family": "Deltel",
+				"given": "Charles"
+			},
+			{
+				"family": "Beckstette",
+				"given": "Michael"
+			},
+			{
+				"family": "Lemaitre",
+				"given": "Claire"
+			},
+			{
+				"family": "Peterlongo",
+				"given": "Pierre"
+			},
+			{
+				"family": "Rizk",
+				"given": "Guillaume"
+			},
+			{
+				"family": "Lavenier",
+				"given": "Dominique"
+			},
+			{
+				"family": "Wu",
+				"given": "Yu-Wei"
+			},
+			{
+				"family": "Singer",
+				"given": "Steven W."
+			},
+			{
+				"family": "Jain",
+				"given": "Chirag"
+			},
+			{
+				"family": "Strous",
+				"given": "Marc"
+			},
+			{
+				"family": "Klingenberg",
+				"given": "Heiner"
+			},
+			{
+				"family": "Meinicke",
+				"given": "Peter"
+			},
+			{
+				"family": "Barton",
+				"given": "Michael"
+			},
+			{
+				"family": "Lingner",
+				"given": "Thomas"
+			},
+			{
+				"family": "Lin",
+				"given": "Hsin-Hung"
+			},
+			{
+				"family": "Liao",
+				"given": "Yu-Chieh"
+			},
+			{
+				"family": "Silva",
+				"given": "Genivaldo Gueiros Z."
+			},
+			{
+				"family": "Cuevas",
+				"given": "Daniel A."
+			},
+			{
+				"family": "Edwards",
+				"given": "Robert A."
+			},
+			{
+				"family": "Saha",
+				"given": "Surya"
+			},
+			{
+				"family": "Piro",
+				"given": "Vitor C."
+			},
+			{
+				"family": "Renard",
+				"given": "Bernhard Y."
+			},
+			{
+				"family": "Pop",
+				"given": "Mihai"
+			},
+			{
+				"family": "Klenk",
+				"given": "Hans-Peter"
+			},
+			{
+				"family": "Göker",
+				"given": "Markus"
+			},
+			{
+				"family": "Kyrpides",
+				"given": "Nikos C."
+			},
+			{
+				"family": "Woyke",
+				"given": "Tanja"
+			},
+			{
+				"family": "Vorholt",
+				"given": "Julia A."
+			},
+			{
+				"family": "Schulze-Lefert",
+				"given": "Paul"
+			},
+			{
+				"family": "Rubin",
+				"given": "Edward M."
+			},
+			{
+				"family": "Darling",
+				"given": "Aaron E."
+			},
+			{
+				"family": "Rattei",
+				"given": "Thomas"
+			},
+			{
+				"family": "McHardy",
+				"given": "Alice C."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/V5S7TMQ9",
+		"type": "article-journal",
+		"abstract": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a debilitating disease causing indefinite fatigue. ME/CFS has long been hypothesised to have an infectious cause; however, no specific infectious agent has been identified. We used metagenomics to analyse the RNA from plasma samples from 25 individuals with ME/CFS and compare their microbial content to technical controls as well as three control groups: individuals with alternatively diagnosed chronic Lyme syndrome (N = 13), systemic lupus erythematosus (N = 11), and healthy controls (N = 25). We found that the majority of sequencing reads were removed during host subtraction, thus there was very low microbial RNA content in the plasma. The effects of sample batching and contamination during sample processing proved to outweigh the effects of study group on microbial RNA content, as the few differences in bacterial or viral RNA abundance we did observe between study groups were most likely caused by contamination and batch effects. Our results highlight the importance of including negative controls in all metagenomic analyses, since there was considerable overlap between bacterial content identified in study samples and control samples. For example, Proteobacteria, Firmicutes, Actinobacteria, and Bacteriodes were found in both study samples and plasma-free negative controls. Many of the taxonomic groups we saw in our plasma-free negative control samples have previously been associated with diseases, including ME/CFS, demonstrating how incorrect conclusions may arise if controls are not used and batch effects not accounted for.",
+		"container-title": "PloS One",
+		"DOI": "10.1371/journal.pone.0165691",
+		"ISSN": "1932-6203",
+		"issue": "11",
+		"journalAbbreviation": "PLoS One",
+		"language": "eng",
+		"note": "PMID: 27806082\nPMCID: PMC5091812",
+		"page": "e0165691",
+		"source": "PubMed",
+		"title": "Metagenomic Investigation of Plasma in Individuals with ME/CFS Highlights the Importance of Technical Controls to Elucidate Contamination and Batch Effects",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Miller",
+				"given": "Ruth R."
+			},
+			{
+				"family": "Uyaguari-Diaz",
+				"given": "Miguel"
+			},
+			{
+				"family": "McCabe",
+				"given": "Mark N."
+			},
+			{
+				"family": "Montoya",
+				"given": "Vincent"
+			},
+			{
+				"family": "Gardy",
+				"given": "Jennifer L."
+			},
+			{
+				"family": "Parker",
+				"given": "Shoshana"
+			},
+			{
+				"family": "Steiner",
+				"given": "Theodore"
+			},
+			{
+				"family": "Hsiao",
+				"given": "William"
+			},
+			{
+				"family": "Nesbitt",
+				"given": "Matthew J."
+			},
+			{
+				"family": "Tang",
+				"given": "Patrick"
+			},
+			{
+				"family": "Patrick",
+				"given": "David M."
+			},
+			{
+				"literal": "CCD Study Group"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/FL96WJZ8",
+		"type": "article-journal",
+		"abstract": "Metagenomic sequencing of patient samples is a very promising method for the diagnosis of human infections. Sequencing has the ability to capture all the DNA or RNA from pathogenic organisms in a human sample. However, complete and accurate characterization of the sequence, including identification of any pathogens, depends on the availability and quality of genomes for comparison. Thousands of genomes are now available, and as these numbers grow, the power of metagenomic sequencing for diagnosis should increase. However, recent studies have exposed the presence of contamination in published genomes, which when used for diagnosis increases the risk of falsely identifying the wrong pathogen. To address this problem, we have developed a bioinformatics system for eliminating contamination as well as low-complexity genomic sequences in the draft genomes of eukaryotic pathogens. We applied this software to identify and remove human, bacterial, archaeal, and viral sequences present in a comprehensive database of all sequenced eukaryotic pathogen genomes. We also removed low-complexity genomic sequences, another source of false positives. Using this pipeline, we have produced a database of \"clean\" eukaryotic pathogen genomes for use with bioinformatics classification and analysis tools. We demonstrate that when attempting to find eukaryotic pathogens in metagenomic samples, the new database provides better sensitivity than one using the original genomes while offering a dramatic reduction in false positives.",
+		"container-title": "PLoS computational biology",
+		"DOI": "10.1371/journal.pcbi.1006277",
+		"ISSN": "1553-7358",
+		"issue": "6",
+		"journalAbbreviation": "PLoS Comput Biol",
+		"language": "eng",
+		"note": "PMID: 29939994\nPMCID: PMC6034898",
+		"page": "e1006277",
+		"source": "PubMed",
+		"title": "Removing contaminants from databases of draft genomes",
+		"volume": "14",
+		"author": [
+			{
+				"family": "Lu",
+				"given": "Jennifer"
+			},
+			{
+				"family": "Salzberg",
+				"given": "Steven L."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/B93QAC7K",
+		"type": "article-journal",
+		"abstract": "Humans are virtually identical in their genetic makeup, yet the small differences in our DNA give rise to tremendous phenotypic diversity across the human population. By contrast, the metagenome of the human microbiome-the total DNA content of microbes inhabiting our bodies-is quite a bit more variable, with only a third of its constituent genes found in a majority of healthy individuals. Understanding this variability in the \"healthy microbiome\" has thus been a major challenge in microbiome research, dating back at least to the 1960s, continuing through the Human Microbiome Project and beyond. Cataloguing the necessary and sufficient sets of microbiome features that support health, and the normal ranges of these features in healthy populations, is an essential first step to identifying and correcting microbial configurations that are implicated in disease. Toward this goal, several population-scale studies have documented the ranges and diversity of both taxonomic compositions and functional potentials normally observed in the microbiomes of healthy populations, along with possible driving factors such as geography, diet, and lifestyle. Here, we review several definitions of a 'healthy microbiome' that have emerged, the current understanding of the ranges of healthy microbial diversity, and gaps such as the characterization of molecular function and the development of ecological therapies to be addressed in the future.",
+		"container-title": "Genome Medicine",
+		"DOI": "10.1186/s13073-016-0307-y",
+		"ISSN": "1756-994X",
+		"issue": "1",
+		"journalAbbreviation": "Genome Med",
+		"language": "eng",
+		"note": "PMID: 27122046\nPMCID: PMC4848870",
+		"page": "51",
+		"source": "PubMed",
+		"title": "The healthy human microbiome",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Lloyd-Price",
+				"given": "Jason"
+			},
+			{
+				"family": "Abu-Ali",
+				"given": "Galeb"
+			},
+			{
+				"family": "Huttenhower",
+				"given": "Curtis"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					4,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/EZ43PSP6",
+		"type": "article-journal",
+		"abstract": "BACKGROUND: Recent studies have revealed that the blood of healthy humans is not as sterile as previously supposed. The objective of this study was to provide a comprehensive description of the microbiome present in different fractions of the blood of healthy individuals.\nSTUDY DESIGN AND METHODS: The study was conducted in 30 healthy blood donors to the French national blood collection center (Établissement Français du Sang). We have set up a 16S rDNA quantitative polymerase chain reaction assay as well as a 16S targeted metagenomics sequencing pipeline specifically designed to analyze the blood microbiome, which we have used on whole blood as well as on different blood fractions (buffy coat [BC], red blood cells [RBCs], and plasma).\nRESULTS: Most of the blood bacterial DNA is located in the BC (93.74%), and RBCs contain more bacterial DNA (6.23%) than the plasma (0.03%). The distribution of 16S DNA is different for each fraction and spreads over a relatively broad range among donors. At the phylum level, blood fractions contain bacterial DNA mostly from the Proteobacteria phylum (more than 80%) but also from Actinobacteria, Firmicutes, and Bacteroidetes. At deeper taxonomic levels, there are striking differences between the bacterial profiles of the different blood fractions.\nCONCLUSION: We demonstrate that a diversified microbiome exists in healthy blood. This microbiome has most likely an important physiologic role and could be implicated in certain transfusion-transmitted bacterial infections. In this regard, the amount of 16S bacterial DNA or the microbiome profile could be monitored to improve the safety of the blood supply.",
+		"container-title": "Transfusion",
+		"DOI": "10.1111/trf.13477",
+		"ISSN": "1537-2995",
+		"issue": "5",
+		"journalAbbreviation": "Transfusion",
+		"language": "eng",
+		"note": "PMID: 26865079",
+		"page": "1138-1147",
+		"source": "PubMed",
+		"title": "Comprehensive description of blood microbiome from healthy donors assessed by 16S targeted metagenomic sequencing",
+		"volume": "56",
+		"author": [
+			{
+				"family": "Païssé",
+				"given": "Sandrine"
+			},
+			{
+				"family": "Valle",
+				"given": "Carine"
+			},
+			{
+				"family": "Servant",
+				"given": "Florence"
+			},
+			{
+				"family": "Courtney",
+				"given": "Michael"
+			},
+			{
+				"family": "Burcelin",
+				"given": "Rémy"
+			},
+			{
+				"family": "Amar",
+				"given": "Jacques"
+			},
+			{
+				"family": "Lelouvier",
+				"given": "Benjamin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/PWJJJGJC",
+		"type": "article-journal",
+		"abstract": "Metagenomic sequencing is revolutionizing the detection and characterization of microbial species, and a wide variety of software tools are available to perform taxonomic classification of these data. The fast pace of development of these tools and the complexity of metagenomic data make it important that researchers are able to benchmark their performance. Here, we review current approaches for metagenomic analysis and evaluate the performance of 20 metagenomic classifiers using simulated and experimental datasets. We describe the key metrics used to assess performance, offer a framework for the comparison of additional classifiers, and discuss the future of metagenomic data analysis.",
+		"container-title": "Cell",
+		"DOI": "10.1016/j.cell.2019.07.010",
+		"ISSN": "1097-4172",
+		"issue": "4",
+		"journalAbbreviation": "Cell",
+		"language": "eng",
+		"note": "PMID: 31398336\nPMCID: PMC6716367",
+		"page": "779-794",
+		"source": "PubMed",
+		"title": "Benchmarking Metagenomics Tools for Taxonomic Classification",
+		"volume": "178",
+		"author": [
+			{
+				"family": "Ye",
+				"given": "Simon H."
+			},
+			{
+				"family": "Siddle",
+				"given": "Katherine J."
+			},
+			{
+				"family": "Park",
+				"given": "Daniel J."
+			},
+			{
+				"family": "Sabeti",
+				"given": "Pardis C."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					8,
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/AL2QETUM",
+		"type": "article-journal",
+		"abstract": "Background\nNext Generation Sequencing (NGS) experiments produce millions of short sequences that, mapped to a reference genome, provide biological insights at genomic, transcriptomic and epigenomic level. Typically the amount of reads that correctly maps to the reference genome ranges between 70% and 90%, leaving in some cases a consistent fraction of unmapped sequences. This ’misalignment’ can be ascribed to low quality bases or sequence differences between the sample reads and the reference genome. Investigating the source of the unmapped reads is definitely important to better assess the quality of the whole experiment and to check for possible downstream or upstream ’contamination’ from exogenous nucleic acids.\n\nResults\nHere we propose DecontaMiner, a tool to unravel the presence of contaminating sequences among the unmapped reads. It uses a subtraction approach to identify bacteria, fungi and viruses genome contamination. DecontaMiner generates several output files to track all the processed reads, and to provide a complete report of their characteristics. The good quality matches on microorganism genomes are counted and compared among samples. DecontaMiner builds an offline HTML page containing summary statistics and plots. The latter are obtained using the state-of-the-art D3 javascript libraries. DecontaMiner has been mainly used to detect contamination in human RNA-Seq data. The software is freely available at http://www-labgtp.na.icar.cnr.it/decontaminer.\n\nConclusions\nDecontaMiner is a tool designed and developed to investigate the presence of contaminating sequences in unmapped NGS data. It can suggest the presence of contaminating organisms in sequenced samples, that might derive either from laboratory contamination or from their biological source, and in both cases can be considered as worthy of further investigation and experimental validation. The novelty of DecontaMiner is mainly represented by its easy integration with the standard procedures of NGS data analysis, while providing a complete, reliable, and automatic pipeline.\n\nElectronic supplementary material\nThe online version of this article (10.1186/s12859-019-2684-x) contains supplementary material, which is available to authorized users.",
+		"container-title": "BMC Bioinformatics",
+		"DOI": "10.1186/s12859-019-2684-x",
+		"ISSN": "1471-2105",
+		"issue": "Suppl 4",
+		"journalAbbreviation": "BMC Bioinformatics",
+		"note": "PMID: 30999839\nPMCID: PMC6472186",
+		"page": "168",
+		"source": "PubMed Central",
+		"title": "From trash to treasure: detecting unexpected contamination in unmapped NGS data",
+		"title-short": "From trash to treasure",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6472186/",
+		"volume": "20",
+		"author": [
+			{
+				"family": "Sangiovanni",
+				"given": "Mara"
+			},
+			{
+				"family": "Granata",
+				"given": "Ilaria"
+			},
+			{
+				"family": "Thind",
+				"given": "Amarinder Singh"
+			},
+			{
+				"family": "Guarracino",
+				"given": "Mario Rosario"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					4,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/6PSBZD28",
+		"type": "article-journal",
+		"container-title": "Nature Biotechnology",
+		"DOI": "10.1038/s41587-019-0334-5",
+		"ISSN": "1546-1696",
+		"issue": "12",
+		"journalAbbreviation": "Nat Biotechnol",
+		"language": "eng",
+		"note": "PMID: 31748692",
+		"page": "1408-1412",
+		"source": "PubMed",
+		"title": "Detecting contamination in viromes using ViromeQC",
+		"volume": "37",
+		"author": [
+			{
+				"family": "Zolfo",
+				"given": "Moreno"
+			},
+			{
+				"family": "Pinto",
+				"given": "Federica"
+			},
+			{
+				"family": "Asnicar",
+				"given": "Francesco"
+			},
+			{
+				"family": "Manghi",
+				"given": "Paolo"
+			},
+			{
+				"family": "Tett",
+				"given": "Adrian"
+			},
+			{
+				"family": "Bushman",
+				"given": "Frederic D."
+			},
+			{
+				"family": "Segata",
+				"given": "Nicola"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/UPBF3VU2",
+		"type": "article-journal",
+		"abstract": "Contamination is a ubiquitous problem in microbiome research and can skew results, especially when small amounts of target DNA are available. Nevertheless, no clear solution has emerged for removing microbial contamination. To address this problem, we developed the R package microDecon (https://github.com/donaldtmcknight/microDecon), which uses the proportions of contaminant operational taxonomic units (OTUs) or amplicon sequence variants (ASVs) in blank samples to systematically identify and remove contaminant reads from metabarcoding data sets. We rigorously tested microDecon using a series of computer simulations and a sequencing experiment. We also compared it to the common practice of simply removing all contaminant OTUs/ASVs and other methods for removing contamination. Both the computer simulations and our sequencing data confirmed the utility of microDecon. In our largest simulation (100,000 samples), using microDecon improved the results in 98.1% of samples. Additionally, in the sequencing data and in simulations involving groups, it enabled accurate clustering of groups as well as the detection of previously obscured patterns. It also produced more accurate results than the existing methods for identifying and removing contamination. These results demonstrate that microDecon effectively removes contamination across a broad range of situations. It should, therefore, be widely applicable to microbiome studies, as well as to metabarcoding studies in general.",
+		"container-title": "Environmental DNA",
+		"DOI": "10.1002/edn3.11",
+		"ISSN": "2637-4943",
+		"issue": "1",
+		"language": "en",
+		"note": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/edn3.11",
+		"page": "14-25",
+		"source": "Wiley Online Library",
+		"title": "microDecon: A highly accurate read-subtraction tool for the post-sequencing removal of contamination in metabarcoding studies",
+		"title-short": "microDecon",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/edn3.11",
+		"volume": "1",
+		"author": [
+			{
+				"family": "McKnight",
+				"given": "Donald T."
+			},
+			{
+				"family": "Huerlimann",
+				"given": "Roger"
+			},
+			{
+				"family": "Bower",
+				"given": "Deborah S."
+			},
+			{
+				"family": "Schwarzkopf",
+				"given": "Lin"
+			},
+			{
+				"family": "Alford",
+				"given": "Ross A."
+			},
+			{
+				"family": "Zenger",
+				"given": "Kyall R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/NU7UHGWN",
+		"type": "article-journal",
+		"abstract": "BACKGROUND: Multiple RNA samples are frequently processed together and often mixed before multiplex sequencing in the same sequencing run. While different samples can be separated post sequencing using sample barcodes, the possibility of cross contamination between biological samples from different species that have been processed or sequenced in parallel has the potential to be extremely deleterious for downstream analyses.\nRESULTS: We present CroCo, a software package for identifying and removing such cross contaminants from assembled transcriptomes. Using multiple, recently published sequence datasets, we show that cross contamination is consistently present at varying levels in real data. Using real and simulated data, we demonstrate that CroCo detects contaminants efficiently and correctly. Using a real example from a molecular phylogenetic dataset, we show that contaminants, if not eliminated, can have a decisive, deleterious impact on downstream comparative analyses.\nCONCLUSIONS: Cross contamination is pervasive in new and published datasets and, if undetected, can have serious deleterious effects on downstream analyses. CroCo is a database-independent, multi-platform tool, designed for ease of use, that efficiently and accurately detects and removes cross contamination in assembled transcriptomes to avoid these problems. We suggest that the use of CroCo should become a standard cleaning step when processing multiple samples for transcriptome sequencing.",
+		"container-title": "BMC biology",
+		"DOI": "10.1186/s12915-018-0486-7",
+		"ISSN": "1741-7007",
+		"issue": "1",
+		"journalAbbreviation": "BMC Biol",
+		"language": "eng",
+		"note": "PMID: 29506533\nPMCID: PMC5838952",
+		"page": "28",
+		"source": "PubMed",
+		"title": "A software tool 'CroCo' detects pervasive cross-species contamination in next generation sequencing data",
+		"volume": "16",
+		"author": [
+			{
+				"family": "Simion",
+				"given": "Paul"
+			},
+			{
+				"family": "Belkhir",
+				"given": "Khalid"
+			},
+			{
+				"family": "François",
+				"given": "Clémentine"
+			},
+			{
+				"family": "Veyssier",
+				"given": "Julien"
+			},
+			{
+				"family": "Rink",
+				"given": "Jochen C."
+			},
+			{
+				"family": "Manuel",
+				"given": "Michaël"
+			},
+			{
+				"family": "Philippe",
+				"given": "Hervé"
+			},
+			{
+				"family": "Telford",
+				"given": "Maximilian J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/QIBAUF73",
+		"type": "article-journal",
+		"container-title": "Ecological Monographs",
+		"DOI": "10.2307/1942268",
+		"ISSN": "1557-7015",
+		"issue": "4",
+		"language": "en",
+		"note": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.2307/1942268",
+		"page": "325-349",
+		"source": "Wiley Online Library",
+		"title": "An Ordination of the Upland Forest Communities of Southern Wisconsin",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.2307/1942268",
+		"volume": "27",
+		"author": [
+			{
+				"family": "Bray",
+				"given": "J. Roger"
+			},
+			{
+				"family": "Curtis",
+				"given": "J. T."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1957"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/H2XIEJCH",
+		"type": "article-journal",
+		"container-title": "Cell",
+		"DOI": "10.1016/j.cell.2019.07.015",
+		"ISSN": "00928674",
+		"issue": "4",
+		"journalAbbreviation": "Cell",
+		"language": "en",
+		"page": "850-866.e26",
+		"source": "DOI.org (Crossref)",
+		"title": "Inherited and De Novo Genetic Risk for Autism Impacts Shared Networks",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0092867419307809",
+		"volume": "178",
+		"author": [
+			{
+				"family": "Ruzzo",
+				"given": "Elizabeth K."
+			},
+			{
+				"family": "Pérez-Cano",
+				"given": "Laura"
+			},
+			{
+				"family": "Jung",
+				"given": "Jae-Yoon"
+			},
+			{
+				"family": "Wang",
+				"given": "Lee-kai"
+			},
+			{
+				"family": "Kashef-Haghighi",
+				"given": "Dorna"
+			},
+			{
+				"family": "Hartl",
+				"given": "Chris"
+			},
+			{
+				"family": "Singh",
+				"given": "Chanpreet"
+			},
+			{
+				"family": "Xu",
+				"given": "Jin"
+			},
+			{
+				"family": "Hoekstra",
+				"given": "Jackson N."
+			},
+			{
+				"family": "Leventhal",
+				"given": "Olivia"
+			},
+			{
+				"family": "Leppä",
+				"given": "Virpi M."
+			},
+			{
+				"family": "Gandal",
+				"given": "Michael J."
+			},
+			{
+				"family": "Paskov",
+				"given": "Kelley"
+			},
+			{
+				"family": "Stockham",
+				"given": "Nate"
+			},
+			{
+				"family": "Polioudakis",
+				"given": "Damon"
+			},
+			{
+				"family": "Lowe",
+				"given": "Jennifer K."
+			},
+			{
+				"family": "Prober",
+				"given": "David A."
+			},
+			{
+				"family": "Geschwind",
+				"given": "Daniel H."
+			},
+			{
+				"family": "Wall",
+				"given": "Dennis P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/HZ3MHQNM",
+		"type": "article-journal",
+		"abstract": "Abstract\n            \n              Motivation\n              Population-scale sequenced cohorts are foundational resources for genetic analyses, but processing raw reads into analysis-ready cohort-level variants remains challenging.\n            \n            \n              Results\n              We introduce an open-source cohort-calling method that uses the highly accurate caller DeepVariant and scalable merging tool GLnexus. Using callset quality metrics based on variant recall and precision in benchmark samples and Mendelian consistency in father-mother-child trios, we optimize the method across a range of cohort sizes, sequencing methods and sequencing depths. The resulting callsets show consistent quality improvements over those generated using existing best practices with reduced cost. We further evaluate our pipeline in the deeply sequenced 1000 Genomes Project (1KGP) samples and show superior callset quality metrics and imputation reference panel performance compared to an independently generated GATK Best Practices pipeline.\n            \n            \n              Availability and implementation\n              We publicly release the 1KGP individual-level variant calls and cohort callset (https://console.cloud.google.com/storage/browser/brain-genomics-public/research/cohort/1KGP) to foster additional development and evaluation of cohort merging methods as well as broad studies of genetic variation. Both DeepVariant (https://github.com/google/deepvariant) and GLnexus (https://github.com/dnanexus-rnd/GLnexus) are open-source, and the optimized GLnexus setup discovered in this study is also integrated into GLnexus public releases v1.2.2 and later.\n            \n            \n              Supplementary information\n              Supplementary data are available at Bioinformatics online.",
+		"container-title": "Bioinformatics",
+		"DOI": "10.1093/bioinformatics/btaa1081",
+		"ISSN": "1367-4803, 1460-2059",
+		"issue": "24",
+		"language": "en",
+		"page": "5582-5589",
+		"source": "DOI.org (Crossref)",
+		"title": "Accurate, scalable cohort variant calls using DeepVariant and GLnexus",
+		"URL": "https://academic.oup.com/bioinformatics/article/36/24/5582/6064144",
+		"volume": "36",
+		"author": [
+			{
+				"family": "Yun",
+				"given": "Taedong"
+			},
+			{
+				"family": "Li",
+				"given": "Helen"
+			},
+			{
+				"family": "Chang",
+				"given": "Pi-Chuan"
+			},
+			{
+				"family": "Lin",
+				"given": "Michael F"
+			},
+			{
+				"family": "Carroll",
+				"given": "Andrew"
+			},
+			{
+				"family": "McLean",
+				"given": "Cory Y"
+			}
+		],
+		"editor": [
+			{
+				"family": "Robinson",
+				"given": "Peter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/YYIUB37Q",
+		"type": "report",
+		"abstract": "ABSTRACT\n          \n            Individuals with autism spectrum disorder (ASD) or related neurodevelopmental disorders (NDDs) often carry disruptive mutations in genes that are depleted of functional variation in the broader population. We build upon this observation and exome sequencing from 154,842 individuals to explore the allelic diversity of rare protein-coding variation contributing risk for ASD and related NDDs. Using an integrative statistical model, we jointly analyzed rare protein-truncating variants (PTVs), damaging missense variants, and copy number variants (CNVs) derived from exome sequencing of 63,237 individuals from ASD cohorts. We discovered 71 genes associated with ASD at a false discovery rate (FDR) ≤ 0.001, a threshold approximately equivalent to exome-wide significance, and 183 genes at FDR ≤ 0.05. Associations were predominantly driven by\n            de novo\n            PTVs, damaging missense variants, and CNVs: 57.4%, 21.2%, and 8.32% of evidence, respectively. Though fewer in number, CNVs conferred greater relative risk than PTVs, and repeat-mediated\n            de novo\n            CNVs exhibited strong maternal bias in parent-of-origin (e.g., 92.3% of 16p11.2 CNVs), whereas all other CNVs showed a paternal bias. To explore how genes associated with ASD and NDD overlap or differ, we analyzed our ASD cohort alongside a developmental delay (DD) cohort from the deciphering developmental disorders study (DDD; n=91,605 samples). We first reanalyzed the DDD dataset using the same models as the ASD cohorts, then performed joint analyses of both cohorts and identified 373 genes contributing to NDD risk at FDR ≤ 0.001 and 662 NDD risk genes at FDR ≤ 0.05. Of these NDD risk genes, 54 genes (125 genes at FDR ≤ 0.05) were unique to the joint analyses and not significant in either cohort alone. Our results confirm overlap of most ASD and DD risk genes, although many differ significantly in frequency of mutation. Analyses of single-cell transcriptome datasets showed that genes associated predominantly with DD were strongly enriched for earlier neurodevelopmental cell types, whereas genes displaying stronger evidence for association in ASD cohorts were more enriched for maturing neurons. The ASD risk genes were also enriched for genes associated with schizophrenia from a separate rare coding variant analysis of 121,570 individuals, emphasizing that these neuropsychiatric disorders share common pathways to risk.",
+		"genre": "preprint",
+		"language": "en",
+		"note": "DOI: 10.1101/2021.12.20.21267194",
+		"publisher": "Neurology",
+		"source": "DOI.org (Crossref)",
+		"title": "Rare coding variation illuminates the allelic architecture, risk genes, cellular expression patterns, and phenotypic context of autism",
+		"URL": "http://medrxiv.org/lookup/doi/10.1101/2021.12.20.21267194",
+		"author": [
+			{
+				"family": "Fu",
+				"given": "Jack M."
+			},
+			{
+				"family": "Satterstrom",
+				"given": "F. Kyle"
+			},
+			{
+				"family": "Peng",
+				"given": "Minshi"
+			},
+			{
+				"family": "Brand",
+				"given": "Harrison"
+			},
+			{
+				"family": "Collins",
+				"given": "Ryan L."
+			},
+			{
+				"family": "Dong",
+				"given": "Shan"
+			},
+			{
+				"family": "Klei",
+				"given": "Lambertus"
+			},
+			{
+				"family": "Stevens",
+				"given": "Christine R."
+			},
+			{
+				"family": "Cusick",
+				"given": "Caroline"
+			},
+			{
+				"family": "Babadi",
+				"given": "Mehrtash"
+			},
+			{
+				"family": "Banks",
+				"given": "Eric"
+			},
+			{
+				"family": "Collins",
+				"given": "Brett"
+			},
+			{
+				"family": "Dodge",
+				"given": "Sheila"
+			},
+			{
+				"family": "Gabriel",
+				"given": "Stacey B."
+			},
+			{
+				"family": "Gauthier",
+				"given": "Laura"
+			},
+			{
+				"family": "Lee",
+				"given": "Samuel K."
+			},
+			{
+				"family": "Liang",
+				"given": "Lindsay"
+			},
+			{
+				"family": "Ljungdahl",
+				"given": "Alicia"
+			},
+			{
+				"family": "Mahjani",
+				"given": "Behrang"
+			},
+			{
+				"family": "Sloofman",
+				"given": "Laura"
+			},
+			{
+				"family": "Smirnov",
+				"given": "Andrey"
+			},
+			{
+				"family": "Barbosa",
+				"given": "Mafalda"
+			},
+			{
+				"family": "Brusco",
+				"given": "Alfredo"
+			},
+			{
+				"family": "Chung",
+				"given": "Brian H.Y."
+			},
+			{
+				"family": "Cuccaro",
+				"given": "Michael L."
+			},
+			{
+				"family": "Domenici",
+				"given": "Enrico"
+			},
+			{
+				"family": "Ferrero",
+				"given": "Giovanni Battista"
+			},
+			{
+				"family": "Gargus",
+				"given": "Jay J."
+			},
+			{
+				"family": "Herman",
+				"given": "Gail E."
+			},
+			{
+				"family": "Hertz-Picciotto",
+				"given": "Irva"
+			},
+			{
+				"family": "Maciel",
+				"given": "Patricia"
+			},
+			{
+				"family": "Manoach",
+				"given": "Dara S."
+			},
+			{
+				"family": "Passos-Bueno",
+				"given": "Maria Rita"
+			},
+			{
+				"family": "Persico",
+				"given": "Antonio M."
+			},
+			{
+				"family": "Renieri",
+				"given": "Alessandra"
+			},
+			{
+				"family": "Tassone",
+				"given": "Flora"
+			},
+			{
+				"family": "Trabetti",
+				"given": "Elisabetta"
+			},
+			{
+				"family": "Campos",
+				"given": "Gabriele"
+			},
+			{
+				"family": "Chan",
+				"given": "Marcus C.Y."
+			},
+			{
+				"family": "Fallerini",
+				"given": "Chiara"
+			},
+			{
+				"family": "Giorgio",
+				"given": "Elisa"
+			},
+			{
+				"family": "Girard",
+				"given": "Ana Cristina"
+			},
+			{
+				"family": "Hansen-Kiss",
+				"given": "Emily"
+			},
+			{
+				"family": "Lee",
+				"given": "So Lun"
+			},
+			{
+				"family": "Lintas",
+				"given": "Carla"
+			},
+			{
+				"family": "Ludena",
+				"given": "Yunin"
+			},
+			{
+				"family": "Nguyen",
+				"given": "Rachel"
+			},
+			{
+				"family": "Pavinato",
+				"given": "Lisa"
+			},
+			{
+				"family": "Pericak-Vance",
+				"given": "Margaret"
+			},
+			{
+				"family": "Pessah",
+				"given": "Isaac"
+			},
+			{
+				"family": "Riberi",
+				"given": "Evelise"
+			},
+			{
+				"family": "Schmidt",
+				"given": "Rebecca"
+			},
+			{
+				"family": "Smith",
+				"given": "Moyra"
+			},
+			{
+				"family": "Souza",
+				"given": "Claudia I.C."
+			},
+			{
+				"family": "Trajkova",
+				"given": "Slavica"
+			},
+			{
+				"family": "Wang",
+				"given": "Jaqueline Y.T."
+			},
+			{
+				"family": "Yu",
+				"given": "Mullin H.C."
+			},
+			{
+				"literal": "The Autism Sequencing Consoritum (ASC)"
+			},
+			{
+				"literal": "Broad Institute Center for Common Disease Genomics (Broad-CCDG)"
+			},
+			{
+				"literal": "iPSYCH-BROAD Consortium"
+			},
+			{
+				"family": "Cutler",
+				"given": "David J."
+			},
+			{
+				"family": "De Rubeis",
+				"given": "Silvia"
+			},
+			{
+				"family": "Buxbaum",
+				"given": "Joseph D."
+			},
+			{
+				"family": "Daly",
+				"given": "Mark J."
+			},
+			{
+				"family": "Devlin",
+				"given": "Bernie"
+			},
+			{
+				"family": "Roeder",
+				"given": "Kathryn"
+			},
+			{
+				"family": "Sanders",
+				"given": "Stephan J."
+			},
+			{
+				"family": "Talkowski",
+				"given": "Michael E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					12,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/GTXPDTWZ",
+		"type": "article-journal",
+		"abstract": "Abstract\n            \n              In studies of families with rare disease, it is common to screen for de novo mutations, as well as recessive or dominant variants that explain the phenotype. However, the filtering strategies and software used to prioritize high-confidence variants vary from study to study. In an effort to establish recommendations for rare disease research, we explore effective guidelines for variant (SNP and INDEL) filtering and report the expected number of candidates for de novo dominant, recessive, and autosomal dominant modes of inheritance. We derived these guidelines using two large family-based cohorts that underwent whole-genome sequencing, as well as two family cohorts with whole-exome sequencing. The filters are applied to common attributes, including genotype-quality, sequencing depth, allele balance, and population allele frequency. The resulting guidelines yield ~10 candidate SNP and INDEL variants per exome, and 18 per genome for recessive and de novo dominant modes of inheritance, with substantially more candidates for autosomal dominant inheritance. For family-based, whole-genome sequencing studies, this number includes an average of three de novo, ten compound heterozygous, one autosomal recessive, four X-linked variants, and roughly 100 candidate variants following autosomal dominant inheritance. The slivar software we developed to establish and rapidly apply these filters to VCF files is available at\n              https://github.com/brentp/slivar\n              under an MIT license, and includes documentation and recommendations for best practices for rare disease analysis.",
+		"container-title": "npj Genomic Medicine",
+		"DOI": "10.1038/s41525-021-00227-3",
+		"ISSN": "2056-7944",
+		"issue": "1",
+		"journalAbbreviation": "npj Genom. Med.",
+		"language": "en",
+		"page": "60",
+		"source": "DOI.org (Crossref)",
+		"title": "Effective variant filtering and expected candidate variant yield in studies of rare human disease",
+		"URL": "http://www.nature.com/articles/s41525-021-00227-3",
+		"volume": "6",
+		"author": [
+			{
+				"family": "Pedersen",
+				"given": "Brent S."
+			},
+			{
+				"family": "Brown",
+				"given": "Joe M."
+			},
+			{
+				"family": "Dashnow",
+				"given": "Harriet"
+			},
+			{
+				"family": "Wallace",
+				"given": "Amelia D."
+			},
+			{
+				"family": "Velinder",
+				"given": "Matt"
+			},
+			{
+				"family": "Tristani-Firouzi",
+				"given": "Martin"
+			},
+			{
+				"family": "Schiffman",
+				"given": "Joshua D."
+			},
+			{
+				"family": "Tvrdik",
+				"given": "Tatiana"
+			},
+			{
+				"family": "Mao",
+				"given": "Rong"
+			},
+			{
+				"family": "Best",
+				"given": "D. Hunter"
+			},
+			{
+				"family": "Bayrak-Toydemir",
+				"given": "Pinar"
+			},
+			{
+				"family": "Quinlan",
+				"given": "Aaron R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/WSQ392GG",
+		"type": "article-journal",
+		"container-title": "Frontiers in Genetics",
+		"DOI": "10.3389/fgene.2018.00406",
+		"ISSN": "1664-8021",
+		"journalAbbreviation": "Front. Genet.",
+		"page": "406",
+		"source": "DOI.org (Crossref)",
+		"title": "De novo Mutations (DNMs) in Autism Spectrum Disorder (ASD): Pathway and Network Analysis",
+		"title-short": "De novo Mutations (DNMs) in Autism Spectrum Disorder (ASD)",
+		"URL": "https://www.frontiersin.org/article/10.3389/fgene.2018.00406/full",
+		"volume": "9",
+		"author": [
+			{
+				"family": "Alonso-Gonzalez",
+				"given": "Aitana"
+			},
+			{
+				"family": "Rodriguez-Fontenla",
+				"given": "Cristina"
+			},
+			{
+				"family": "Carracedo",
+				"given": "Angel"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/GJCRIQCL",
+		"type": "article-journal",
+		"container-title": "Neuron",
+		"DOI": "10.1016/j.neuron.2012.04.009",
+		"ISSN": "08966273",
+		"issue": "2",
+		"journalAbbreviation": "Neuron",
+		"language": "en",
+		"page": "285-299",
+		"source": "DOI.org (Crossref)",
+		"title": "De Novo Gene Disruptions in Children on the Autistic Spectrum",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0896627312003406",
+		"volume": "74",
+		"author": [
+			{
+				"family": "Iossifov",
+				"given": "Ivan"
+			},
+			{
+				"family": "Ronemus",
+				"given": "Michael"
+			},
+			{
+				"family": "Levy",
+				"given": "Dan"
+			},
+			{
+				"family": "Wang",
+				"given": "Zihua"
+			},
+			{
+				"family": "Hakker",
+				"given": "Inessa"
+			},
+			{
+				"family": "Rosenbaum",
+				"given": "Julie"
+			},
+			{
+				"family": "Yamrom",
+				"given": "Boris"
+			},
+			{
+				"family": "Lee",
+				"given": "Yoon-ha"
+			},
+			{
+				"family": "Narzisi",
+				"given": "Giuseppe"
+			},
+			{
+				"family": "Leotta",
+				"given": "Anthony"
+			},
+			{
+				"family": "Kendall",
+				"given": "Jude"
+			},
+			{
+				"family": "Grabowska",
+				"given": "Ewa"
+			},
+			{
+				"family": "Ma",
+				"given": "Beicong"
+			},
+			{
+				"family": "Marks",
+				"given": "Steven"
+			},
+			{
+				"family": "Rodgers",
+				"given": "Linda"
+			},
+			{
+				"family": "Stepansky",
+				"given": "Asya"
+			},
+			{
+				"family": "Troge",
+				"given": "Jennifer"
+			},
+			{
+				"family": "Andrews",
+				"given": "Peter"
+			},
+			{
+				"family": "Bekritsky",
+				"given": "Mitchell"
+			},
+			{
+				"family": "Pradhan",
+				"given": "Kith"
+			},
+			{
+				"family": "Ghiban",
+				"given": "Elena"
+			},
+			{
+				"family": "Kramer",
+				"given": "Melissa"
+			},
+			{
+				"family": "Parla",
+				"given": "Jennifer"
+			},
+			{
+				"family": "Demeter",
+				"given": "Ryan"
+			},
+			{
+				"family": "Fulton",
+				"given": "Lucinda L."
+			},
+			{
+				"family": "Fulton",
+				"given": "Robert S."
+			},
+			{
+				"family": "Magrini",
+				"given": "Vincent J."
+			},
+			{
+				"family": "Ye",
+				"given": "Kenny"
+			},
+			{
+				"family": "Darnell",
+				"given": "Jennifer C."
+			},
+			{
+				"family": "Darnell",
+				"given": "Robert B."
+			},
+			{
+				"family": "Mardis",
+				"given": "Elaine R."
+			},
+			{
+				"family": "Wilson",
+				"given": "Richard K."
+			},
+			{
+				"family": "Schatz",
+				"given": "Michael C."
+			},
+			{
+				"family": "McCombie",
+				"given": "W. Richard"
+			},
+			{
+				"family": "Wigler",
+				"given": "Michael"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/7JK725RX",
+		"type": "article-journal",
+		"container-title": "Nature",
+		"DOI": "10.1038/nature13908",
+		"ISSN": "0028-0836, 1476-4687",
+		"issue": "7526",
+		"journalAbbreviation": "Nature",
+		"language": "en",
+		"page": "216-221",
+		"source": "DOI.org (Crossref)",
+		"title": "The contribution of de novo coding mutations to autism spectrum disorder",
+		"URL": "http://www.nature.com/articles/nature13908",
+		"volume": "515",
+		"author": [
+			{
+				"family": "Iossifov",
+				"given": "Ivan"
+			},
+			{
+				"family": "O’Roak",
+				"given": "Brian J."
+			},
+			{
+				"family": "Sanders",
+				"given": "Stephan J."
+			},
+			{
+				"family": "Ronemus",
+				"given": "Michael"
+			},
+			{
+				"family": "Krumm",
+				"given": "Niklas"
+			},
+			{
+				"family": "Levy",
+				"given": "Dan"
+			},
+			{
+				"family": "Stessman",
+				"given": "Holly A."
+			},
+			{
+				"family": "Witherspoon",
+				"given": "Kali T."
+			},
+			{
+				"family": "Vives",
+				"given": "Laura"
+			},
+			{
+				"family": "Patterson",
+				"given": "Karynne E."
+			},
+			{
+				"family": "Smith",
+				"given": "Joshua D."
+			},
+			{
+				"family": "Paeper",
+				"given": "Bryan"
+			},
+			{
+				"family": "Nickerson",
+				"given": "Deborah A."
+			},
+			{
+				"family": "Dea",
+				"given": "Jeanselle"
+			},
+			{
+				"family": "Dong",
+				"given": "Shan"
+			},
+			{
+				"family": "Gonzalez",
+				"given": "Luis E."
+			},
+			{
+				"family": "Mandell",
+				"given": "Jeffrey D."
+			},
+			{
+				"family": "Mane",
+				"given": "Shrikant M."
+			},
+			{
+				"family": "Murtha",
+				"given": "Michael T."
+			},
+			{
+				"family": "Sullivan",
+				"given": "Catherine A."
+			},
+			{
+				"family": "Walker",
+				"given": "Michael F."
+			},
+			{
+				"family": "Waqar",
+				"given": "Zainulabedin"
+			},
+			{
+				"family": "Wei",
+				"given": "Liping"
+			},
+			{
+				"family": "Willsey",
+				"given": "A. Jeremy"
+			},
+			{
+				"family": "Yamrom",
+				"given": "Boris"
+			},
+			{
+				"family": "Lee",
+				"given": "Yoon-ha"
+			},
+			{
+				"family": "Grabowska",
+				"given": "Ewa"
+			},
+			{
+				"family": "Dalkic",
+				"given": "Ertugrul"
+			},
+			{
+				"family": "Wang",
+				"given": "Zihua"
+			},
+			{
+				"family": "Marks",
+				"given": "Steven"
+			},
+			{
+				"family": "Andrews",
+				"given": "Peter"
+			},
+			{
+				"family": "Leotta",
+				"given": "Anthony"
+			},
+			{
+				"family": "Kendall",
+				"given": "Jude"
+			},
+			{
+				"family": "Hakker",
+				"given": "Inessa"
+			},
+			{
+				"family": "Rosenbaum",
+				"given": "Julie"
+			},
+			{
+				"family": "Ma",
+				"given": "Beicong"
+			},
+			{
+				"family": "Rodgers",
+				"given": "Linda"
+			},
+			{
+				"family": "Troge",
+				"given": "Jennifer"
+			},
+			{
+				"family": "Narzisi",
+				"given": "Giuseppe"
+			},
+			{
+				"family": "Yoon",
+				"given": "Seungtai"
+			},
+			{
+				"family": "Schatz",
+				"given": "Michael C."
+			},
+			{
+				"family": "Ye",
+				"given": "Kenny"
+			},
+			{
+				"family": "McCombie",
+				"given": "W. Richard"
+			},
+			{
+				"family": "Shendure",
+				"given": "Jay"
+			},
+			{
+				"family": "Eichler",
+				"given": "Evan E."
+			},
+			{
+				"family": "State",
+				"given": "Matthew W."
+			},
+			{
+				"family": "Wigler",
+				"given": "Michael"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/5SW8NDG3",
+		"type": "article-journal",
+		"container-title": "Nature Genetics",
+		"DOI": "10.1038/ng.3303",
+		"ISSN": "1061-4036, 1546-1718",
+		"issue": "6",
+		"journalAbbreviation": "Nat Genet",
+		"language": "en",
+		"page": "582-588",
+		"source": "DOI.org (Crossref)",
+		"title": "Excess of rare, inherited truncating mutations in autism",
+		"URL": "http://www.nature.com/articles/ng.3303",
+		"volume": "47",
+		"author": [
+			{
+				"family": "Krumm",
+				"given": "Niklas"
+			},
+			{
+				"family": "Turner",
+				"given": "Tychele N"
+			},
+			{
+				"family": "Baker",
+				"given": "Carl"
+			},
+			{
+				"family": "Vives",
+				"given": "Laura"
+			},
+			{
+				"family": "Mohajeri",
+				"given": "Kiana"
+			},
+			{
+				"family": "Witherspoon",
+				"given": "Kali"
+			},
+			{
+				"family": "Raja",
+				"given": "Archana"
+			},
+			{
+				"family": "Coe",
+				"given": "Bradley P"
+			},
+			{
+				"family": "Stessman",
+				"given": "Holly A"
+			},
+			{
+				"family": "He",
+				"given": "Zong-Xiao"
+			},
+			{
+				"family": "Leal",
+				"given": "Suzanne M"
+			},
+			{
+				"family": "Bernier",
+				"given": "Raphael"
+			},
+			{
+				"family": "Eichler",
+				"given": "Evan E"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/FGFYXVDP",
+		"type": "report",
+		"abstract": "Abstract\n          \n            Analysis of\n            de novo\n            mutations (DNMs) from sequencing data of nuclear families has identified risk genes for many complex diseases, including multiple neurodevelopmental and psychiatric disorders. Most of these efforts have focused on mutations in protein-coding sequences. Evidence from genome-wide association studies (GWAS) strongly suggests that variants important to human diseases often lie in non-coding regions. Extending DNM-based approaches to non-coding sequences is, however, challenging because the functional significance of non-coding mutations is difficult to predict. We propose a new statistical framework for analyzing DNMs from whole-genome sequencing (WGS) data. This method, TADA-Annotations (TADA-A), is a major advance of the TADA method we developed earlier for DNM analysis in coding regions. TADA-A is able to incorporate many functional annotations such as conservation and enhancer marks, learn from data which annotations are informative of pathogenic mutations and combine both coding and non-coding mutations at the gene level to detect risk genes. It also supports meta-analysis of multiple DNM studies, while adjusting for study-specific technical effects. We applied TADA-A to WGS data of ∼300 autism family trios across five studies, and discovered several new autism risk genes. The software is freely available for all research uses.",
+		"genre": "preprint",
+		"language": "en",
+		"note": "DOI: 10.1101/077578",
+		"publisher": "Genetics",
+		"source": "DOI.org (Crossref)",
+		"title": "A statistical framework for mapping risk genes from <i>de novo</i> mutations in whole-genome sequencing studies",
+		"URL": "http://biorxiv.org/lookup/doi/10.1101/077578",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "Yuwen"
+			},
+			{
+				"family": "Liang",
+				"given": "Yanyu"
+			},
+			{
+				"family": "Cicek",
+				"given": "A. Ercument"
+			},
+			{
+				"family": "Li",
+				"given": "Zhongshan"
+			},
+			{
+				"family": "Li",
+				"given": "Jinchen"
+			},
+			{
+				"family": "Muhle",
+				"given": "Rebecca"
+			},
+			{
+				"family": "Krenzer",
+				"given": "Martina"
+			},
+			{
+				"family": "Mei",
+				"given": "Yue"
+			},
+			{
+				"family": "Wang",
+				"given": "Yan"
+			},
+			{
+				"family": "Knoblauch",
+				"given": "Nicholas"
+			},
+			{
+				"family": "Morrison",
+				"given": "Jean"
+			},
+			{
+				"family": "Zhao",
+				"given": "Siming"
+			},
+			{
+				"family": "Jiang",
+				"given": "Yi"
+			},
+			{
+				"family": "Geller",
+				"given": "Evan"
+			},
+			{
+				"family": "Ionita-Laza",
+				"given": "Iuliana"
+			},
+			{
+				"family": "Wu",
+				"given": "Jinyu"
+			},
+			{
+				"family": "Xia",
+				"given": "Kun"
+			},
+			{
+				"family": "Noonan",
+				"given": "James"
+			},
+			{
+				"family": "Sun",
+				"given": "Zhong Sheng"
+			},
+			{
+				"family": "He",
+				"given": "Xin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					9,
+					26
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/IRPM7U3M",
+		"type": "article-journal",
+		"container-title": "Nature Neuroscience",
+		"DOI": "10.1038/nn.4524",
+		"ISSN": "1097-6256, 1546-1726",
+		"issue": "4",
+		"journalAbbreviation": "Nat Neurosci",
+		"language": "en",
+		"page": "602-611",
+		"source": "DOI.org (Crossref)",
+		"title": "Whole genome sequencing resource identifies 18 new candidate genes for autism spectrum disorder",
+		"URL": "http://www.nature.com/articles/nn.4524",
+		"volume": "20",
+		"author": [
+			{
+				"family": "C Yuen",
+				"given": "Ryan K"
+			},
+			{
+				"family": "Merico",
+				"given": "Daniele"
+			},
+			{
+				"family": "Bookman",
+				"given": "Matt"
+			},
+			{
+				"family": "L Howe",
+				"given": "Jennifer"
+			},
+			{
+				"family": "Thiruvahindrapuram",
+				"given": "Bhooma"
+			},
+			{
+				"family": "Patel",
+				"given": "Rohan V"
+			},
+			{
+				"family": "Whitney",
+				"given": "Joe"
+			},
+			{
+				"family": "Deflaux",
+				"given": "Nicole"
+			},
+			{
+				"family": "Bingham",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Wang",
+				"given": "Zhuozhi"
+			},
+			{
+				"family": "Pellecchia",
+				"given": "Giovanna"
+			},
+			{
+				"family": "Buchanan",
+				"given": "Janet A"
+			},
+			{
+				"family": "Walker",
+				"given": "Susan"
+			},
+			{
+				"family": "Marshall",
+				"given": "Christian R"
+			},
+			{
+				"family": "Uddin",
+				"given": "Mohammed"
+			},
+			{
+				"family": "Zarrei",
+				"given": "Mehdi"
+			},
+			{
+				"family": "Deneault",
+				"given": "Eric"
+			},
+			{
+				"family": "D'Abate",
+				"given": "Lia"
+			},
+			{
+				"family": "Chan",
+				"given": "Ada J S"
+			},
+			{
+				"family": "Koyanagi",
+				"given": "Stephanie"
+			},
+			{
+				"family": "Paton",
+				"given": "Tara"
+			},
+			{
+				"family": "Pereira",
+				"given": "Sergio L"
+			},
+			{
+				"family": "Hoang",
+				"given": "Ny"
+			},
+			{
+				"family": "Engchuan",
+				"given": "Worrawat"
+			},
+			{
+				"family": "Higginbotham",
+				"given": "Edward J"
+			},
+			{
+				"family": "Ho",
+				"given": "Karen"
+			},
+			{
+				"family": "Lamoureux",
+				"given": "Sylvia"
+			},
+			{
+				"family": "Li",
+				"given": "Weili"
+			},
+			{
+				"family": "MacDonald",
+				"given": "Jeffrey R"
+			},
+			{
+				"family": "Nalpathamkalam",
+				"given": "Thomas"
+			},
+			{
+				"family": "Sung",
+				"given": "Wilson W L"
+			},
+			{
+				"family": "Tsoi",
+				"given": "Fiona J"
+			},
+			{
+				"family": "Wei",
+				"given": "John"
+			},
+			{
+				"family": "Xu",
+				"given": "Lizhen"
+			},
+			{
+				"family": "Tasse",
+				"given": "Anne-Marie"
+			},
+			{
+				"family": "Kirby",
+				"given": "Emily"
+			},
+			{
+				"family": "Van Etten",
+				"given": "William"
+			},
+			{
+				"family": "Twigger",
+				"given": "Simon"
+			},
+			{
+				"family": "Roberts",
+				"given": "Wendy"
+			},
+			{
+				"family": "Drmic",
+				"given": "Irene"
+			},
+			{
+				"family": "Jilderda",
+				"given": "Sanne"
+			},
+			{
+				"family": "Modi",
+				"given": "Bonnie MacKinnon"
+			},
+			{
+				"family": "Kellam",
+				"given": "Barbara"
+			},
+			{
+				"family": "Szego",
+				"given": "Michael"
+			},
+			{
+				"family": "Cytrynbaum",
+				"given": "Cheryl"
+			},
+			{
+				"family": "Weksberg",
+				"given": "Rosanna"
+			},
+			{
+				"family": "Zwaigenbaum",
+				"given": "Lonnie"
+			},
+			{
+				"family": "Woodbury-Smith",
+				"given": "Marc"
+			},
+			{
+				"family": "Brian",
+				"given": "Jessica"
+			},
+			{
+				"family": "Senman",
+				"given": "Lili"
+			},
+			{
+				"family": "Iaboni",
+				"given": "Alana"
+			},
+			{
+				"family": "Doyle-Thomas",
+				"given": "Krissy"
+			},
+			{
+				"family": "Thompson",
+				"given": "Ann"
+			},
+			{
+				"family": "Chrysler",
+				"given": "Christina"
+			},
+			{
+				"family": "Leef",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Savion-Lemieux",
+				"given": "Tal"
+			},
+			{
+				"family": "Smith",
+				"given": "Isabel M"
+			},
+			{
+				"family": "Liu",
+				"given": "Xudong"
+			},
+			{
+				"family": "Nicolson",
+				"given": "Rob"
+			},
+			{
+				"family": "Seifer",
+				"given": "Vicki"
+			},
+			{
+				"family": "Fedele",
+				"given": "Angie"
+			},
+			{
+				"family": "Cook",
+				"given": "Edwin H"
+			},
+			{
+				"family": "Dager",
+				"given": "Stephen"
+			},
+			{
+				"family": "Estes",
+				"given": "Annette"
+			},
+			{
+				"family": "Gallagher",
+				"given": "Louise"
+			},
+			{
+				"family": "Malow",
+				"given": "Beth A"
+			},
+			{
+				"family": "Parr",
+				"given": "Jeremy R"
+			},
+			{
+				"family": "Spence",
+				"given": "Sarah J"
+			},
+			{
+				"family": "Vorstman",
+				"given": "Jacob"
+			},
+			{
+				"family": "Frey",
+				"given": "Brendan J"
+			},
+			{
+				"family": "Robinson",
+				"given": "James T"
+			},
+			{
+				"family": "Strug",
+				"given": "Lisa J"
+			},
+			{
+				"family": "Fernandez",
+				"given": "Bridget A"
+			},
+			{
+				"family": "Elsabbagh",
+				"given": "Mayada"
+			},
+			{
+				"family": "Carter",
+				"given": "Melissa T"
+			},
+			{
+				"family": "Hallmayer",
+				"given": "Joachim"
+			},
+			{
+				"family": "Knoppers",
+				"given": "Bartha M"
+			},
+			{
+				"family": "Anagnostou",
+				"given": "Evdokia"
+			},
+			{
+				"family": "Szatmari",
+				"given": "Peter"
+			},
+			{
+				"family": "Ring",
+				"given": "Robert H"
+			},
+			{
+				"family": "Glazer",
+				"given": "David"
+			},
+			{
+				"family": "Pletcher",
+				"given": "Mathew T"
+			},
+			{
+				"family": "Scherer",
+				"given": "Stephen W"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/9IWT8BCV",
+		"type": "article-journal",
+		"container-title": "npj Genomic Medicine",
+		"DOI": "10.1038/npjgenmed.2016.27",
+		"ISSN": "2056-7944",
+		"issue": "1",
+		"journalAbbreviation": "npj Genomic Med",
+		"language": "en",
+		"page": "16027",
+		"source": "DOI.org (Crossref)",
+		"title": "Genome-wide characteristics of de novo mutations in autism",
+		"URL": "http://www.nature.com/articles/npjgenmed201627",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Yuen",
+				"given": "Ryan KC"
+			},
+			{
+				"family": "Merico",
+				"given": "Daniele"
+			},
+			{
+				"family": "Cao",
+				"given": "Hongzhi"
+			},
+			{
+				"family": "Pellecchia",
+				"given": "Giovanna"
+			},
+			{
+				"family": "Alipanahi",
+				"given": "Babak"
+			},
+			{
+				"family": "Thiruvahindrapuram",
+				"given": "Bhooma"
+			},
+			{
+				"family": "Tong",
+				"given": "Xin"
+			},
+			{
+				"family": "Sun",
+				"given": "Yuhui"
+			},
+			{
+				"family": "Cao",
+				"given": "Dandan"
+			},
+			{
+				"family": "Zhang",
+				"given": "Tao"
+			},
+			{
+				"family": "Wu",
+				"given": "Xueli"
+			},
+			{
+				"family": "Jin",
+				"given": "Xin"
+			},
+			{
+				"family": "Zhou",
+				"given": "Ze"
+			},
+			{
+				"family": "Liu",
+				"given": "Xiaomin"
+			},
+			{
+				"family": "Nalpathamkalam",
+				"given": "Thomas"
+			},
+			{
+				"family": "Walker",
+				"given": "Susan"
+			},
+			{
+				"family": "Howe",
+				"given": "Jennifer L"
+			},
+			{
+				"family": "Wang",
+				"given": "Zhuozhi"
+			},
+			{
+				"family": "MacDonald",
+				"given": "Jeffrey R"
+			},
+			{
+				"family": "Chan",
+				"given": "Ada JS"
+			},
+			{
+				"family": "D’Abate",
+				"given": "Lia"
+			},
+			{
+				"family": "Deneault",
+				"given": "Eric"
+			},
+			{
+				"family": "Siu",
+				"given": "Michelle T"
+			},
+			{
+				"family": "Tammimies",
+				"given": "Kristiina"
+			},
+			{
+				"family": "Uddin",
+				"given": "Mohammed"
+			},
+			{
+				"family": "Zarrei",
+				"given": "Mehdi"
+			},
+			{
+				"family": "Wang",
+				"given": "Mingbang"
+			},
+			{
+				"family": "Li",
+				"given": "Yingrui"
+			},
+			{
+				"family": "Wang",
+				"given": "Jun"
+			},
+			{
+				"family": "Wang",
+				"given": "Jian"
+			},
+			{
+				"family": "Yang",
+				"given": "Huanming"
+			},
+			{
+				"family": "Bookman",
+				"given": "Matt"
+			},
+			{
+				"family": "Bingham",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Gross",
+				"given": "Samuel S"
+			},
+			{
+				"family": "Loy",
+				"given": "Dion"
+			},
+			{
+				"family": "Pletcher",
+				"given": "Mathew"
+			},
+			{
+				"family": "Marshall",
+				"given": "Christian R"
+			},
+			{
+				"family": "Anagnostou",
+				"given": "Evdokia"
+			},
+			{
+				"family": "Zwaigenbaum",
+				"given": "Lonnie"
+			},
+			{
+				"family": "Weksberg",
+				"given": "Rosanna"
+			},
+			{
+				"family": "Fernandez",
+				"given": "Bridget A"
+			},
+			{
+				"family": "Roberts",
+				"given": "Wendy"
+			},
+			{
+				"family": "Szatmari",
+				"given": "Peter"
+			},
+			{
+				"family": "Glazer",
+				"given": "David"
+			},
+			{
+				"family": "Frey",
+				"given": "Brendan J"
+			},
+			{
+				"family": "Ring",
+				"given": "Robert H"
+			},
+			{
+				"family": "Xu",
+				"given": "Xun"
+			},
+			{
+				"family": "Scherer",
+				"given": "Stephen W"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/PW6TZREG",
+		"type": "article-journal",
+		"container-title": "Neuron",
+		"DOI": "10.1016/j.neuron.2018.12.016",
+		"ISSN": "08966273",
+		"issue": "1",
+		"journalAbbreviation": "Neuron",
+		"language": "en",
+		"page": "15-19",
+		"source": "DOI.org (Crossref)",
+		"title": "The NeuroDev Study: Phenotypic and Genetic Characterization of Neurodevelopmental Disorders in Kenya and South Africa",
+		"title-short": "The NeuroDev Study",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0896627318311164",
+		"volume": "101",
+		"author": [
+			{
+				"family": "Menil",
+				"given": "Victoria",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "Hoogenhout",
+				"given": "Michelle"
+			},
+			{
+				"family": "Kipkemoi",
+				"given": "Patricia"
+			},
+			{
+				"family": "Kamuya",
+				"given": "Dorcas"
+			},
+			{
+				"family": "Eastman",
+				"given": "Emma"
+			},
+			{
+				"family": "Galvin",
+				"given": "Alice"
+			},
+			{
+				"family": "Mwangasha",
+				"given": "Katini"
+			},
+			{
+				"family": "Vries",
+				"given": "Jantina",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "Kariuki",
+				"given": "Symon M."
+			},
+			{
+				"family": "Murugasen",
+				"given": "Serini"
+			},
+			{
+				"family": "Mwangi",
+				"given": "Paul"
+			},
+			{
+				"family": "Singh",
+				"given": "Ilina"
+			},
+			{
+				"family": "Stein",
+				"given": "Dan J."
+			},
+			{
+				"family": "Abubakar",
+				"given": "Amina"
+			},
+			{
+				"family": "Newton",
+				"given": "Charles R."
+			},
+			{
+				"family": "Donald",
+				"given": "Kirsten A."
+			},
+			{
+				"family": "Robinson",
+				"given": "Elise"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/VRRRI42R",
+		"type": "article-journal",
+		"container-title": "Nature",
+		"DOI": "10.1038/nature13772",
+		"ISSN": "0028-0836, 1476-4687",
+		"issue": "7526",
+		"journalAbbreviation": "Nature",
+		"language": "en",
+		"page": "209-215",
+		"source": "DOI.org (Crossref)",
+		"title": "Synaptic, transcriptional and chromatin genes disrupted in autism",
+		"URL": "http://www.nature.com/articles/nature13772",
+		"volume": "515",
+		"author": [
+			{
+				"literal": "The DDD Study"
+			},
+			{
+				"literal": "Homozygosity Mapping Collaborative for Autism"
+			},
+			{
+				"literal": "UK10K Consortium"
+			},
+			{
+				"literal": "The Autism Sequencing Consortium"
+			},
+			{
+				"family": "De Rubeis",
+				"given": "Silvia"
+			},
+			{
+				"family": "He",
+				"given": "Xin"
+			},
+			{
+				"family": "Goldberg",
+				"given": "Arthur P."
+			},
+			{
+				"family": "Poultney",
+				"given": "Christopher S."
+			},
+			{
+				"family": "Samocha",
+				"given": "Kaitlin"
+			},
+			{
+				"family": "Ercument Cicek",
+				"given": "A."
+			},
+			{
+				"family": "Kou",
+				"given": "Yan"
+			},
+			{
+				"family": "Liu",
+				"given": "Li"
+			},
+			{
+				"family": "Fromer",
+				"given": "Menachem"
+			},
+			{
+				"family": "Walker",
+				"given": "Susan"
+			},
+			{
+				"family": "Singh",
+				"given": "Tarjinder"
+			},
+			{
+				"family": "Klei",
+				"given": "Lambertus"
+			},
+			{
+				"family": "Kosmicki",
+				"given": "Jack"
+			},
+			{
+				"family": "Fu",
+				"given": "Shih-Chen"
+			},
+			{
+				"family": "Aleksic",
+				"given": "Branko"
+			},
+			{
+				"family": "Biscaldi",
+				"given": "Monica"
+			},
+			{
+				"family": "Bolton",
+				"given": "Patrick F."
+			},
+			{
+				"family": "Brownfeld",
+				"given": "Jessica M."
+			},
+			{
+				"family": "Cai",
+				"given": "Jinlu"
+			},
+			{
+				"family": "Campbell",
+				"given": "Nicholas G."
+			},
+			{
+				"family": "Carracedo",
+				"given": "Angel"
+			},
+			{
+				"family": "Chahrour",
+				"given": "Maria H."
+			},
+			{
+				"family": "Chiocchetti",
+				"given": "Andreas G."
+			},
+			{
+				"family": "Coon",
+				"given": "Hilary"
+			},
+			{
+				"family": "Crawford",
+				"given": "Emily L."
+			},
+			{
+				"family": "Crooks",
+				"given": "Lucy"
+			},
+			{
+				"family": "Curran",
+				"given": "Sarah R."
+			},
+			{
+				"family": "Dawson",
+				"given": "Geraldine"
+			},
+			{
+				"family": "Duketis",
+				"given": "Eftichia"
+			},
+			{
+				"family": "Fernandez",
+				"given": "Bridget A."
+			},
+			{
+				"family": "Gallagher",
+				"given": "Louise"
+			},
+			{
+				"family": "Geller",
+				"given": "Evan"
+			},
+			{
+				"family": "Guter",
+				"given": "Stephen J."
+			},
+			{
+				"family": "Sean Hill",
+				"given": "R."
+			},
+			{
+				"family": "Ionita-Laza",
+				"given": "Iuliana"
+			},
+			{
+				"family": "Jimenez Gonzalez",
+				"given": "Patricia"
+			},
+			{
+				"family": "Kilpinen",
+				"given": "Helena"
+			},
+			{
+				"family": "Klauck",
+				"given": "Sabine M."
+			},
+			{
+				"family": "Kolevzon",
+				"given": "Alexander"
+			},
+			{
+				"family": "Lee",
+				"given": "Irene"
+			},
+			{
+				"family": "Lei",
+				"given": "Jing"
+			},
+			{
+				"family": "Lehtimäki",
+				"given": "Terho"
+			},
+			{
+				"family": "Lin",
+				"given": "Chiao-Feng"
+			},
+			{
+				"family": "Ma’ayan",
+				"given": "Avi"
+			},
+			{
+				"family": "Marshall",
+				"given": "Christian R."
+			},
+			{
+				"family": "McInnes",
+				"given": "Alison L."
+			},
+			{
+				"family": "Neale",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Owen",
+				"given": "Michael J."
+			},
+			{
+				"family": "Ozaki",
+				"given": "Norio"
+			},
+			{
+				"family": "Parellada",
+				"given": "Mara"
+			},
+			{
+				"family": "Parr",
+				"given": "Jeremy R."
+			},
+			{
+				"family": "Purcell",
+				"given": "Shaun"
+			},
+			{
+				"family": "Puura",
+				"given": "Kaija"
+			},
+			{
+				"family": "Rajagopalan",
+				"given": "Deepthi"
+			},
+			{
+				"family": "Rehnström",
+				"given": "Karola"
+			},
+			{
+				"family": "Reichenberg",
+				"given": "Abraham"
+			},
+			{
+				"family": "Sabo",
+				"given": "Aniko"
+			},
+			{
+				"family": "Sachse",
+				"given": "Michael"
+			},
+			{
+				"family": "Sanders",
+				"given": "Stephan J."
+			},
+			{
+				"family": "Schafer",
+				"given": "Chad"
+			},
+			{
+				"family": "Schulte-Rüther",
+				"given": "Martin"
+			},
+			{
+				"family": "Skuse",
+				"given": "David"
+			},
+			{
+				"family": "Stevens",
+				"given": "Christine"
+			},
+			{
+				"family": "Szatmari",
+				"given": "Peter"
+			},
+			{
+				"family": "Tammimies",
+				"given": "Kristiina"
+			},
+			{
+				"family": "Valladares",
+				"given": "Otto"
+			},
+			{
+				"family": "Voran",
+				"given": "Annette"
+			},
+			{
+				"family": "Wang",
+				"given": "Li-San"
+			},
+			{
+				"family": "Weiss",
+				"given": "Lauren A."
+			},
+			{
+				"family": "Jeremy Willsey",
+				"given": "A."
+			},
+			{
+				"family": "Yu",
+				"given": "Timothy W."
+			},
+			{
+				"family": "Yuen",
+				"given": "Ryan K. C."
+			},
+			{
+				"family": "Cook",
+				"given": "Edwin H."
+			},
+			{
+				"family": "Freitag",
+				"given": "Christine M."
+			},
+			{
+				"family": "Gill",
+				"given": "Michael"
+			},
+			{
+				"family": "Hultman",
+				"given": "Christina M."
+			},
+			{
+				"family": "Lehner",
+				"given": "Thomas"
+			},
+			{
+				"family": "Palotie",
+				"given": "Aarno"
+			},
+			{
+				"family": "Schellenberg",
+				"given": "Gerard D."
+			},
+			{
+				"family": "Sklar",
+				"given": "Pamela"
+			},
+			{
+				"family": "State",
+				"given": "Matthew W."
+			},
+			{
+				"family": "Sutcliffe",
+				"given": "James S."
+			},
+			{
+				"family": "Walsh",
+				"given": "Christopher A."
+			},
+			{
+				"family": "Scherer",
+				"given": "Stephen W."
+			},
+			{
+				"family": "Zwick",
+				"given": "Michael E."
+			},
+			{
+				"family": "Barrett",
+				"given": "Jeffrey C."
+			},
+			{
+				"family": "Cutler",
+				"given": "David J."
+			},
+			{
+				"family": "Roeder",
+				"given": "Kathryn"
+			},
+			{
+				"family": "Devlin",
+				"given": "Bernie"
+			},
+			{
+				"family": "Daly",
+				"given": "Mark J."
+			},
+			{
+				"family": "Buxbaum",
+				"given": "Joseph D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/P3WUQYL7",
+		"type": "article-journal",
+		"container-title": "Nature Genetics",
+		"DOI": "10.1038/s41588-021-00899-8",
+		"ISSN": "1061-4036, 1546-1718",
+		"issue": "8",
+		"journalAbbreviation": "Nat Genet",
+		"language": "en",
+		"page": "1125-1134",
+		"source": "DOI.org (Crossref)",
+		"title": "Recent ultra-rare inherited variants implicate new autism candidate risk genes",
+		"URL": "https://www.nature.com/articles/s41588-021-00899-8",
+		"volume": "53",
+		"author": [
+			{
+				"family": "Wilfert",
+				"given": "Amy B."
+			},
+			{
+				"family": "Turner",
+				"given": "Tychele N."
+			},
+			{
+				"family": "Murali",
+				"given": "Shwetha C."
+			},
+			{
+				"family": "Hsieh",
+				"given": "PingHsun"
+			},
+			{
+				"family": "Sulovari",
+				"given": "Arvis"
+			},
+			{
+				"family": "Wang",
+				"given": "Tianyun"
+			},
+			{
+				"family": "Coe",
+				"given": "Bradley P."
+			},
+			{
+				"family": "Guo",
+				"given": "Hui"
+			},
+			{
+				"family": "Hoekzema",
+				"given": "Kendra"
+			},
+			{
+				"family": "Bakken",
+				"given": "Trygve E."
+			},
+			{
+				"family": "Winterkorn",
+				"given": "Lara H."
+			},
+			{
+				"family": "Evani",
+				"given": "Uday S."
+			},
+			{
+				"family": "Byrska-Bishop",
+				"given": "Marta"
+			},
+			{
+				"family": "Earl",
+				"given": "Rachel K."
+			},
+			{
+				"family": "Bernier",
+				"given": "Raphael A."
+			},
+			{
+				"literal": "The SPARK Consortium"
+			},
+			{
+				"family": "Zhou",
+				"given": "Xueya"
+			},
+			{
+				"family": "Feliciano",
+				"given": "Pamela"
+			},
+			{
+				"family": "Hall",
+				"given": "Jacob"
+			},
+			{
+				"family": "Astrovskaya",
+				"given": "Irina"
+			},
+			{
+				"family": "Xu",
+				"given": "Simon"
+			},
+			{
+				"family": "Shu",
+				"given": "Chang"
+			},
+			{
+				"family": "Obiajulu",
+				"given": "Joseph"
+			},
+			{
+				"family": "Brueggeman",
+				"given": "Leo"
+			},
+			{
+				"family": "Wright",
+				"given": "Jessica"
+			},
+			{
+				"family": "Marchenko",
+				"given": "Olena"
+			},
+			{
+				"family": "Fleisch",
+				"given": "Chris"
+			},
+			{
+				"family": "Chang",
+				"given": "Timothy S."
+			},
+			{
+				"family": "Snyder",
+				"given": "LeeAnne Green"
+			},
+			{
+				"family": "Barns",
+				"given": "Sarah D."
+			},
+			{
+				"family": "Han",
+				"given": "Bing"
+			},
+			{
+				"family": "Harvey",
+				"given": "William"
+			},
+			{
+				"family": "Nishida",
+				"given": "Andrew"
+			},
+			{
+				"family": "Doan",
+				"given": "Ryan"
+			},
+			{
+				"family": "Soucy",
+				"given": "Aubrey"
+			},
+			{
+				"family": "O’Roak",
+				"given": "Brian J."
+			},
+			{
+				"family": "Yu",
+				"given": "Timothy W."
+			},
+			{
+				"family": "Geschwind",
+				"given": "Daniel"
+			},
+			{
+				"family": "Michaelson",
+				"given": "Jacob"
+			},
+			{
+				"family": "Volfovsky",
+				"given": "Natalia"
+			},
+			{
+				"family": "Shen",
+				"given": "Yufeng"
+			},
+			{
+				"family": "Chung",
+				"given": "Wendy K."
+			},
+			{
+				"family": "Zody",
+				"given": "Michael C."
+			},
+			{
+				"family": "Eichler",
+				"given": "Evan E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					4,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/IIP2K69E",
+		"type": "article-journal",
+		"abstract": "Objective:\nBoth rare copy number variants (CNVs) and common single nucleotide polymorphisms (SNPs) contribute to liability to schizophrenia, but their etiological relationship has not been fully elucidated. We evaluated an additive model, whereby risk of schizophrenia requires less contribution from common SNPs in the presence of a rare CNV and test for interactions.\n\nMethod:\nGenetic data from 21,094 schizophrenia cases and 20,227 controls from the Psychiatric Genomics Consortium were used. We assessed three classes of rare CNVs: those previously associated with schizophrenia, large deletions ≥500kb, and total CNV burden. We compared mean polygenic risk scores (PRS) between subjects with and without rare CNVs and modeled the joint effects of PRS and CNVs on schizophrenia liability using logistic regression.\n\nResults:\nSchizophrenia cases carrying risk CNVs have lower polygenic risk than those without CNVs, but still higher than controls. For cases carrying known risk CNVs, the PRS was diminished proportional to the effect size of the CNV. The strongly-associated 22q11.2 deletion required little added PRS to produce schizophrenia. Large deletions and increased CNV burden were also associated with lower polygenic risk in cases but not in controls or after removal of known risk CNV carriers.\n\nConclusions:\nWe found evidence for interactive effects of PRS and previously associated CNVs for risk for schizophrenia, while our results for large deletions and total CNV burden support an additive model. These findings offer insights into the genetic architecture of schizophrenia by illuminating how different established genetic risk factors act and interact to influence liability to schizophrenia.",
+		"container-title": "The American journal of psychiatry",
+		"DOI": "10.1176/appi.ajp.2018.17040467",
+		"ISSN": "0002-953X",
+		"issue": "1",
+		"journalAbbreviation": "Am J Psychiatry",
+		"note": "PMID: 30392412\nPMCID: PMC6408268",
+		"page": "29-35",
+		"source": "PubMed Central",
+		"title": "Joint contributions of rare CNVs and common SNPs to risk for schizophrenia",
+		"URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6408268/",
+		"volume": "176",
+		"author": [
+			{
+				"family": "Bergen",
+				"given": "Sarah E."
+			},
+			{
+				"family": "Ploner",
+				"given": "Alexander"
+			},
+			{
+				"family": "Howrigan",
+				"given": "Daniel"
+			},
+			{
+				"family": "O’Donovan",
+				"given": "Michael C."
+			},
+			{
+				"family": "Smoller",
+				"given": "Jordan W."
+			},
+			{
+				"family": "Sullivan",
+				"given": "Patrick F."
+			},
+			{
+				"family": "Sebat",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Neale",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Kendler",
+				"given": "Kenneth S."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					5,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/YCLX3KJU",
+		"type": "article-journal",
+		"abstract": "We interrogate the joint genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis. We identify four broad factors (neurodevelopmental, compulsive, psychotic and internalizing) that underlie genetic correlations among the disorders and test whether these factors adequately explain their genetic correlations with biobehavioral traits. We introduce stratified genomic structural equation modeling, which we use to identify gene sets that disproportionately contribute to genetic risk sharing. This includes protein-truncating variant-intolerant genes expressed in excitatory and GABAergic brain cells that are enriched for genetic overlap across disorders with psychotic features. Multivariate association analyses detect 152 (20 new) independent loci that act on the individual factors and identify nine loci that act heterogeneously across disorders within a factor. Despite moderate-to-high genetic correlations across all 11 disorders, we find little utility of a single dimension of genetic risk across psychiatric disorders either at the level of biobehavioral correlates or at the level of individual variants.",
+		"container-title": "Nature Genetics",
+		"DOI": "10.1038/s41588-022-01057-4",
+		"ISSN": "1546-1718",
+		"issue": "5",
+		"journalAbbreviation": "Nat Genet",
+		"language": "eng",
+		"note": "PMID: 35513722\nPMCID: PMC9117465",
+		"page": "548-559",
+		"source": "PubMed",
+		"title": "Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis",
+		"volume": "54",
+		"author": [
+			{
+				"family": "Grotzinger",
+				"given": "Andrew D."
+			},
+			{
+				"family": "Mallard",
+				"given": "Travis T."
+			},
+			{
+				"family": "Akingbuwa",
+				"given": "Wonuola A."
+			},
+			{
+				"family": "Ip",
+				"given": "Hill F."
+			},
+			{
+				"family": "Adams",
+				"given": "Mark J."
+			},
+			{
+				"family": "Lewis",
+				"given": "Cathryn M."
+			},
+			{
+				"family": "McIntosh",
+				"given": "Andrew M."
+			},
+			{
+				"family": "Grove",
+				"given": "Jakob"
+			},
+			{
+				"family": "Dalsgaard",
+				"given": "Søren"
+			},
+			{
+				"family": "Lesch",
+				"given": "Klaus-Peter"
+			},
+			{
+				"family": "Strom",
+				"given": "Nora"
+			},
+			{
+				"family": "Meier",
+				"given": "Sandra M."
+			},
+			{
+				"family": "Mattheisen",
+				"given": "Manuel"
+			},
+			{
+				"family": "Børglum",
+				"given": "Anders D."
+			},
+			{
+				"family": "Mors",
+				"given": "Ole"
+			},
+			{
+				"family": "Breen",
+				"given": "Gerome"
+			},
+			{
+				"literal": "iPSYCH"
+			},
+			{
+				"literal": "Tourette Syndrome and Obsessive Compulsive Disorder Working Group of the Psychiatric Genetics Consortium"
+			},
+			{
+				"literal": "Bipolar Disorder Working Group of the Psychiatric Genetics Consortium"
+			},
+			{
+				"literal": "Major Depressive Disorder Working Group of the Psychiatric Genetics Consortium"
+			},
+			{
+				"literal": "Schizophrenia Working Group of the Psychiatric Genetics Consortium"
+			},
+			{
+				"family": "Lee",
+				"given": "Phil H."
+			},
+			{
+				"family": "Kendler",
+				"given": "Kenneth S."
+			},
+			{
+				"family": "Smoller",
+				"given": "Jordan W."
+			},
+			{
+				"family": "Tucker-Drob",
+				"given": "Elliot M."
+			},
+			{
+				"family": "Nivard",
+				"given": "Michel G."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/MS39LB67",
+		"type": "article-journal",
+		"abstract": "More than a hundred genes have been identified that, when disrupted, impart large risk for autism spectrum disorder (ASD). Current knowledge about the encoded proteins - although incomplete - points to a very wide range of developmentally dynamic and diverse biological processes. Moreover, the core symptoms of ASD involve distinctly human characteristics, presenting challenges to interpreting evolutionarily distant model systems. Indeed, despite a decade of striking progress in gene discovery, an actionable understanding of pathobiology remains elusive. Increasingly, convergent neuroscience approaches have been recognized as an important complement to traditional uses of genetics to illuminate the biology of human disorders. These methods seek to identify intersection among molecular-level, cellular-level and circuit-level functions across multiple risk genes and have highlighted developing excitatory neurons in the human mid-gestational prefrontal cortex as an important pathobiological nexus in ASD. In addition, neurogenesis, chromatin modification and synaptic function have emerged as key potential mediators of genetic vulnerability. The continued expansion of foundational 'omics' data sets, the application of higher-throughput model systems and incorporating developmental trajectories and sex differences into future analyses will refine and extend these results. Ultimately, a systems-level understanding of ASD genetic risk holds promise for clarifying pathobiology and advancing therapeutics.",
+		"container-title": "Nature Reviews. Neuroscience",
+		"DOI": "10.1038/s41583-022-00576-7",
+		"ISSN": "1471-0048",
+		"issue": "6",
+		"journalAbbreviation": "Nat Rev Neurosci",
+		"language": "eng",
+		"note": "PMID: 35440779",
+		"page": "323-341",
+		"source": "PubMed",
+		"title": "Genomics, convergent neuroscience and progress in understanding autism spectrum disorder",
+		"volume": "23",
+		"author": [
+			{
+				"family": "Willsey",
+				"given": "Helen Rankin"
+			},
+			{
+				"family": "Willsey",
+				"given": "A. Jeremy"
+			},
+			{
+				"family": "Wang",
+				"given": "Belinda"
+			},
+			{
+				"family": "State",
+				"given": "Matthew W."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/D3J2VSBE",
+		"type": "article-journal",
+		"abstract": "Copy number variations (CNVs) are an important class of variations contributing to the pathogenesis of many disease phenotypes. Detecting CNVs from genomic data remains difficult, and the most currently applied methods suffer from an unacceptably high false positive rate. A common practice is to have human experts manually review original CNV calls for filtering false positives before further downstream analysis or experimental validation. Here, we propose DeepCNV, a deep learning-based tool, intended to replace human experts when validating CNV calls, focusing on the calls made by one of the most accurate CNV callers, PennCNV. The sophistication of the deep neural network algorithm is enriched with over 10 000 expert-scored samples that are split into training and testing sets. Variant confidence, especially for CNVs, is a main roadblock impeding the progress of linking CNVs with the disease. We show that DeepCNV adds to the confidence of the CNV calls with an optimal area under the receiver operating characteristic curve of 0.909, exceeding other machine learning methods. The superiority of DeepCNV was also benchmarked and confirmed using an experimental wet-lab validation dataset. We conclude that the improvement obtained by DeepCNV results in significantly fewer false positive results and failures to replicate the CNV association results.",
+		"container-title": "Briefings in Bioinformatics",
+		"DOI": "10.1093/bib/bbaa381",
+		"ISSN": "1477-4054",
+		"issue": "5",
+		"journalAbbreviation": "Brief Bioinform",
+		"language": "eng",
+		"note": "PMID: 33429424\nPMCID: PMC8681111",
+		"page": "bbaa381",
+		"source": "PubMed",
+		"title": "DeepCNV: a deep learning approach for authenticating copy number variations",
+		"title-short": "DeepCNV",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Glessner",
+				"given": "Joseph T."
+			},
+			{
+				"family": "Hou",
+				"given": "Xiurui"
+			},
+			{
+				"family": "Zhong",
+				"given": "Cheng"
+			},
+			{
+				"family": "Zhang",
+				"given": "Jie"
+			},
+			{
+				"family": "Khan",
+				"given": "Munir"
+			},
+			{
+				"family": "Brand",
+				"given": "Fabian"
+			},
+			{
+				"family": "Krawitz",
+				"given": "Peter"
+			},
+			{
+				"family": "Sleiman",
+				"given": "Patrick M. A."
+			},
+			{
+				"family": "Hakonarson",
+				"given": "Hakon"
+			},
+			{
+				"family": "Wei",
+				"given": "Zhi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/pYdi0S5A/items/ABGLSSU7",
+		"type": "article-journal",
+		"abstract": "Sleep disturbance is prevalent in youth with Autism Spectrum Disorder (ASD). Researchers have posited that circadian dysfunction may contribute to sleep problems or exacerbate ASD symptomatology. However, there is limited genetic evidence of this. It is also unclear how insomnia risk genes identified through GWAS in general populations are related to ASD and common sleep problems like insomnia traits in ASD. We investigated the contribution of copy number variants (CNVs) encompassing circadian pathway genes and insomnia risk genes to ASD risk as well as sleep disturbances in children with ASD. We studied 5860 ASD probands and 2092 unaffected siblings from the Simons Simplex Collection (SSC) and MSSNG database, as well as 7509 individuals from two unselected populations (IMAGEN and Generation Scotland). Sleep duration and insomnia symptoms were parent reported for SSC probands. We identified 335 and 616 rare CNVs encompassing circadian and insomnia risk genes respectively. Deletions and duplications with circadian genes were overrepresented in ASD probands compared to siblings and unselected controls. For insomnia-risk genes, deletions (not duplications) were associated with ASD in both cohorts. Results remained significant after adjusting for cognitive ability. CNVs containing circadian pathway and insomnia risk genes showed a stronger association with ASD, compared to CNVs containing other genes. Circadian genes did not influence sleep duration or insomnia traits in ASD. Insomnia risk genes intolerant to haploinsufficiency increased risk for insomnia when duplicated. CNVs encompassing circadian and insomnia risk genes increase ASD liability with little to no observable impacts on sleep disturbances.",
+		"container-title": "Translational Psychiatry",
+		"DOI": "10.1038/s41398-022-02188-2",
+		"ISSN": "2158-3188",
+		"issue": "1",
+		"journalAbbreviation": "Transl Psychiatry",
+		"language": "eng",
+		"note": "PMID: 36192372\nPMCID: PMC9529939",
+		"page": "424",
+		"source": "PubMed",
+		"title": "Investigating the contributions of circadian pathway and insomnia risk genes to autism and sleep disturbances",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Tesfaye",
+				"given": "Rackeb"
+			},
+			{
+				"family": "Huguet",
+				"given": "Guillaume"
+			},
+			{
+				"family": "Schmilovich",
+				"given": "Zoe"
+			},
+			{
+				"family": "Renne",
+				"given": "Thomas"
+			},
+			{
+				"family": "Loum",
+				"given": "Mor Absa"
+			},
+			{
+				"family": "Douard",
+				"given": "Elise"
+			},
+			{
+				"family": "Saci",
+				"given": "Zohra"
+			},
+			{
+				"family": "Jean-Louis",
+				"given": "Martineau"
+			},
+			{
+				"family": "Martineau",
+				"given": "Jean Luc"
+			},
+			{
+				"family": "Whelan",
+				"given": "Rob"
+			},
+			{
+				"family": "Desrivieres",
+				"given": "Sylvane"
+			},
+			{
+				"family": "Heinz",
+				"given": "Andreas"
+			},
+			{
+				"family": "Schumann",
+				"given": "Gunter"
+			},
+			{
+				"family": "Hayward",
+				"given": "Caroline"
+			},
+			{
+				"family": "Elsabbagh",
+				"given": "Mayada"
+			},
+			{
+				"family": "Jacquemont",
+				"given": "Sebastien"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					10,
+					3
 				]
 			]
 		}
