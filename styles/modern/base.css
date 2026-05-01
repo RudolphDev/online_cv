@@ -167,3 +167,16 @@ select {
         display: none !important;
     }
 }
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
