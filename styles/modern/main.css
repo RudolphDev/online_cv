@@ -174,7 +174,10 @@
     line-height: var(--line-height-relaxed);
 }
 
-.experience-description ul {
+.experience-description ul,
+.experience-description ol {
+    list-style: none;
+    padding-left: 0;
     margin-left: var(--space-md);
 }
 
@@ -345,6 +348,17 @@
 .formation-description {
     color: var(--text-secondary);
     line-height: var(--line-height-relaxed);
+}
+
+.formation-description ul,
+.formation-description ol {
+    list-style: none;
+    padding-left: 0;
+    margin-left: var(--space-md);
+}
+
+.formation-description li {
+    margin-bottom: var(--space-xs);
 }
 
 .formation-institutes {
