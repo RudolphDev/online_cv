@@ -12,9 +12,16 @@
     <meta property="og:description" content="Doctorant en bioinformatique - CV en ligne">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://rudolphdev.github.io/online_cv/">
+    <meta property="og:image" content="https://rudolphdev.github.io/online_cv/data/images/photo_perso.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Thomas Renne - CV">
+    <meta name="twitter:description" content="Doctorant en bioinformatique - CV en ligne">
+    <meta name="twitter:image" content="https://rudolphdev.github.io/online_cv/data/images/photo_perso.jpg">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="./data/images/logo_renne.svg">
+    <link rel="icon" type="image/svg+xml" href="data/images/logo_renne.svg">
     
     <!-- Preconnect to external resources -->
     <link rel="preconnect" href="https://code.iconify.design">
@@ -28,7 +35,7 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
     
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="styles/modern/main.css">
+    <link rel="stylesheet" href="css/main.css">
     
     <!-- Title -->
     <title>Thomas Renne - CV | Bioinformatique</title>
@@ -42,14 +49,14 @@
     <header class="site-header" role="banner">
         <div class="container header-container">
             <a href="index.html" class="header-brand" aria-label="Accueil">
-                <img src="./data/images/logo_renne.svg" alt="Logo Thomas Renne" class="logo">
+                <img src="data/images/logo_renne.svg" alt="Logo Thomas Renne" class="logo">
                 <h1 class="title">Thomas Renne</h1>
             </a>
             
             <nav class="header-nav" role="navigation" aria-label="Navigation principale">
                 <ul class="nav" id="main-nav">
                     <li class="nav-item">
-                        <a href="index_new.html" class="nav-link active" aria-current="page">
+                        <a href="index.html" class="nav-link active" aria-current="page">
                             <iconify-icon icon="ph:house" class="icon"></iconify-icon>
                             <span lang="fr">Accueil</span>
                             <span lang="en">Home</span>
@@ -98,12 +105,12 @@
                         <span lang="fr" class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="30"></span>
                         <span lang="en" class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="30" style="display: none;"></span>
                     </label>
-                    <div id="lang-select" class="lang-menu" onmouseleave="hideee();" role="menu">
-                        <div class="lang-option img_holder" onclick="myfuunc('fr');" onmouseover="showww();" data-lang="fr" role="menuitem">
+                    <div id="lang-select" class="lang-menu" role="menu">
+                        <div class="lang-option" onclick="LanguageManager.switch('fr');" onmouseover="showww();" data-lang="fr" role="menuitem">
                             <span class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="20"></span>
                             <span class="iTEXT" id="fr_text">Français</span>
                         </div>
-                        <div class="lang-option img_holder" onclick="myfuunc('en');" onmouseover="showww();" data-lang="en" role="menuitem">
+                        <div class="lang-option" onclick="LanguageManager.switch('en');" onmouseover="showww();" data-lang="en" role="menuitem">
                             <span class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="20"></span>
                             <span class="iTEXT" id="eng_text">English</span>
                         </div>
@@ -148,7 +155,7 @@
                 </div>
                 <div class="hero-image">
                     <div class="avatar avatar-xl">
-                        <img src="./data/images/photo_perso.jpg" alt="Photo de Thomas Renne" loading="lazy">
+                        <img src="data/images/photo_perso.jpg" alt="Photo de Thomas Renne" loading="eager">
                     </div>
                 </div>
             </div>
@@ -159,6 +166,7 @@
             <div class="container">
                 <div class="section-header">
                     <h2 id="about-title" class="section-title">
+                        <iconify-icon icon="ph:user-circle" class="icon"></iconify-icon>
                         <span lang="fr">À propos de moi</span>
                         <span lang="en">About Me</span>
                     </h2>
@@ -170,7 +178,7 @@
                 
                 <div class="resume-section">
                     <div class="resume-photo">
-                        <img src="./data/images/photo_perso.jpg" alt="Photo de Thomas Renne" loading="lazy">
+                        <img src="data/images/photo_perso.jpg" alt="Photo de Thomas Renne" loading="lazy">
                     </div>
                     <div class="resume-content">
                         <p class="resume-intro">
@@ -211,9 +219,9 @@
                         </div>
                         
                         <div class="institute-logos">
-                            <img src="./data/images/Universite_de_Montreal_Logo.png" alt="Université de Montréal" loading="lazy" style="height: 60px; margin-right: 15px;">
-                            <img src="./data/images/chusj_cr.png" alt="CHU Sainte-Justine" loading="lazy" style="height: 60px; margin-right: 15px;">
-                            <img src="./data/images/logo_lab.png" alt="Laboratoire Jacquemont" loading="lazy" style="height: 60px;">
+                            <img src="data/images/Universite_de_Montreal_Logo.png" alt="Université de Montréal" loading="lazy" style="height: 60px; margin-right: 15px;">
+                            <img src="data/images/chusj_cr.png" alt="CHU Sainte-Justine" loading="lazy" style="height: 60px; margin-right: 15px;">
+                            <img src="data/images/logo_lab.png" alt="Laboratoire Jacquemont" loading="lazy" style="height: 60px;">
                         </div>
                     </div>
                 </div>
@@ -315,67 +323,11 @@
     <!-- Load Iconify -->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     
-    <!-- Load modern scripts -->
-    <script src="scripts/modern/theme.js" defer></script>
-    <script src="scripts/modern/language.js" defer></script>
-    <script src="scripts/modern/back-to-top.js" defer></script>
-    <script src="scripts/modern/loader.js" defer></script>
-    <script src="scripts/modern/main.js" defer></script>
-    
-    <!-- Load data dynamically -->
-    <script>
-        // Load publications
-        fetch('data/publis.json')
-            .then(response => response.json())
-            .then(data => {
-                const container = document.getElementById('publication-entries');
-                if (container) {
-                    data.forEach(pub => {
-                        const card = document.createElement('article');
-                        card.className = 'publication-card animate-fade-in';
-                        card.innerHTML = `
-                            <h3 class="publication-title">${pub.title}</h3>
-                            <p class="publication-authors">${pub.authors}</p>
-                            <p class="publication-journal">${pub.journal}</p>
-                            <div class="publication-meta">
-                                <span>${pub.year}</span>
-                                ${pub.doi ? `<span><a href="${pub.doi}" target="_blank" rel="noopener noreferrer" class="publication-link">DOI</a></span>` : ''}
-                                ${pub.link ? `<span><a href="${pub.link}" target="_blank" rel="noopener noreferrer" class="publication-link">Link</a></span>` : ''}
-                            </div>
-                        `;
-                        container.appendChild(card);
-                    });
-                }
-            })
-            .catch(error => console.error('Error loading publications:', error));
-
-        // Load communications
-        fetch('data/communications.json')
-            .then(response => response.json())
-            .then(data => {
-                const container = document.getElementById('communication-entries');
-                if (container) {
-                    data.forEach(comm => {
-                        const card = document.createElement('article');
-                        card.className = 'publication-card animate-fade-in';
-                        card.innerHTML = `
-                            <h3 class="publication-title">${comm.title}</h3>
-                            <p class="publication-authors">${comm.authors}</p>
-                            <p class="publication-journal">${comm.conference}</p>
-                            <div class="publication-meta">
-                                <span>${comm.year}</span>
-                                ${comm.place ? `<span>${comm.place}</span>` : ''}
-                                ${comm.link ? `<span><a href="${comm.link}" target="_blank" rel="noopener noreferrer" class="publication-link">Link</a></span>` : ''}
-                            </div>
-                        `;
-                        container.appendChild(card);
-                    });
-                }
-            })
-            .catch(error => console.error('Error loading communications:', error));
-
-        // Set current year in footer
-        document.getElementById('current-year')?.textContent?.(new Date().getFullYear().toString());
-    </script>
+    <!-- Load custom scripts -->
+    <script src="js/theme.js" defer></script>
+    <script src="js/language.js" defer></script>
+    <script src="js/back-to-top.js" defer></script>
+    <script src="js/loader.js" defer></script>
+    <script src="js/main.js" defer></script>
 </body>
 </html>
