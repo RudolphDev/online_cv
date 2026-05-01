@@ -1,5 +1,6 @@
 /* ============================================
    Modern CV - Base/Reset Styles
+   Enhanced Spacing & Typography
    ============================================ */
 
 /* Box Sizing Rules */
@@ -50,18 +51,39 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-tight);
     color: var(--text-primary);
+    margin-bottom: var(--space-md);
 }
 
-h1 { font-size: var(--font-size-4xl); }
-h2 { font-size: var(--font-size-3xl); }
-h3 { font-size: var(--font-size-2xl); }
-h4 { font-size: var(--font-size-xl); }
-h5 { font-size: var(--font-size-lg); }
-h6 { font-size: var(--font-size-base); }
-
-p {
+h1 { 
+    font-size: var(--font-size-4xl);
+    margin-bottom: var(--space-lg);
+}
+h2 { 
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--space-lg);
+}
+h3 { 
+    font-size: var(--font-size-2xl);
     margin-bottom: var(--space-md);
+}
+h4 { 
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-md);
+}
+h5 { 
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-sm);
+}
+h6 { 
+    font-size: var(--font-size-base);
+    margin-bottom: var(--space-sm);
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: var(--space-lg);
     color: var(--text-secondary);
+    line-height: var(--line-height-relaxed);
 }
 
 /* Make images easier to work with */
@@ -115,14 +137,16 @@ select {
     transform: translateX(-50%);
     background: var(--color-primary);
     color: var(--text-inverse);
-    padding: var(--space-sm) var(--space-md);
+    padding: var(--space-md) var(--space-xl);
     border-radius: var(--radius-md);
     z-index: 9999;
     transition: top var(--transition-fast);
+    font-weight: var(--font-weight-medium);
+    text-decoration: none;
 }
 
 .skip-link:focus {
-    top: var(--space-sm);
+    top: var(--space-md);
 }
 
 /* Selection */
@@ -133,8 +157,8 @@ select {
 
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -142,41 +166,397 @@ select {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--color-gray-400);
+    background: var(--border-medium);
     border-radius: var(--radius-full);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-gray-500);
+    background: var(--border-dark);
 }
 
-/* Print Styles */
+/* ===========================================
+   Typography Enhancements
+   =========================================== */
+
+/* Lead text */
+.lead {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-relaxed);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-lg);
+}
+
+/* Small text */
+.small {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+}
+
+/* Muted text */
+.muted {
+    color: var(--text-muted);
+}
+
+/* Text colors */
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
+.text-muted { color: var(--text-muted); }
+.text-inverse { color: var(--text-inverse); }
+
+/* Font weights */
+.font-light { font-weight: var(--font-weight-light); }
+.font-normal { font-weight: var(--font-weight-normal); }
+.font-medium { font-weight: var(--font-weight-medium); }
+.font-semibold { font-weight: var(--font-weight-semibold); }
+.font-bold { font-weight: var(--font-weight-bold); }
+
+/* Font sizes */
+.text-xs { font-size: var(--font-size-xs); }
+.text-sm { font-size: var(--font-size-sm); }
+.text-base { font-size: var(--font-size-base); }
+.text-lg { font-size: var(--font-size-lg); }
+.text-xl { font-size: var(--font-size-xl); }
+.text-2xl { font-size: var(--font-size-2xl); }
+.text-3xl { font-size: var(--font-size-3xl); }
+.text-4xl { font-size: var(--font-size-4xl); }
+
+/* Line heights */
+.leading-tight { line-height: var(--line-height-tight); }
+.leading-normal { line-height: var(--line-height-normal); }
+.leading-relaxed { line-height: var(--line-height-relaxed); }
+
+/* ===========================================
+   Spacing Utilities
+   =========================================== */
+
+/* Margin utilities */
+.m-0 { margin: 0; }
+.m-1 { margin: var(--space-xs); }
+.m-2 { margin: var(--space-sm); }
+.m-3 { margin: var(--space-md); }
+.m-4 { margin: var(--space-lg); }
+.m-5 { margin: var(--space-xl); }
+.m-6 { margin: var(--space-2xl); }
+
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: var(--space-xs); }
+.mt-2 { margin-top: var(--space-sm); }
+.mt-3 { margin-top: var(--space-md); }
+.mt-4 { margin-top: var(--space-lg); }
+.mt-5 { margin-top: var(--space-xl); }
+.mt-6 { margin-top: var(--space-2xl); }
+
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: var(--space-xs); }
+.mb-2 { margin-bottom: var(--space-sm); }
+.mb-3 { margin-bottom: var(--space-md); }
+.mb-4 { margin-bottom: var(--space-lg); }
+.mb-5 { margin-bottom: var(--space-xl); }
+.mb-6 { margin-bottom: var(--space-2xl); }
+
+.mx-0 { margin-left: 0; margin-right: 0; }
+.mx-1 { margin-left: var(--space-xs); margin-right: var(--space-xs); }
+.mx-2 { margin-left: var(--space-sm); margin-right: var(--space-sm); }
+.mx-3 { margin-left: var(--space-md); margin-right: var(--space-md); }
+.mx-4 { margin-left: var(--space-lg); margin-right: var(--space-lg); }
+.mx-5 { margin-left: var(--space-xl); margin-right: var(--space-xl); }
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.mx-n1 { margin-left: calc(-1 * var(--space-xs)); margin-right: calc(-1 * var(--space-xs)); }
+.mx-n2 { margin-left: calc(-1 * var(--space-sm)); margin-right: calc(-1 * var(--space-sm)); }
+.mx-n3 { margin-left: calc(-1 * var(--space-md)); margin-right: calc(-1 * var(--space-md)); }
+
+.my-0 { margin-top: 0; margin-bottom: 0; }
+.my-1 { margin-top: var(--space-xs); margin-bottom: var(--space-xs); }
+.my-2 { margin-top: var(--space-sm); margin-bottom: var(--space-sm); }
+.my-3 { margin-top: var(--space-md); margin-bottom: var(--space-md); }
+.my-4 { margin-top: var(--space-lg); margin-bottom: var(--space-lg); }
+.my-5 { margin-top: var(--space-xl); margin-bottom: var(--space-xl); }
+
+.m-auto { margin: auto; }
+
+/* Padding utilities */
+.p-0 { padding: 0; }
+.p-1 { padding: var(--space-xs); }
+.p-2 { padding: var(--space-sm); }
+.p-3 { padding: var(--space-md); }
+.p-4 { padding: var(--space-lg); }
+.p-5 { padding: var(--space-xl); }
+.p-6 { padding: var(--space-2xl); }
+
+.px-0 { padding-left: 0; padding-right: 0; }
+.px-1 { padding-left: var(--space-xs); padding-right: var(--space-xs); }
+.px-2 { padding-left: var(--space-sm); padding-right: var(--space-sm); }
+.px-3 { padding-left: var(--space-md); padding-right: var(--space-md); }
+.px-4 { padding-left: var(--space-lg); padding-right: var(--space-lg); }
+.px-5 { padding-left: var(--space-xl); padding-right: var(--space-xl); }
+.px-6 { padding-left: var(--space-2xl); padding-right: var(--space-2xl); }
+
+.py-0 { padding-top: 0; padding-bottom: 0; }
+.py-1 { padding-top: var(--space-xs); padding-bottom: var(--space-xs); }
+.py-2 { padding-top: var(--space-sm); padding-bottom: var(--space-sm); }
+.py-3 { padding-top: var(--space-md); padding-bottom: var(--space-md); }
+.py-4 { padding-top: var(--space-lg); padding-bottom: var(--space-lg); }
+.py-5 { padding-top: var(--space-xl); padding-bottom: var(--space-xl); }
+
+.pt-0 { padding-top: 0; }
+ pt-1 { padding-top: var(--space-xs); }
+.pt-2 { padding-top: var(--space-sm); }
+.pt-3 { padding-top: var(--space-md); }
+.pt-4 { padding-top: var(--space-lg); }
+.pt-5 { padding-top: var(--space-xl); }
+
+.pb-0 { padding-bottom: 0; }
+.pb-1 { padding-bottom: var(--space-xs); }
+.pb-2 { padding-bottom: var(--space-sm); }
+.pb-3 { padding-bottom: var(--space-md); }
+.pb-4 { padding-bottom: var(--space-lg); }
+.pb-5 { padding-bottom: var(--space-xl); }
+
+.pl-0 { padding-left: 0; }
+.pl-1 { padding-left: var(--space-xs); }
+.pl-2 { padding-left: var(--space-sm); }
+.pl-3 { padding-left: var(--space-md); }
+.pl-4 { padding-left: var(--space-lg); }
+.pl-5 { padding-left: var(--space-xl); }
+
+.pr-0 { padding-right: 0; }
+.pr-1 { padding-right: var(--space-xs); }
+.pr-2 { padding-right: var(--space-sm); }
+.pr-3 { padding-right: var(--space-md); }
+.pr-4 { padding-right: var(--space-lg); }
+.pr-5 { padding-right: var(--space-xl); }
+
+/* ===========================================
+   Link Styles
+   =========================================== */
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+a:hover {
+    color: var(--color-primary-light);
+    text-decoration: underline;
+}
+
+/* External links */
+a[target='_blank']::after {
+    content: ' \f35d';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+
+/* ===========================================
+   List Styles
+   =========================================== */
+ul,
+ol {
+    margin-bottom: var(--space-lg);
+}
+
+ul li,
+ol li {
+    margin-bottom: var(--space-xs);
+    padding-left: var(--space-md);
+    position: relative;
+}
+
+ul li::before,
+ol li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.5em;
+    width: 6px;
+    height: 6px;
+    background: var(--color-primary);
+    border-radius: var(--radius-full);
+}
+
+ol li::before {
+    content: counter(list-item) '.';
+    left: 0;
+    background: none;
+    color: var(--text-muted);
+}
+
+/* ===========================================
+   Blockquote Styles
+   =========================================== */
+blockquote {
+    padding-left: var(--space-lg);
+    border-left: 4px solid var(--color-primary);
+    margin-bottom: var(--space-lg);
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+blockquote footer {
+    margin-top: var(--space-md);
+    font-style: normal;
+    color: var(--text-muted);
+}
+
+/* ===========================================
+   Code Styles
+   =========================================== */
+code,
+kbd,
+samp {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-sm);
+}
+
+code {
+    background: var(--bg-tertiary);
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    color: var(--color-primary-dark);
+}
+
+pre {
+    background: var(--bg-secondary);
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    overflow-x: auto;
+    margin-bottom: var(--space-lg);
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: var(--text-primary);
+}
+
+/* ===========================================
+   Table Styles
+   =========================================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: var(--space-xl);
+}
+
+th,
+td {
+    padding: var(--space-md) var(--space-lg);
+    text-align: left;
+    border-bottom: 1px solid var(--border-light);
+}
+
+th {
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    background: var(--bg-tertiary);
+}
+
+tr:last-child td,
+tr:last-child th {
+    border-bottom: none;
+}
+
+/* ===========================================
+   Figure Styles
+   =========================================== */
+figure {
+    margin-bottom: var(--space-xl);
+}
+
+figcaption {
+    margin-top: var(--space-md);
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    text-align: center;
+}
+
+/* ===========================================
+   Horizontal Rule
+   =========================================== */
+hr {
+    height: 1px;
+    background: var(--border-light);
+    border: none;
+    margin: var(--space-2xl) 0;
+}
+
+/* ===========================================
+   Form Elements
+   =========================================== */
+fieldset {
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+}
+
+legend {
+    padding: 0 var(--space-md);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+}
+
+/* ===========================================
+   Image Styles
+   =========================================== */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsive images */
+img[src*='.png'],
+img[src*='.jpg'],
+img[src*='.jpeg'],
+img[src*='.webp'] {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ===========================================
+   Iframe Styles
+   =========================================== */
+iframe {
+    border: none;
+    max-width: 100%;
+}
+
+/* ===========================================
+   Audio/Video Styles
+   =========================================== */
+audio,
+video {
+    max-width: 100%;
+}
+
+/* ===========================================
+   Print Styles
+   =========================================== */
 @media print {
     body {
         background: white;
         color: black;
     }
     
-    a[href]::after {
-        content: " (" attr(href) ")";
-        font-size: 0.8em;
-        font-weight: normal;
+    a::after {
+        content: none;
     }
     
-    .no-print {
-        display: none !important;
+    code {
+        background: #f3f4f6;
+        color: #1f2937;
     }
-}
-
-/* Remove list styles */
-ul,
-ol {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-ul[role='list'],
-ol[role='list'] {
-    list-style: none;
+    
+    pre {
+        background: #f9fafb;
+        color: #111827;
+    }
 }
