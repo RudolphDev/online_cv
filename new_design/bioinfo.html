@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Outils bioinformatiques développés par Thomas Renne">
+    <meta name="author" content="Thomas Renne">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Thomas Renne - Outils Bioinformatiques">
+    <meta property="og:description" content="Outils et projets bioinformatiques">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rudolphdev.github.io/online_cv/bioinfo.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../data/images/logo_renne.svg">
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://code.iconify.design">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Iconify for icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- Title -->
+    <title>Thomas Renne - Outils | Bioinformatique</title>
+</head>
+
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="site-header" role="banner">
+        <div class="container header-container">
+            <a href="index.html" class="header-brand" aria-label="Accueil">
+                <img src="../data/images/logo_renne.svg" alt="Logo Thomas Renne" class="logo">
+                <h1 class="title">Thomas Renne</h1>
+            </a>
+            
+            <nav class="header-nav" role="navigation" aria-label="Navigation principale">
+                <ul class="nav" id="main-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            <iconify-icon icon="ph:house" class="icon"></iconify-icon>
+                            <span lang="fr">Accueil</span>
+                            <span lang="en">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="background.html" class="nav-link">
+                            <iconify-icon icon="ph:briefcase" class="icon"></iconify-icon>
+                            <span lang="fr">Expériences</span>
+                            <span lang="en">Experiences</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#publications" class="nav-link">
+                            <iconify-icon icon="ph:newspaper" class="icon"></iconify-icon>
+                            <span lang="fr">Publications</span>
+                            <span lang="en">Publications</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#communications" class="nav-link">
+                            <iconify-icon icon="ph:megaphone" class="icon"></iconify-icon>
+                            <span lang="fr">Communications</span>
+                            <span lang="en">Communications</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="bioinfo.html" class="nav-link active" aria-current="page">
+                            <iconify-icon icon="ph:flask" class="icon"></iconify-icon>
+                            <span lang="fr">Outils</span>
+                            <span lang="en">Tools</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Basculer entre les thèmes clair et sombre">
+                    <iconify-icon icon="ph:moon" class="icon"></iconify-icon>
+                </button>
+                
+                <!-- Language Switcher -->
+                <div class="lang-switcher" role="region" aria-label="Sélecteur de langue">
+                    <label id="lang-flag" for="lang-div" class="cursor-pointer">
+                        <span lang="fr" class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="30"></span>
+                        <span lang="en" class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="30" style="display: none;"></span>
+                    </label>
+                    <div id="lang-select" class="lang-menu" role="menu">
+                        <div class="lang-option" onclick="LanguageManager.switch('fr');" onmouseover="showww();" data-lang="fr" role="menuitem">
+                            <span class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="20"></span>
+                            <span class="iTEXT" id="fr_text">Français</span>
+                        </div>
+                        <div class="lang-option" onclick="LanguageManager.switch('en');" onmouseover="showww();" data-lang="en" role="menuitem">
+                            <span class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="20"></span>
+                            <span class="iTEXT" id="eng_text">English</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <input id="menu-toggle" type="checkbox" class="no-print" aria-label="Menu">
+                <label class="menu-button-container no-print" for="menu-toggle">
+                    <div class="menu-button"></div>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main tools-layout" role="main">
+        <!-- Page Header -->
+        <section class="section" aria-labelledby="page-title">
+            <div class="container">
+                <div class="section-header">
+                    <h1 id="page-title" class="section-title">
+                        <iconify-icon icon="ph:flask" class="icon"></iconify-icon>
+                        <span lang="fr">Mes Outils Bioinformatiques</span>
+                        <span lang="en">My Bioinformatics Tools</span>
+                    </h1>
+                    <p class="section-subtitle">
+                        <span lang="fr">Projets et outils développés pour la recherche en bioinformatique</span>
+                        <span lang="en">Projects and tools developed for bioinformatics research</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Tool: DigCNV -->
+        <section class="section" aria-labelledby="digcnv-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="digcnv-title" class="section-title">
+                        <iconify-icon icon="ph:rocket-launch" class="icon"></iconify-icon>
+                        <span lang="fr">Projet Principal: DigCNV</span>
+                        <span lang="en">Main Project: DigCNV</span>
+                    </h2>
+                </div>
+                
+                <div class="tools-section">
+                    <div class="tool-card featured-tool">
+                        <div class="tool-header">
+                            <div class="tool-icon">
+                                <iconify-icon icon="ph:code" class="icon"></iconify-icon>
+                            </div>
+                            <div class="tool-info">
+                                <h3 class="tool-title">DigCNV</h3>
+                                <p class="tool-version">
+                                    <iconify-icon icon="ph:tag" class="icon"></iconify-icon>
+                                    v1.0.0
+                                </p>
+                            </div>
+                        </div>
+                        <p class="tool-description">
+                            <span lang="fr">
+                                DigCNV (Digital CNV Quality Control) est un algorithme innovant conçu pour éliminer 
+                                les CNVs artefactuels identifiés par les callers PennCNV et QuantiSNP. Cet outil 
+                                améliore significativement la qualité des appels de variations du nombre de copies 
+                                en filtrant les faux positifs et en retenant uniquement les variations biologiquement 
+                                pertinentes.
+                            </span>
+                            <span lang="en" style="display: none;">
+                                DigCNV (Digital CNV Quality Control) is an innovative algorithm designed to eliminate 
+                                artifactual CNVs identified by PennCNV and QuantiSNP callers. This tool significantly 
+                                improves the quality of copy number variation calls by filtering out false positives 
+                                and retaining only biologically relevant variations.
+                            </span>
+                        </p>
+                        <div class="tool-meta">
+                            <span class="tool-tag">
+                                <iconify-icon icon="ph:check-circle" class="icon"></iconify-icon>
+                                Open Source
+                            </span>
+                            <span class="tool-tag">
+                                <iconify-icon icon="ph:star" class="icon"></iconify-icon>
+                                Python
+                            </span>
+                            <span class="tool-tag">
+                                <iconify-icon icon="ph:database" class="icon"></iconify-icon>
+                                NGS Analysis
+                            </span>
+                        </div>
+                        <div class="tool-links">
+                            <a href="https://github.com/RudolphDev/DigCNV" class="tool-link" target="_blank" rel="noopener noreferrer">
+                                <iconify-icon icon="ph:github-logo" class="icon"></iconify-icon>
+                                GitHub Repository
+                            </a>
+                            <a href="https://github.com/RudolphDev/DigCNV/blob/main/README.md" class="tool-link" target="_blank" rel="noopener noreferrer">
+                                <iconify-icon icon="ph:book-open" class="icon"></iconify-icon>
+                                Documentation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="section" aria-labelledby="features-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="features-title" class="section-title">
+                        <iconify-icon icon="ph:sparkle" class="icon"></iconify-icon>
+                        <span lang="fr">Fonctionnalités de DigCNV</span>
+                        <span lang="en">DigCNV Features</span>
+                    </h2>
+                </div>
+                
+                <div class="tools-section">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Feature 1 -->
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <iconify-icon icon="ph:shield-check" class="icon"></iconify-icon>
+                            </div>
+                            <h3>
+                                <span lang="fr">Contrôle Qualité</span>
+                                <span lang="en">Quality Control</span>
+                            </h3>
+                            <p>
+                                <span lang="fr">Filtrage avancé des CNVs artefactuels avec une sensibilité et spécificité élevées</span>
+                                <span lang="en">Advanced filtering of artifactual CNVs with high sensitivity and specificity</span>
+                            </p>
+                        </div>
+                        
+                        <!-- Feature 2 -->
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <iconify-icon icon="ph:cpu" class="icon"></iconify-icon>
+                            </div>
+                            <h3>
+                                <span lang="fr">Performance Optimisée</span>
+                                <span lang="en">Optimized Performance</span>
+                            </h3>
+                            <p>
+                                <span lang="fr">Traitement rapide et efficace des grands jeux de données NGS</span>
+                                <span lang="en">Fast and efficient processing of large NGS datasets</span>
+                            </p>
+                        </div>
+                        
+                        <!-- Feature 3 -->
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <iconify-icon icon="ph:chart-bar" class="icon"></iconify-icon>
+                            </div>
+                            <h3>
+                                <span lang="fr">Visualisation</span>
+                                <span lang="en">Visualization</span>
+                            </h3>
+                            <p>
+                                <span lang="fr">Génération de rapports et visualisations pour l'interprétation des résultats</span>
+                                <span lang="en">Report generation and visualizations for result interpretation</span>
+                            </p>
+                        </div>
+                        
+                        <!-- Feature 4 -->
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <iconify-icon icon="ph:gear" class="icon"></iconify-icon>
+                            </div>
+                            <h3>
+                                <span lang="fr">Intégration Facile</span>
+                                <span lang="en">Easy Integration</span>
+                            </h3>
+                            <p>
+                                <span lang="fr">Compatibilité avec les pipelines d'analyse existants</span>
+                                <span lang="en">Compatibility with existing analysis pipelines</span>
+                            </p>
+                        </div>
+                        
+                        <!-- Feature 5 -->
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <iconify-icon icon="ph:file-text" class="icon"></iconify-icon>
+                            </div>
+                            <h3>
+                                <span lang="fr">Sorties Standard</span>
+                                <span lang="en">Standard Outputs</span>
+                            </h3>
+                            <p>
+                                <span lang="fr">Format de sortie compatible avec les outils d'analyse en aval</span>
+                                <span lang="en">Output format compatible with downstream analysis tools</span>
+                            </p>
+                        </div>
+                        
+                        <!-- Feature 6 -->
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <iconify-icon icon="ph:users" class="icon"></iconify-icon>
+                            </div>
+                            <h3>
+                                <span lang="fr">Communauté Active</span>
+                                <span lang="en">Active Community</span>
+                            </h3>
+                            <p>
+                                <span lang="fr">Support continu et contributions de la communauté scientifique</span>
+                                <span lang="en">Continuous support and contributions from the scientific community</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Tools Section -->
+        <section class="section" aria-labelledby="other-tools-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="other-tools-title" class="section-title">
+                        <iconify-icon icon="ph:wrench" class="icon"></iconify-icon>
+                        <span lang="fr">Autres Outils et Scripts</span>
+                        <span lang="en">Other Tools and Scripts</span>
+                    </h2>
+                </div>
+                
+                <div class="tools-section">
+                    <div class="tools-grid">
+                        <!-- Tool 1 -->
+                        <article class="tool-card">
+                            <div class="tool-header">
+                                <div class="tool-icon">
+                                    <iconify-icon icon="ph:file-code" class="icon"></iconify-icon>
+                                </div>
+                                <div class="tool-info">
+                                    <h3 class="tool-title">Variant Analyzer</h3>
+                                    <p class="tool-version">
+                                        <iconify-icon icon="ph:tag" class="icon"></iconify-icon>
+                                        v2.1.0
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="tool-description">
+                                <span lang="fr">
+                                    Outil d'annotation et de filtrage des variants génétiques pour l'identification 
+                                    des mutations pathogènes potentielles.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    Genetic variant annotation and filtering tool for identifying potential 
+                                    pathogenic mutations.
+                                </span>
+                            </p>
+                            <div class="tool-meta">
+                                <span class="tool-tag">
+                                    <iconify-icon icon="ph:check-circle" class="icon"></iconify-icon>
+                                    Python
+                                </span>
+                                <span class="tool-tag">
+                                    <iconify-icon icon="ph:database" class="icon"></iconify-icon>
+                                    Annotation
+                                </span>
+                            </div>
+                            <div class="tool-links">
+                                <a href="#" class="tool-link" onclick="alert('Ce projet est privé. Contactez-moi pour plus d\'informations.'); return false;">
+                                    <iconify-icon icon="ph:info" class="icon"></iconify-icon>
+                                    Plus d'infos
+                                </a>
+                            </div>
+                        </article>
+                        
+                        <!-- Tool 2 -->
+                        <article class="tool-card">
+                            <div class="tool-header">
+                                <div class="tool-icon">
+                                    <iconify-icon icon="ph:chart-pie" class="icon"></iconify-icon>
+                                </div>
+                                <div class="tool-info">
+                                    <h3 class="tool-title">Data Visualizer</h3>
+                                    <p class="tool-version">
+                                        <iconify-icon icon="ph:tag" class="icon"></iconify-icon>
+                                        v1.3.0
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="tool-description">
+                                <span lang="fr">
+                                    Bibliothèque R pour la création de visualisations scientifiques personnalisées 
+                                    et interactives.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    R library for creating customized and interactive scientific visualizations.
+                                </span>
+                            </p>
+                            <div class="tool-meta">
+                                <span class="tool-tag">
+                                    <iconify-icon icon="ph:check-circle" class="icon"></iconify-icon>
+                                    R
+                                </span>
+                                <span class="tool-tag">
+                                    <iconify-icon icon="ph:palette" class="icon"></iconify-icon>
+                                    Visualization
+                                </span>
+                            </div>
+                            <div class="tool-links">
+                                <a href="#" class="tool-link" onclick="alert('Ce projet est privé. Contactez-moi pour plus d\'informations.'); return false;">
+                                    <iconify-icon icon="ph:info" class="icon"></iconify-icon>
+                                    Plus d'infos
+                                </a>
+                            </div>
+                        </article>
+                        
+                        <!-- Tool 3 -->
+                        <article class="tool-card">
+                            <div class="tool-header">
+                                <div class="tool-icon">
+                                    <iconify-icon icon="ph:folder-open" class="icon"></iconify-icon>
+                                </div>
+                                <div class="tool-info">
+                                    <h3 class="tool-title">Pipeline Manager</h3>
+                                    <p class="tool-version">
+                                        <iconify-icon icon="ph:tag" class="icon"></iconify-icon>
+                                        v1.5.0
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="tool-description">
+                                <span lang="fr">
+                                    Système de gestion de pipelines d'analyse bioinformatique avec suivi 
+                                    des dépendances et gestion des ressources.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    Bioinformatics analysis pipeline management system with dependency 
+                                    tracking and resource management.
+                                </span>
+                            </p>
+                            <div class="tool-meta">
+                                <span class="tool-tag">
+                                    <iconify-icon icon="ph:check-circle" class="icon"></iconify-icon>
+                                    Bash/Python
+                                </span>
+                                <span class="tool-tag">
+                                    <iconify-icon icon="ph:cpu" class="icon"></iconify-icon>
+                                    Automation
+                                </span>
+                            </div>
+                            <div class="tool-links">
+                                <a href="#" class="tool-link" onclick="alert('Ce projet est privé. Contactez-moi pour plus d\'informations.'); return false;">
+                                    <iconify-icon icon="ph:info" class="icon"></iconify-icon>
+                                    Plus d'infos
+                                </a>
+                            </div>
+                        </article>
+                        
+                        <!-- Tool 4 -->
+                        <article class="tool-card">
+                            <div class="tool-header">
+                                <div class="tool-icon">
+                                    <iconify-icon icon="ph:file-csv" class="icon"></iconify-icon>
+                                </div>
+                                <div class="tool-info">
+                                    <h3 class="tool-title">Data Cleaner</h3>
+                                    <p class="tool-version">
+                                        <iconify-icon icon="ph:tag" class="icon"></iconify-icon>
+                                        v1.2.0
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="tool-description">
+                                <span lang="fr">
+                                    Outil de nettoyage et de prétraitement des données génomiques pour 
+                                    l'analyse en aval.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    Genomic data cleaning and preprocessing tool for downstream analysis.
+                                </span>
+                            </p>
+                            <div class="tool-meta">
+                                <span class="tool-tag">
+                                    <iconify-icon icon="ph:check-circle" class="icon"></iconify-icon>
+                                    Python
+                                </span>
+                                <span class="tool-tag">
+                                    <iconify-icon icon="ph:broom" class="icon"></iconify-icon>
+                                    Data Cleaning
+                                </span>
+                            </div>
+                            <div class="tool-links">
+                                <a href="#" class="tool-link" onclick="alert('Ce projet est privé. Contactez-moi pour plus d\'informations.'); return false;">
+                                    <iconify-icon icon="ph:info" class="icon"></iconify-icon>
+                                    Plus d'infos
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contribution Section -->
+        <section class="section" aria-labelledby="contribution-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="contribution-title" class="section-title">
+                        <iconify-icon icon="ph:heart" class="icon"></iconify-icon>
+                        <span lang="fr">Contributions Open Source</span>
+                        <span lang="en">Open Source Contributions</span>
+                    </h2>
+                </div>
+                
+                <div class="tools-section">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Contribution 1 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <iconify-icon icon="ph:github-logo" class="icon text-2xl text-primary"></iconify-icon>
+                                    <h3 class="text-lg font-semibold">Bioconductor Packages</h3>
+                                </div>
+                                <p class="text-secondary mb-4">
+                                    <span lang="fr">Contributions à divers packages Bioconductor pour l'analyse de données omiques.</span>
+                                    <span lang="en" style="display: none;">Contributions to various Bioconductor packages for omics data analysis.</span>
+                                </p>
+                                <a href="https://bioconductor.org/" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">
+                                    <iconify-icon icon="ph:link" class="icon"></iconify-icon>
+                                    Bioconductor
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Contribution 2 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <iconify-icon icon="ph:github-logo" class="icon text-2xl text-primary"></iconify-icon>
+                                    <h3 class="text-lg font-semibold">Python Libraries</h3>
+                                </div>
+                                <p class="text-secondary mb-4">
+                                    <span lang="fr">Contributions à des bibliothèques Python pour la bioinformatique et l'analyse de données.</span>
+                                    <span lang="en" style="display: none;">Contributions to Python libraries for bioinformatics and data analysis.</span>
+                                </p>
+                                <a href="https://pypi.org/" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">
+                                    <iconify-icon icon="ph:link" class="icon"></iconify-icon>
+                                    PyPI
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Contribution 3 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <iconify-icon icon="ph:book-open" class="icon text-2xl text-primary"></iconify-icon>
+                                    <h3 class="text-lg font-semibold">Documentation</h3>
+                                </div>
+                                <p class="text-secondary mb-4">
+                                    <span lang="fr">Amélioration de la documentation et création de tutoriels pour divers outils bioinformatiques.</span>
+                                    <span lang="en" style="display: none;">Improving documentation and creating tutorials for various bioinformatics tools.</span>
+                                </p>
+                                <a href="https://github.com/RudolphDev" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">
+                                    <iconify-icon icon="ph:link" class="icon"></iconify-icon>
+                                    Mes Contributions
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA Section -->
+        <section class="section" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="card text-center py-12">
+                    <div class="mb-6">
+                        <iconify-icon icon="ph:rocket-launch" class="icon text-6xl text-primary"></iconify-icon>
+                    </div>
+                    <h2 id="cta-title" class="text-3xl font-bold mb-4">
+                        <span lang="fr">Intéressé par mes outils ?</span>
+                        <span lang="en">Interested in my tools?</span>
+                    </h2>
+                    <p class="text-lg text-secondary mb-8 max-w-2xl mx-auto">
+                        <span lang="fr">N'hésitez pas à me contacter pour discuter de collaborations, de questions techniques ou d'opportunités de recherche.</span>
+                        <span lang="en" style="display: none;">Feel free to contact me to discuss collaborations, technical questions, or research opportunities.</span>
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <a href="mailto:thomas.renne@outlook.fr" class="btn btn-primary btn-lg">
+                            <iconify-icon icon="ph:envelope" class="icon"></iconify-icon>
+                            <span lang="fr">Me contacter</span>
+                            <span lang="en">Contact Me</span>
+                        </a>
+                        <a href="https://github.com/RudolphDev" class="btn btn-secondary btn-lg" target="_blank" rel="noopener noreferrer">
+                            <iconify-icon icon="ph:github-logo" class="icon"></iconify-icon>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>
+                        <span lang="fr">Navigation</span>
+                        <span lang="en">Navigation</span>
+                    </h3>
+                    <ul class="nav flex-col">
+                        <li><a href="index.html"><span lang="fr">Accueil</span><span lang="en">Home</span></a></li>
+                        <li><a href="background.html"><span lang="fr">Expériences</span><span lang="en">Experiences</span></a></li>
+                        <li><a href="index.html#publications"><span lang="fr">Publications</span><span lang="en">Publications</span></a></li>
+                        <li><a href="index.html#communications"><span lang="fr">Communications</span><span lang="en">Communications</span></a></li>
+                        <li><a href="bioinfo.html"><span lang="fr">Outils</span><span lang="en">Tools</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>
+                        <span lang="fr">Réseaux sociaux</span>
+                        <span lang="en">Social Media</span>
+                    </h3>
+                    <div class="social-links">
+                        <a href="https://github.com/RudolphDev" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <iconify-icon icon="ph:github-logo" class="icon"></iconify-icon>
+                        </a>
+                        <a href="https://orcid.org/0000-0002-1401-1806" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+                            <iconify-icon icon="ph:graduation-cap" class="icon"></iconify-icon>
+                        </a>
+                        <a href="https://www.linkedin.com/in/thomas-renne/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <iconify-icon icon="ph:linkedin-logo" class="icon"></iconify-icon>
+                        </a>
+                        <a href="mailto:thomas.renne@outlook.fr" class="social-link" aria-label="Email">
+                            <iconify-icon icon="ph:envelope" class="icon"></iconify-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Thomas Renne. 
+                    <span lang="fr">Tous droits réservés.</span>
+                    <span lang="en">All rights reserved.</span>
+                </p>
+                <p>
+                    <span lang="fr">Créé avec passion et du code</span>
+                    <span lang="en">Made with passion and code</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top no-print" aria-label="Retour en haut">
+        <iconify-icon icon="ph:arrow-up" style="color: white; font-size: 24px;"></iconify-icon>
+    </button>
+
+    <!-- Scripts -->
+    <!-- Load Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+    <!-- Load custom scripts -->
+    <script src="js/theme.js" defer></script>
+    <script src="js/language.js" defer></script>
+    <script src="js/back-to-top.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>

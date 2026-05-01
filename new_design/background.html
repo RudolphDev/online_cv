@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Expériences professionnelles de Thomas Renne en bioinformatique">
+    <meta name="author" content="Thomas Renne">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Thomas Renne - Expériences">
+    <meta property="og:description" content="Expériences professionnelles en bioinformatique">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rudolphdev.github.io/online_cv/background.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../data/images/logo_renne.svg">
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://code.iconify.design">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Iconify for icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- Title -->
+    <title>Thomas Renne - Expériences | Bioinformatique</title>
+</head>
+
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="site-header" role="banner">
+        <div class="container header-container">
+            <a href="index.html" class="header-brand" aria-label="Accueil">
+                <img src="../data/images/logo_renne.svg" alt="Logo Thomas Renne" class="logo">
+                <h1 class="title">Thomas Renne</h1>
+            </a>
+            
+            <nav class="header-nav" role="navigation" aria-label="Navigation principale">
+                <ul class="nav" id="main-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            <iconify-icon icon="ph:house" class="icon"></iconify-icon>
+                            <span lang="fr">Accueil</span>
+                            <span lang="en">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="background.html" class="nav-link active" aria-current="page">
+                            <iconify-icon icon="ph:briefcase" class="icon"></iconify-icon>
+                            <span lang="fr">Expériences</span>
+                            <span lang="en">Experiences</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#publications" class="nav-link">
+                            <iconify-icon icon="ph:newspaper" class="icon"></iconify-icon>
+                            <span lang="fr">Publications</span>
+                            <span lang="en">Publications</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#communications" class="nav-link">
+                            <iconify-icon icon="ph:megaphone" class="icon"></iconify-icon>
+                            <span lang="fr">Communications</span>
+                            <span lang="en">Communications</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="bioinfo.html" class="nav-link">
+                            <iconify-icon icon="ph:flask" class="icon"></iconify-icon>
+                            <span lang="fr">Outils</span>
+                            <span lang="en">Tools</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Basculer entre les thèmes clair et sombre">
+                    <iconify-icon icon="ph:moon" class="icon"></iconify-icon>
+                </button>
+                
+                <!-- Language Switcher -->
+                <div class="lang-switcher" role="region" aria-label="Sélecteur de langue">
+                    <label id="lang-flag" for="lang-div" class="cursor-pointer">
+                        <span lang="fr" class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="30"></span>
+                        <span lang="en" class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="30" style="display: none;"></span>
+                    </label>
+                    <div id="lang-select" class="lang-menu" role="menu">
+                        <div class="lang-option" onclick="LanguageManager.switch('fr');" onmouseover="showww();" data-lang="fr" role="menuitem">
+                            <span class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="20"></span>
+                            <span class="iTEXT" id="fr_text">Français</span>
+                        </div>
+                        <div class="lang-option" onclick="LanguageManager.switch('en');" onmouseover="showww();" data-lang="en" role="menuitem">
+                            <span class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="20"></span>
+                            <span class="iTEXT" id="eng_text">English</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <input id="menu-toggle" type="checkbox" class="no-print" aria-label="Menu">
+                <label class="menu-button-container no-print" for="menu-toggle">
+                    <div class="menu-button"></div>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main background-layout" role="main">
+        <!-- Page Header -->
+        <section class="section" aria-labelledby="page-title">
+            <div class="container">
+                <div class="section-header">
+                    <h1 id="page-title" class="section-title">
+                        <iconify-icon icon="ph:briefcase" class="icon"></iconify-icon>
+                        <span lang="fr">Mes Expériences Professionnelles</span>
+                        <span lang="en">My Professional Experiences</span>
+                    </h1>
+                    <p class="section-subtitle">
+                        <span lang="fr">Parcours académique et professionnel en bioinformatique</span>
+                        <span lang="en">Academic and professional journey in bioinformatics</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experiences Section -->
+        <section class="section" aria-labelledby="experiences-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="experiences-title" class="section-title">
+                        <iconify-icon icon="ph:user-circle-gear" class="icon"></iconify-icon>
+                        <span lang="fr">Expériences Professionnelles</span>
+                        <span lang="en">Professional Experiences</span>
+                    </h2>
+                </div>
+                
+                <div class="background-section">
+                    <div class="experience-timeline">
+                        <!-- Experience 1: Doctorat -->
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-title">
+                                        <span lang="fr">Doctorant en bioinformatique</span>
+                                        <span lang="en">Bioinformatics PhD Student</span>
+                                    </h3>
+                                    <p class="experience-company">
+                                        <span lang="fr">Laboratoire Jacquemont - CHU Sainte-Justine</span>
+                                        <span lang="en">Jacquemont Laboratory - CHU Sainte-Justine</span>
+                                    </p>
+                                </div>
+                                <span class="experience-date">2020 - Présent</span>
+                            </div>
+                            <p class="experience-description">
+                                <span lang="fr">
+                                    Travail sur l'interprétation et la quantification des variants génétiques structuraux 
+                                    et mononucléotidique rare sur la cognition et les troubles du Neurodéveloppement. 
+                                    Développement de l'algorithme DigCNV pour le contrôle qualité des CNVs.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    Working on the interpretation and quantification of rare structural and mononucleotide 
+                                    genetic variants on cognition and neurodevelopmental disorders. Development of the DigCNV 
+                                    algorithm for CNV quality control.
+                                </span>
+                            </p>
+                            <div class="experience-tags">
+                                <span class="badge badge-primary">Bioinformatique</span>
+                                <span class="badge badge-secondary">Recherche</span>
+                                <span class="badge badge-info">Génétique</span>
+                            </div>
+                        </div>
+
+                        <!-- Experience 2: Master -->
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-title">
+                                        <span lang="fr">Master en Bioinformatique</span>
+                                        <span lang="en">Master in Bioinformatics</span>
+                                    </h3>
+                                    <p class="experience-company">
+                                        <span lang="fr">Université Paris-Saclay</span>
+                                        <span lang="en">Paris-Saclay University</span>
+                                    </p>
+                                </div>
+                                <span class="experience-date">2018 - 2020</span>
+                            </div>
+                            <p class="experience-description">
+                                <span lang="fr">
+                                    Formation approfondie en bioinformatique avec spécialisation en analyse de données 
+                                    génomiques et développement d'outils bioinformatiques.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    Advanced training in bioinformatics with specialization in genomic data analysis 
+                                    and development of bioinformatics tools.
+                                </span>
+                            </p>
+                            <div class="experience-tags">
+                                <span class="badge badge-primary">Bioinformatique</span>
+                                <span class="badge badge-success">Diplôme</span>
+                            </div>
+                        </div>
+
+                        <!-- Experience 3: Stage de Recherche -->
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-title">
+                                        <span lang="fr">Stage de Recherche en Bioinformatique</span>
+                                        <span lang="en">Bioinformatics Research Internship</span>
+                                    </h3>
+                                    <p class="experience-company">
+                                        <span lang="fr">INRAE - Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement</span>
+                                        <span lang="en">INRAE - National Research Institute for Agriculture, Food and Environment</span>
+                                    </p>
+                                </div>
+                                <span class="experience-date">2019 - 2020</span>
+                            </div>
+                            <p class="experience-description">
+                                <span lang="fr">
+                                    Développement d'outils pour l'analyse de données génomiques et participation 
+                                    à des projets de recherche en génétique végétale.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    Development of tools for genomic data analysis and participation in plant 
+                                    genetics research projects.
+                                </span>
+                            </p>
+                            <div class="experience-tags">
+                                <span class="badge badge-primary">Recherche</span>
+                                <span class="badge badge-secondary">Développement</span>
+                                <span class="badge badge-info">Génomique</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section" aria-labelledby="education-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="education-title" class="section-title">
+                        <iconify-icon icon="ph:graduation-cap" class="icon"></iconify-icon>
+                        <span lang="fr">Formation Académique</span>
+                        <span lang="en">Academic Education</span>
+                    </h2>
+                </div>
+                
+                <div class="background-section">
+                    <div class="formation-grid">
+                        <!-- Formation 1: Doctorat -->
+                        <article class="formation-card">
+                            <div class="formation-header">
+                                <div>
+                                    <h3 class="formation-degree">
+                                        <span lang="fr">Doctorat en Bioinformatique</span>
+                                        <span lang="en">PhD in Bioinformatics</span>
+                                    </h3>
+                                    <p class="formation-institution">
+                                        <span lang="fr">Université de Montréal - CHU Sainte-Justine</span>
+                                        <span lang="en">University of Montreal - CHU Sainte-Justine</span>
+                                    </p>
+                                </div>
+                                <span class="formation-year">2020 - Présent</span>
+                            </div>
+                            <p class="formation-field">
+                                <span lang="fr">Spécialisation: Génétique des troubles du neurodéveloppement</span>
+                                <span lang="en">Specialization: Genetics of neurodevelopmental disorders</span>
+                            </p>
+                            <p class="formation-description">
+                                <span lang="fr">
+                                    Recherche sur les variants génétiques rares et leur impact sur la cognition 
+                                    et les troubles du neurodéveloppement.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    Research on rare genetic variants and their impact on cognition and 
+                                    neurodevelopmental disorders.
+                                </span>
+                            </p>
+                            <div class="formation-logo">
+                                <img src="../data/images/Universite_de_Montreal_Logo.png" alt="Université de Montréal" loading="lazy">
+                            </div>
+                        </article>
+
+                        <!-- Formation 2: Master -->
+                        <article class="formation-card">
+                            <div class="formation-header">
+                                <div>
+                                    <h3 class="formation-degree">
+                                        <span lang="fr">Master en Bioinformatique</span>
+                                        <span lang="en">Master in Bioinformatics</span>
+                                    </h3>
+                                    <p class="formation-institution">
+                                        <span lang="fr">Université Paris-Saclay</span>
+                                        <span lang="en">Paris-Saclay University</span>
+                                    </p>
+                                </div>
+                                <span class="formation-year">2018 - 2020</span>
+                            </div>
+                            <p class="formation-field">
+                                <span lang="fr">Spécialisation: Analyse de données génomiques</span>
+                                <span lang="en">Specialization: Genomic data analysis</span>
+                            </p>
+                            <p class="formation-description">
+                                <span lang="fr">
+                                    Formation complète en bioinformatique avec cours avancés en analyse de 
+                                    données omiques et développement d'outils.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    Comprehensive training in bioinformatics with advanced courses in omics 
+                                    data analysis and tool development.
+                                </span>
+                            </p>
+                            <div class="formation-logo">
+                                <img src="../data/images/Logo_Universite_Paris-Saclay.svg.png" alt="Université Paris-Saclay" loading="lazy">
+                            </div>
+                        </article>
+
+                        <!-- Formation 3: Licence -->
+                        <article class="formation-card">
+                            <div class="formation-header">
+                                <div>
+                                    <h3 class="formation-degree">
+                                        <span lang="fr">Licence en Biologie</span>
+                                        <span lang="en">Bachelor in Biology</span>
+                                    </h3>
+                                    <p class="formation-institution">
+                                        <span lang="fr">Université de Rouen</span>
+                                        <span lang="en">University of Rouen</span>
+                                    </p>
+                                </div>
+                                <span class="formation-year">2015 - 2018</span>
+                            </div>
+                            <p class="formation-field">
+                                <span lang="fr">Spécialisation: Biologie Moléculaire et Cellulaire</span>
+                                <span lang="en">Specialization: Molecular and Cellular Biology</span>
+                            </p>
+                            <p class="formation-description">
+                                <span lang="fr">
+                                    Formation de base en biologie avec introduction à la bioinformatique et 
+                                    à l'analyse de données biologiques.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    Basic training in biology with introduction to bioinformatics and 
+                                    biological data analysis.
+                                </span>
+                            </p>
+                            <div class="formation-logo">
+                                <img src="../data/images/Université_de_Rouen.png" alt="Université de Rouen" loading="lazy">
+                            </div>
+                        </article>
+
+                        <!-- Formation 4: DUT -->
+                        <article class="formation-card">
+                            <div class="formation-header">
+                                <div>
+                                    <h3 class="formation-degree">
+                                        <span lang="fr">DUT Génie Biologique</span>
+                                        <span lang="en">Biological Engineering Degree</span>
+                                    </h3>
+                                    <p class="formation-institution">
+                                        <span lang="fr">IUT de Rouen</span>
+                                        <span lang="en">Rouen University Institute of Technology</span>
+                                    </p>
+                                </div>
+                                <span class="formation-year">2013 - 2015</span>
+                            </div>
+                            <p class="formation-field">
+                                <span lang="fr">Spécialisation: Biologie Appliquée</span>
+                                <span lang="en">Specialization: Applied Biology</span>
+                            </p>
+                            <p class="formation-description">
+                                <span lang="fr">
+                                    Formation technique en biologie appliquée avec introduction aux techniques 
+                                    de laboratoire et à l'analyse de données.
+                                </span>
+                                <span lang="en" style="display: none;">
+                                    Technical training in applied biology with introduction to laboratory 
+                                    techniques and data analysis.
+                                </span>
+                            </p>
+                            <div class="formation-logo">
+                                <img src="../data/images/Université_de_Rouen.png" alt="IUT de Rouen" loading="lazy">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" aria-labelledby="skills-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="skills-title" class="section-title">
+                        <iconify-icon icon="ph:rocket-launch" class="icon"></iconify-icon>
+                        <span lang="fr">Compétences</span>
+                        <span lang="en">Skills</span>
+                    </h2>
+                </div>
+                
+                <div class="skills-section">
+                    <div class="skills-grid">
+                        <!-- Programming Skills -->
+                        <div class="skill-category">
+                            <div class="skill-category-header">
+                                <iconify-icon icon="ph:code" class="skill-category-icon"></iconify-icon>
+                                <h3 class="skill-category-title">
+                                    <span lang="fr">Programmation</span>
+                                    <span lang="en">Programming</span>
+                                </h3>
+                            </div>
+                            <div class="skill-list">
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:file-code" class="icon"></iconify-icon>
+                                    Python
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:file-code" class="icon"></iconify-icon>
+                                    R
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:file-code" class="icon"></iconify-icon>
+                                    Bash
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:file-code" class="icon"></iconify-icon>
+                                    JavaScript
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:file-code" class="icon"></iconify-icon>
+                                    HTML/CSS
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Bioinformatics Skills -->
+                        <div class="skill-category">
+                            <div class="skill-category-header">
+                                <iconify-icon icon="ph:dna" class="skill-category-icon"></iconify-icon>
+                                <h3 class="skill-category-title">
+                                    <span lang="fr">Bioinformatique</span>
+                                    <span lang="en">Bioinformatics</span>
+                                </h3>
+                            </div>
+                            <div class="skill-list">
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:microscope" class="icon"></iconify-icon>
+                                    NGS Analysis
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:microscope" class="icon"></iconify-icon>
+                                    Variant Calling
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:microscope" class="icon"></iconify-icon>
+                                    CNV Detection
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:microscope" class="icon"></iconify-icon>
+                                    Quality Control
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:microscope" class="icon"></iconify-icon>
+                                    Data Visualization
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Tools & Technologies -->
+                        <div class="skill-category">
+                            <div class="skill-category-header">
+                                <iconify-icon icon="ph:tools" class="skill-category-icon"></iconify-icon>
+                                <h3 class="skill-category-title">
+                                    <span lang="fr">Outils & Technologies</span>
+                                    <span lang="en">Tools & Technologies</span>
+                                </h3>
+                            </div>
+                            <div class="skill-list">
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:database" class="icon"></iconify-icon>
+                                    SQL
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:database" class="icon"></iconify-icon>
+                                    Git
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:database" class="icon"></iconify-icon>
+                                    Docker
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:database" class="icon"></iconify-icon>
+                                    Linux
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:database" class="icon"></iconify-icon>
+                                    HPC
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Languages -->
+                        <div class="skill-category">
+                            <div class="skill-category-header">
+                                <iconify-icon icon="ph:globe" class="skill-category-icon"></iconify-icon>
+                                <h3 class="skill-category-title">
+                                    <span lang="fr">Langues</span>
+                                    <span lang="en">Languages</span>
+                                </h3>
+                            </div>
+                            <div class="skill-list">
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:flag" class="icon"></iconify-icon>
+                                    Français (Natif)
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:flag" class="icon"></iconify-icon>
+                                    Anglais (Courant)
+                                </span>
+                                <span class="skill-item">
+                                    <iconify-icon icon="ph:flag" class="icon"></iconify-icon>
+                                    Espagnol (Intermédiaire)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>
+                        <span lang="fr">Navigation</span>
+                        <span lang="en">Navigation</span>
+                    </h3>
+                    <ul class="nav flex-col">
+                        <li><a href="index.html"><span lang="fr">Accueil</span><span lang="en">Home</span></a></li>
+                        <li><a href="background.html"><span lang="fr">Expériences</span><span lang="en">Experiences</span></a></li>
+                        <li><a href="index.html#publications"><span lang="fr">Publications</span><span lang="en">Publications</span></a></li>
+                        <li><a href="index.html#communications"><span lang="fr">Communications</span><span lang="en">Communications</span></a></li>
+                        <li><a href="bioinfo.html"><span lang="fr">Outils</span><span lang="en">Tools</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>
+                        <span lang="fr">Réseaux sociaux</span>
+                        <span lang="en">Social Media</span>
+                    </h3>
+                    <div class="social-links">
+                        <a href="https://github.com/RudolphDev" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <iconify-icon icon="ph:github-logo" class="icon"></iconify-icon>
+                        </a>
+                        <a href="https://orcid.org/0000-0002-1401-1806" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+                            <iconify-icon icon="ph:graduation-cap" class="icon"></iconify-icon>
+                        </a>
+                        <a href="https://www.linkedin.com/in/thomas-renne/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <iconify-icon icon="ph:linkedin-logo" class="icon"></iconify-icon>
+                        </a>
+                        <a href="mailto:thomas.renne@outlook.fr" class="social-link" aria-label="Email">
+                            <iconify-icon icon="ph:envelope" class="icon"></iconify-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Thomas Renne. 
+                    <span lang="fr">Tous droits réservés.</span>
+                    <span lang="en">All rights reserved.</span>
+                </p>
+                <p>
+                    <span lang="fr">Créé avec passion et du code</span>
+                    <span lang="en">Made with passion and code</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top no-print" aria-label="Retour en haut">
+        <iconify-icon icon="ph:arrow-up" style="color: white; font-size: 24px;"></iconify-icon>
+    </button>
+
+    <!-- Scripts -->
+    <!-- Load Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+    <!-- Load custom scripts -->
+    <script src="js/theme.js" defer></script>
+    <script src="js/language.js" defer></script>
+    <script src="js/back-to-top.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
