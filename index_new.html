@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thomas Renne - Doctorant en bioinformatique, CV en ligne avec expériences, publications et formations">
+    <meta name="author" content="Thomas Renne">
+    <meta name="keywords" content="bioinformatique, CV, Thomas Renne, doctorat, recherche, génétique">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Thomas Renne - CV">
+    <meta property="og:description" content="Doctorant en bioinformatique - CV en ligne">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rudolphdev.github.io/online_cv/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./data/images/logo_renne.svg">
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://code.iconify.design">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Iconify for icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles/modern/main.css">
+    
+    <!-- Title -->
+    <title>Thomas Renne - CV | Bioinformatique</title>
+</head>
+
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="site-header" role="banner">
+        <div class="container header-container">
+            <a href="index_new.html" class="header-brand" aria-label="Accueil">
+                <img src="./data/images/logo_renne.svg" alt="Logo Thomas Renne" class="logo">
+                <h1 class="title">Thomas Renne</h1>
+            </a>
+            
+            <nav class="header-nav" role="navigation" aria-label="Navigation principale">
+                <ul class="nav" id="main-nav">
+                    <li class="nav-item">
+                        <a href="index_new.html" class="nav-link active" aria-current="page">
+                            <iconify-icon icon="ph:house" class="icon"></iconify-icon>
+                            <span lang="fr">Accueil</span>
+                            <span lang="en">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="background_new.html" class="nav-link">
+                            <iconify-icon icon="ph:briefcase" class="icon"></iconify-icon>
+                            <span lang="fr">Expériences</span>
+                            <span lang="en">Experiences</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#publications" class="nav-link">
+                            <iconify-icon icon="ph:newspaper" class="icon"></iconify-icon>
+                            <span lang="fr">Publications</span>
+                            <span lang="en">Publications</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#communications" class="nav-link">
+                            <iconify-icon icon="ph:megaphone" class="icon"></iconify-icon>
+                            <span lang="fr">Communications</span>
+                            <span lang="en">Communications</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="bioinfo_new.html" class="nav-link">
+                            <iconify-icon icon="ph:flask" class="icon"></iconify-icon>
+                            <span lang="fr">Outils</span>
+                            <span lang="en">Tools</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Basculer entre les thèmes clair et sombre">
+                    <iconify-icon icon="ph:moon" style="color: white; font-size: 20px;"></iconify-icon>
+                </button>
+                
+                <!-- Language Switcher -->
+                <div class="lang-switcher" role="region" aria-label="Sélecteur de langue">
+                    <label id="lang-flag" for="lang-div" class="cursor-pointer">
+                        <span lang="fr" class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="30"></span>
+                        <span lang="en" class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="30" style="display: none;"></span>
+                    </label>
+                    <div id="lang-select" class="lang-menu" onmouseleave="hideee();" role="menu">
+                        <div class="lang-option img_holder" onclick="myfuunc('fr');" onmouseover="showww();" data-lang="fr" role="menuitem">
+                            <span class="iconify" data-icon="twemoji:flag-for-flag-france" data-inline="false" height="20"></span>
+                            <span class="iTEXT" id="fr_text">Français</span>
+                        </div>
+                        <div class="lang-option img_holder" onclick="myfuunc('en');" onmouseover="showww();" data-lang="en" role="menuitem">
+                            <span class="iconify" data-icon="twemoji:flag-for-flag-united-kingdom" data-inline="false" height="20"></span>
+                            <span class="iTEXT" id="eng_text">English</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <input id="menu-toggle" type="checkbox" class="no-print" aria-label="Menu">
+                <label class="menu-button-container no-print" for="menu-toggle">
+                    <div class="menu-button"></div>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main home-layout" role="main">
+        <!-- Hero Section -->
+        <section class="hero home-hero" aria-labelledby="hero-title">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title">
+                        <span lang="fr">Thomas Renne</span>
+                        <span lang="en">Thomas Renne</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        <span lang="fr">Doctorant en bioinformatique</span>
+                        <span lang="en">Bioinformatics PhD Student</span>
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#about" class="btn btn-primary btn-lg">
+                            <iconify-icon icon="ph:user-circle" class="icon"></iconify-icon>
+                            <span lang="fr">En savoir plus</span>
+                            <span lang="en">Learn More</span>
+                        </a>
+                        <a href="#publications" class="btn btn-secondary btn-lg">
+                            <iconify-icon icon="ph:file-text" class="icon"></iconify-icon>
+                            <span lang="fr">Mes travaux</span>
+                            <span lang="en">My Work</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="avatar avatar-xl">
+                        <img src="./data/images/photo_perso.jpg" alt="Photo de Thomas Renne" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section" aria-labelledby="about-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="about-title" class="section-title">
+                        <span lang="fr">À propos de moi</span>
+                        <span lang="en">About Me</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        <span lang="fr">Doctorant en bioinformatique au CHU Sainte-Justine</span>
+                        <span lang="en">Bioinformatics PhD Student at CHU Sainte-Justine</span>
+                    </p>
+                </div>
+                
+                <div class="resume-section">
+                    <div class="resume-photo">
+                        <img src="./data/images/photo_perso.jpg" alt="Photo de Thomas Renne" loading="lazy">
+                    </div>
+                    <div class="resume-content">
+                        <p class="resume-intro">
+                            <span lang="fr">
+                                Étudiant au doctorat en bio-informatique, au sein du laboratoire Jacquemont, je travaille sur 
+                                l'interprétation et la quantification des variants génétiques structuraux et mononucléotidique 
+                                rare sur la cognition et les troubles du Neurodéveloppement. Une première partie de mon travail 
+                                fut le développement d'un algorithme de contrôle qualité des CNVS. 
+                                <a href="https://github.com/RudolphDev">DigCNV</a> permet d'éliminer les CNVs artefactuels 
+                                identifiés par les callers PennCNV et QuantiSNP.
+                            </span>
+                            <span lang="en" style="display: none;">
+                                PhD student in bioinformatics at Jacquemont's laboratory, I work on the interpretation and 
+                                quantification of rare structural and mononucleotide genetic variants on cognition and 
+                                neurodevelopmental disorders. The first part of my work was the development of a quality control 
+                                algorithm for CNVs. <a href="https://github.com/RudolphDev">DigCNV</a> eliminates artifactual CNVs 
+                                identified by PennCNV and QuantiSNP callers.
+                            </span>
+                        </p>
+                        
+                        <div class="resume-links">
+                            <a href="https://github.com/RudolphDev" class="resume-link" target="_blank" rel="noopener noreferrer">
+                                <iconify-icon icon="ph:github-logo" class="icon"></iconify-icon>
+                                GitHub
+                            </a>
+                            <a href="https://orcid.org/0000-0002-1401-1806" class="resume-link" target="_blank" rel="noopener noreferrer">
+                                <iconify-icon icon="ph:graduation-cap" class="icon"></iconify-icon>
+                                ORCID
+                            </a>
+                            <a href="https://www.linkedin.com/in/thomas-renne/" class="resume-link" target="_blank" rel="noopener noreferrer">
+                                <iconify-icon icon="ph:linkedin-logo" class="icon"></iconify-icon>
+                                LinkedIn
+                            </a>
+                            <a href="mailto:thomas.renne@outlook.fr" class="resume-link">
+                                <iconify-icon icon="ph:envelope" class="icon"></iconify-icon>
+                                Email
+                            </a>
+                        </div>
+                        
+                        <div class="institute-logos">
+                            <img src="./data/images/Universite_de_Montreal_Logo.png" alt="Université de Montréal" loading="lazy" style="height: 60px; margin-right: 15px;">
+                            <img src="./data/images/chusj_cr.png" alt="CHU Sainte-Justine" loading="lazy" style="height: 60px; margin-right: 15px;">
+                            <img src="./data/images/logo_lab.png" alt="Laboratoire Jacquemont" loading="lazy" style="height: 60px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section" aria-labelledby="publications-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="publications-title" class="section-title">
+                        <iconify-icon icon="ph:newspaper" class="icon"></iconify-icon>
+                        <span lang="fr">Publications scientifiques</span>
+                        <span lang="en">Scientific Publications</span>
+                    </h2>
+                </div>
+                
+                <div id="publication-entries" class="experience-list">
+                    <!-- Publications will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Communications Section -->
+        <section id="communications" class="section" aria-labelledby="communications-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="communications-title" class="section-title">
+                        <iconify-icon icon="ph:megaphone" class="icon"></iconify-icon>
+                        <span lang="fr">Communications scientifiques</span>
+                        <span lang="en">Scientific Communications</span>
+                    </h2>
+                </div>
+                
+                <div id="communication-entries" class="experience-list">
+                    <!-- Communications will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>
+                        <span lang="fr">Navigation</span>
+                        <span lang="en">Navigation</span>
+                    </h3>
+                    <ul class="nav flex-col">
+                        <li><a href="index_new.html"><span lang="fr">Accueil</span><span lang="en">Home</span></a></li>
+                        <li><a href="background_new.html"><span lang="fr">Expériences</span><span lang="en">Experiences</span></a></li>
+                        <li><a href="#publications"><span lang="fr">Publications</span><span lang="en">Publications</span></a></li>
+                        <li><a href="#communications"><span lang="fr">Communications</span><span lang="en">Communications</span></a></li>
+                        <li><a href="bioinfo_new.html"><span lang="fr">Outils</span><span lang="en">Tools</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>
+                        <span lang="fr">Réseaux sociaux</span>
+                        <span lang="en">Social Media</span>
+                    </h3>
+                    <div class="social-links">
+                        <a href="https://github.com/RudolphDev" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <iconify-icon icon="ph:github-logo" class="icon"></iconify-icon>
+                        </a>
+                        <a href="https://orcid.org/0000-0002-1401-1806" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+                            <iconify-icon icon="ph:graduation-cap" class="icon"></iconify-icon>
+                        </a>
+                        <a href="https://www.linkedin.com/in/thomas-renne/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <iconify-icon icon="ph:linkedin-logo" class="icon"></iconify-icon>
+                        </a>
+                        <a href="mailto:thomas.renne@outlook.fr" class="social-link" aria-label="Email">
+                            <iconify-icon icon="ph:envelope" class="icon"></iconify-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Thomas Renne. 
+                    <span lang="fr">Tous droits réservés.</span>
+                    <span lang="en">All rights reserved.</span>
+                </p>
+                <p>
+                    <span lang="fr">Créé avec passion et du code</span>
+                    <span lang="en">Made with passion and code</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top no-print" aria-label="Retour en haut">
+        <iconify-icon icon="ph:arrow-up" style="color: white; font-size: 24px;"></iconify-icon>
+    </button>
+
+    <!-- Scripts -->
+    <!-- Load Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+    <!-- Load modern scripts -->
+    <script src="scripts/modern/theme.js" defer></script>
+    <script src="scripts/modern/language.js" defer></script>
+    <script src="scripts/modern/back-to-top.js" defer></script>
+    <script src="scripts/modern/loader.js" defer></script>
+    <script src="scripts/modern/main.js" defer></script>
+    
+    <!-- Load data dynamically -->
+    <script>
+        // Load publications
+        fetch('data/publis.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('publication-entries');
+                if (container) {
+                    data.forEach(pub => {
+                        const card = document.createElement('article');
+                        card.className = 'publication-card animate-fade-in';
+                        card.innerHTML = `
+                            <h3 class="publication-title">${pub.title}</h3>
+                            <p class="publication-authors">${pub.authors}</p>
+                            <p class="publication-journal">${pub.journal}</p>
+                            <div class="publication-meta">
+                                <span>${pub.year}</span>
+                                ${pub.doi ? `<span><a href="${pub.doi}" target="_blank" rel="noopener noreferrer" class="publication-link">DOI</a></span>` : ''}
+                                ${pub.link ? `<span><a href="${pub.link}" target="_blank" rel="noopener noreferrer" class="publication-link">Link</a></span>` : ''}
+                            </div>
+                        `;
+                        container.appendChild(card);
+                    });
+                }
+            })
+            .catch(error => console.error('Error loading publications:', error));
+
+        // Load communications
+        fetch('data/communications.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('communication-entries');
+                if (container) {
+                    data.forEach(comm => {
+                        const card = document.createElement('article');
+                        card.className = 'publication-card animate-fade-in';
+                        card.innerHTML = `
+                            <h3 class="publication-title">${comm.title}</h3>
+                            <p class="publication-authors">${comm.authors}</p>
+                            <p class="publication-journal">${comm.conference}</p>
+                            <div class="publication-meta">
+                                <span>${comm.year}</span>
+                                ${comm.place ? `<span>${comm.place}</span>` : ''}
+                                ${comm.link ? `<span><a href="${comm.link}" target="_blank" rel="noopener noreferrer" class="publication-link">Link</a></span>` : ''}
+                            </div>
+                        `;
+                        container.appendChild(card);
+                    });
+                }
+            })
+            .catch(error => console.error('Error loading communications:', error));
+
+        // Set current year in footer
+        document.getElementById('current-year')?.textContent?.(new Date().getFullYear().toString());
+    </script>
+</body>
+</html>
