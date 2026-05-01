@@ -1,4 +1,30 @@
-/* ============================================
+   Responsive Adjustments for Custom Components
+   =========================================== */
+=======
+/* Institute Logos */
+.institute-logos {
+    display: flex;
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+    flex-wrap: wrap;
+}
+
+.institute-logos img {
+    height: 60px;
+    background: var(--bg-card);
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--border-light);
+}
+
+[data-theme="dark"] .institute-logos img {
+    background: var(--bg-tertiary);
+    border-color: var(--border-medium);
+}
+
+/* ===========================================
+   Responsive Adjustments for Custom Components
+   =========================================== */============================================
    Modern CV - Main Stylesheet
    Imports all CSS modules
    ============================================ */
@@ -174,7 +200,10 @@
     line-height: var(--line-height-relaxed);
 }
 
-.experience-description ul {
+.experience-description ul,
+.experience-description ol {
+    list-style: none;
+    padding-left: 0;
     margin-left: var(--space-md);
 }
 
@@ -195,10 +224,35 @@
     height: 40px;
     opacity: 0.7;
     transition: opacity var(--transition-fast);
+    background: var(--bg-card);
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid var(--border-light);
 }
 
 .experience-institute:hover {
     opacity: 1;
+}
+
+.formation-institute {
+    height: 40px;
+    opacity: 0.7;
+    transition: opacity var(--transition-fast);
+    background: var(--bg-card);
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid var(--border-light);
+}
+
+.formation-institute:hover {
+    opacity: 1;
+}
+
+/* Ensure PNG logos are visible in dark mode */
+[data-theme="dark"] .experience-institute,
+[data-theme="dark"] .formation-institute {
+    background: var(--bg-tertiary);
+    border-color: var(--border-medium);
 }
 
 /* Publication Card */
@@ -345,6 +399,17 @@
 .formation-description {
     color: var(--text-secondary);
     line-height: var(--line-height-relaxed);
+}
+
+.formation-description ul,
+.formation-description ol {
+    list-style: none;
+    padding-left: 0;
+    margin-left: var(--space-md);
+}
+
+.formation-description li {
+    margin-bottom: var(--space-xs);
 }
 
 .formation-institutes {
