@@ -35,11 +35,8 @@ const ThemeManager = {
     setTheme(theme) {
         const html = document.documentElement;
         
-        if (theme === 'dark') {
-            html.setAttribute('data-theme', 'dark');
-        } else {
-            html.removeAttribute('data-theme');
-        }
+        // Always set data-theme attribute (either 'light' or 'dark')
+        html.setAttribute('data-theme', theme);
         
         localStorage.setItem(this.STORAGE_KEY, theme);
         this.updateToggleButton();
